@@ -8,8 +8,8 @@
     "Mở rộng các trạng thái xét đoán kiểm toán chuyên sâu: NEEDS_EVIDENCE, SENIOR_APPROVED, MANAGER_APPROVED và tự động đồng bộ sang Giấy làm việc B410 khi xuất Dossier.",
     "Cơ chế liên kết nhảy nhanh 2 chiều (Cross-Module Deep Linking): Từ Giấy làm việc Working Paper nhảy 1-chạm sang Phân hệ chi tiết, từ Finding Hub nhảy 1-chạm tới Bằng chứng gốc."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft/releases/download/v2.0.5/AuditSoft-2.0.5-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft/releases/download/v2.0.5/AuditSoft-2.0.5-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.5/AuditSoft-2.0.5-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.5/AuditSoft-2.0.5-Portable.exe",
   "required": false,
   "minSupportedVersion": "1.0.0",
   "sha256": "0941c89cfa6b5b09bd1cfe9b459a29bbda7c99a4907c52d711f21e201b5613b0",
