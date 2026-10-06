@@ -1,17 +1,17 @@
 {
-  "version": "2.0.11",
+  "version": "2.0.12",
   "releaseDate": "2026-10-06",
-  "title": "AuditSoft v2.0.11 — Phân Bổ Chi Tiết Tiền Công Gia Công (TTTGGC) Dòng Hàng E52 & Xuất Excel Đa Sheet G100",
+  "title": "AuditSoft v2.0.12 — Nhận Diện Thuế GTGT Hàng Nhập Khẩu 333102 & Khớp Tuyệt Đối Mẫu E380",
   "changelog": [
-    "Bổ sung động cơ phân bổ chi tiết tiền công gia công (TTTGGC) theo từng dòng hàng cho tờ khai xuất khẩu E52.",
-    "Thuật toán bảo toàn chênh lệch cent (Residual Cent Balancing): Phân bổ theo tỷ lệ FOB dòng hàng, dòng cuối cùng hấp thụ số dư lẻ cent, đảm bảo tổng tiền công phân bổ khớp chính xác tuyệt đối 100% với TTTGGC của tờ khai.",
-    "Xuất Excel G100 đa sheet: Tự động bổ sung Sheet 2 [G100_CHI_TIET_DONG_HANG] với đầy đủ 13 cột chi tiết (Số lượng, Trị giá FOB, Tỷ lệ %, Tiền công phân bổ USD, Đơn giá công/SP, Ghi chú) và hyperlink liên kết 2 chiều với Sheet 1.",
-    "Giao diện KTV thông minh: Bổ sung badge [N dòng] cạnh số tờ khai E52 và Modal [CustomsLineItemsModal] hiển thị 4 KPI tiles, bảng phân bổ dòng hàng và chứng từ sổ NKC đối ứng.",
-    "Đảm bảo an toàn tuyệt đối: Zero regression, 29/29 tests kiểm toán & hải quan vượt qua, tuân thủ nghiêm ngặt luật không sử dụng icon emoji."
+    "Nâng cấp thuật toán đối chiếu thuế GTGT Mẫu E380: Nhận diện toàn diện tài khoản Thuế GTGT hàng nhập khẩu tiểu khoản 6 số (TK 333102, 33312) và thuế nhà thầu FCT (TK 3338, 3333).",
+    "Hỗ trợ tự động các hệ thống tài khoản doanh nghiệp FDI và ERP thông dụng (Bravo, Fast, SAP, Kingdee) sử dụng TK 333101 (đầu ra) và 333102 (nhập khẩu).",
+    "Triệt tiêu chênh lệch giả định CL Đầu Vào trên Giấy làm việc Mẫu E380: Đảm bảo số phát sinh Nợ 133 phản ánh đầy đủ thuế đầu vào mua hàng nội địa và hàng nhập khẩu.",
+    "Đồng bộ tự động số liệu giấy làm việc E 310 và E 310.1 (Lead schedule và Chi tiết các loại thuế).",
+    "Bảo đảm an toàn chất lượng: 100% test suite vượt qua, 0 lỗi typecheck."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.11/AuditSoft-2.0.11-Portable.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.11/AuditSoft-2.0.11-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.12/AuditSoft-2.0.12-Portable.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.12/AuditSoft-2.0.12-Portable.exe",
   "required": false,
-  "sha256": "9fff1431392b76f81301d55dab7057beaf51f6e65552e3d8399800821d0d7571",
-  "signature": "AwwaxEZi3lX3-n8V8A6cx1vIGxjHzSViwmXbzgdPZk2rU-JMorTm-fWR5qGGFlgb2ByWprq_uEZNz7qS1KaiBQ"
+  "sha256": "457ce66dfe1bafdcca5bc8b47fc54f5ff3de56a4b2f5176e7a7052ff7745b92f",
+  "signature": "q8fxNCDbqc7SO6xIKrckBZETkX8iZMRfRENY8ZnkSyfPiF1Ehn5hVaTNKDLVos0lvIo2NlXYqPwaLpdB795RCw"
 }
