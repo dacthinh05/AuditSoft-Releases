@@ -7,11 +7,11 @@
     "Thuật toán bảo toàn chênh lệch cent (Residual Cent Balancing): Phân bổ theo tỷ lệ FOB dòng hàng, dòng cuối cùng hấp thụ số dư lẻ cent, đảm bảo tổng tiền công phân bổ khớp chính xác tuyệt đối 100% với TTTGGC của tờ khai.",
     "Xuất Excel G100 đa sheet: Tự động bổ sung Sheet 2 [G100_CHI_TIET_DONG_HANG] với đầy đủ 13 cột chi tiết (Số lượng, Trị giá FOB, Tỷ lệ %, Tiền công phân bổ USD, Đơn giá công/SP, Ghi chú) và hyperlink liên kết 2 chiều với Sheet 1.",
     "Giao diện KTV thông minh: Bổ sung badge [N dòng] cạnh số tờ khai E52 và Modal [CustomsLineItemsModal] hiển thị 4 KPI tiles, bảng phân bổ dòng hàng và chứng từ sổ NKC đối ứng.",
-    "Đảm bảo an toàn tuyệt đối: Zero regression, 24/24 tests hải quan vượt qua, tuân thủ nghiêm ngặt luật không sử dụng icon emoji."
+    "Đảm bảo an toàn tuyệt đối: Zero regression, 29/29 tests kiểm toán & hải quan vượt qua, tuân thủ nghiêm ngặt luật không sử dụng icon emoji."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.11/AuditSoft-2.0.11-Setup.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.11/AuditSoft-2.0.11-Portable.exe",
   "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.11/AuditSoft-2.0.11-Portable.exe",
   "required": false,
-  "sha256": "a00ee63ed04d51a4c6f0946add1965ba33256a87684f2b67d1b6858d4ce79543",
-  "signature": "FhkjG1H4pfOiSlUB3_en22bvApO-q0HQdpd6XQKYDF3DzVcAEGMns9aDHfzh-K6DELVTW7V07raxISVasv0NAw"
+  "sha256": "9fff1431392b76f81301d55dab7057beaf51f6e65552e3d8399800821d0d7571",
+  "signature": "AwwaxEZi3lX3-n8V8A6cx1vIGxjHzSViwmXbzgdPZk2rU-JMorTm-fWR5qGGFlgb2ByWprq_uEZNz7qS1KaiBQ"
 }
