@@ -11,7 +11,6 @@
   "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.10/AuditSoft-2.0.10-Setup.exe",
   "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.10/AuditSoft-2.0.10-Portable.exe",
   "required": false,
-  "minSupportedVersion": "1.0.0",
-  "sha256": "2b8e84fc0cbcb8d1d26a28ef26d06597dc36d78de6eca328f7469812d74ea545",
-  "signature": "HVLjHkp4FqGTe5qKdY7jhtNKqlb3ACMnXWoThsuTb7p644TzuKBavnHYsL3HTtDGzj2usXNjiAwiNNghnuHsDQ"
+  "sha256": "a00ee63ed04d51a4c6f0946add1965ba33256a87684f2b67d1b6858d4ce79543",
+  "signature": "FhkjG1H4pfOiSlUB3_en22bvApO-q0HQdpd6XQKYDF3DzVcAEGMns9aDHfzh-K6DELVTW7V07raxISVasv0NAw"
 }
