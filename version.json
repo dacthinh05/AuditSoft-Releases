@@ -1,16 +1,16 @@
 {
-  "version": "2.0.8",
-  "releaseDate": "2026-10-05",
-  "title": "AuditSoft v2.0.8 — Khắc Phục Đối Chiếu Thuế GTGT & Hỗ Trợ Định Dạng Ngày YYYY/MM/DD",
+  "version": "2.0.9",
+  "releaseDate": "2026-10-06",
+  "title": "AuditSoft v2.0.9 — Nâng Cấp Đối Chiếu Tờ Khai Hải Quan & Tự Động So Khớp Sổ NKC",
   "changelog": [
-    "Hỗ trợ chuẩn xác các file Excel NKC có định dạng ngày phân cách dấu gạch chéo YYYY/MM/DD (2026/03/30, 2026/01/31), triệt tiêu lỗi lệch ngày đầu tháng do múi giờ.",
-    "Khắc phục triệt để đối chiếu thuế GTGT (Mẫu E380/01-GTGT): Cột 'PS NỢ 133*' không bị trừ nhầm bởi bút toán kết chuyển thuế cuối kỳ (Nợ 333* / Có 133*), chấm dứt số âm.",
-    "Nhận diện chuẩn xác phát sinh Có các tài khoản thuế GTGT đầu ra 6 số (333101), khớp 100% với thao tác lọc Sổ NKC của KTV và chỉ tiêu [35] trên tờ khai thuế."
+    "Bổ sung nút [Ghép cột] (Universal Column Mapping) trực quan trên phân hệ Đối chiếu Tờ khai Hải quan (G100/D150), cho phép KTV tùy chọn lại từng cột và xem trước dữ liệu sống.",
+    "Hỗ trợ tệp BKTK đa sheet (chứa cả sheet XK và NK): tự động chọn sheet theo phân hệ và tự động chuyển đổi sheet khi bấm chọn D150 / G100 mà không cần nạp lại.",
+    "Tự động hóa thông minh khi nạp Sổ Nhật Ký Chung (NKC): phân biệt chuẩn xác cột USD (nguyên tệ) và SỐ TIỀN (VND), bóc tách mã đối tượng từ số hiệu tài khoản chi tiết (131VCS -> VCS), và tự động so khớp tiền công gia công (TTTGGC) cho hợp đồng gia công loại hình E52 đạt tỷ lệ khớp > 95%."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.8/AuditSoft-2.0.8-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.8/AuditSoft-2.0.8-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.9/AuditSoft-2.0.9-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.0.9/AuditSoft-2.0.9-Portable.exe",
   "required": false,
   "minSupportedVersion": "1.0.0",
-  "sha256": "7d469f3c4dad776703c223cf06a41b4332e4be3b446a5f3e8293ffced161e555",
-  "signature": "6piM3d9F8oYfm0zsRmdGc09heCcVGfMKGUFJgYMY8u-W7qMb6W3zUMaIqaCrwN4_BcpflxRG-7IbB-5GrP3xDQ"
+  "sha256": "2b8e84fc0cbcb8d1d26a28ef26d06597dc36d78de6eca328f7469812d74ea545",
+  "signature": "HR4nsZJ7hptK7uoX-Domv8EcdnfhSRsrD7QCci8G9rx4xaY56birChYkpfapRK7FnpQl93hEZebyV0sqGeDwCA"
 }
