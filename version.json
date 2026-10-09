@@ -1,18 +1,18 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.1",
   "releaseDate": "2026-10-09",
-  "title": "AuditSoft v2.1.0 — Khắc Phục Lỗi Mất Cột Số Liệu Khi Gom Bảng Kê B410 & Tổng Hợp AJE Chuẩn VACPA",
+  "title": "AuditSoft v2.1.1 — Chuẩn Hóa Tổng Hợp B410: Tự Động Nhận Diện Trưởng Nhóm, Khắc Phục Lỗi Mất Cột Ngày & Đồng Bộ SĐT KTV",
   "changelog": [
-    "Khắc phục triệt để lỗi mất cột số liệu khi gom bảng kê B410: Tự động gom toàn bộ các dòng Bút toán điều chỉnh (AJE) từ các file thành viên vào sheet But toan DC của Master với đầy đủ 14-16 cột tài chính.",
-    "Bảo toàn tính độc lập của các cột số liệu: Hủy bỏ merge cell mặc định C6:G6 trên template Master, giữ nguyên số liệu TK Nợ, TK Có, Số PS, Ảnh hưởng CĐKT, Ảnh hưởng KQKD.",
-    "Cơ chế bảo toàn bảng kê phụ (.BK) trùng tên: Tự động thêm hậu tố định danh theo KTV (ví dụ: D540.BK_Quynh, D540.BK_Tuan) khi nhiều thành viên cùng nộp bảng kê trùng tên thay vì bị drop.",
-    "Bảo toàn công thức tính toán nội bộ trong các sheet bảng kê phụ: Giữ nguyên các phép tính SUM, cộng trừ tỷ lệ, chống mất cột do thuộc tính ẩn.",
-    "Cải tiến nhận diện STT động trên bảng kê B410: Hỗ trợ linh hoạt các bảng kê bắt đầu từ Cột A (Col 1) lẫn Cột B (Col 2).",
-    "Bảo đảm an toàn chất lượng: 100% test suite (2.020+ tests) vượt qua, 0 lỗi typecheck."
+    "Tự động nhận diện & ưu tiên Trưởng nhóm (Senior in charge): Tự động xác định Trưởng nhóm khi gộp nhiều file B410 (theo file Master hoặc số lượt bầu Soát xét 1) và đưa lên vị trí đầu tiên.",
+    "Bảo toàn 100% dữ liệu cột Ngày trong sheet phụ: Khắc phục triệt để lỗi mất dữ liệu ngày tháng khi copy bảng kê đính kèm (BK E191.1, E240.BK01), bảo toàn nguyên vẹn kiểu dữ liệu Date và format dd/mm/yyyy.",
+    "Siết chặt nhận diện sheet AJE (Bút toán điều chỉnh): Không bao giờ nhận nhầm các bảng kê phụ lục (.BK) thành sheet Bút toán điều chỉnh, chống đè số liệu.",
+    "Bảo toàn số điện thoại KTV tại dòng phân nhóm: Hiển thị đầy đủ SĐT liên hệ của từng KTV trong bảng Master (ví dụ: 'Người thực hiện: Lưu Hoàng Tiến - SĐT: 0824 028 565').",
+    "Chuẩn hóa tiêu đề & độ rộng cột chuẩn mực VACPA 9 cột: Tự động căn chỉnh STT, GLV, Thực trạng, Hướng xử lý, và gỡ merge lệch trên các template cũ.",
+    "Bảo toàn họ tên KTV có dấu chấm viết tắt: Khắc phục lỗi cắt cụt tên người soát xét có dấu chấm (như 'Hoàng T. Phúc')."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.0/AuditSoft-2.1.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.0/AuditSoft-2.1.0-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.1/AuditSoft-2.1.1-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.1/AuditSoft-2.1.1-Portable.exe",
   "required": false,
-  "sha256": "615909a9658c7c0f94a0eba8a9cc9b68edc199d03514e08225ff303cde2425ec",
-  "signature": "JkO9fL1Hk-3-LCssFzYxIhSS_mi8BqeETt45dvPgb1VdvYIdNANoXCejiQX1UcKX28l6elkEvwstG8dQY-o9Aw"
+  "sha256": "54b9dfbf5e1b9f5026afa567a4ae6c2388b29bb466880ef7772074dad6c19f23",
+  "signature": "C2JWvELZqMA7NEOqWuTX77cRmMSiqd6iA2WDnT9CF_8vasAnakEdt26_844VHCjtVVue74Weeeb3wWVARbd6Aw"
 }
