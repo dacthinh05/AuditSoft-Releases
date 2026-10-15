@@ -1,15 +1,15 @@
 {
-  "version": "2.1.5",
-  "releaseDate": "2026-10-13",
-  "title": "AuditSoft v2.1.5 — Triệt Tiêu Lỗi XML Corrupt & Tối Ưu Phân Trang Anti-Orphan B410",
+  "version": "2.1.6",
+  "releaseDate": "2026-10-15",
+  "title": "AuditSoft v2.1.6 — Nâng Cấp Tự Động Tờ Khai QTT 03 (XML TT80/2021) & Khử Lỗi Cấu Trúc HTKK",
   "changelog": [
-    "Khắc phục triệt để lỗi cảnh báo XML Corrupt (We found a problem with some content...): Tự động khử thuộc tính editAs vi phạm schema ECMA-376 trên oneCellAnchor trong DrawingML và thay thế các giá trị NaN/Infinity bằng 0 khi sao chép sheet phụ.",
-    "Tối ưu phân trang in ấn thông minh (Anti-Orphan & Gom trang B410): Cho phép gom nhiều KTV vào cùng một trang in khi còn đủ chỗ, loại bỏ lãng phí khoảng trắng. Khi trang không đủ chỗ, tự động ngắt trang TRƯỚC dòng KTV để tiêu đề KTV luôn đi liền trọn vẹn với các lưu ý kiểm toán của họ ở đầu trang mới.",
-    "Bảo toàn 100% Họ tên và SĐT KTV chuẩn mực VACPA: Toàn bộ danh tính và số điện thoại liên hệ của các KTV phụ trách phần hành được hiển thị rõ ràng, chuyên nghiệp."
+    "Tự động chuẩn hóa & nâng cấp toàn diện tờ khai Quyết toán thuế TNDN (Mẫu 03/TNDN) lên phiên bản mới nhất theo Thông tư 80/2021/TT-BTC (XML 2.9.4 / HTKK 5.8.0).",
+    "Khắc phục triệt để lỗi cấu trúc không hợp lệ (Mã lỗi HTKK 0278): Tự động khử chữ ký số <CKyDTu> chống lỗi phân giải namespace của HTKK, tự động chuyển đổi thẻ miễn thuế sang <dsThMienThue> và thuế suất sang <ctC7_thuNhap> / <ctC7_thueSuat>.",
+    "Bảo toàn 100% tất cả phụ lục đính kèm: Phụ lục KQKD 03-1A, Phụ lục chuyển lỗ 03-2A, Hồ sơ khai bổ sung 01-KHBS, 01-1/KHBS và toàn bộ 4 phụ lục Giao dịch liên kết theo Nghị định 132/2020/NĐ-CP."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.5/AuditSoft-2.1.5-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.5/AuditSoft-2.1.5-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.6/AuditSoft-2.1.6-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.6/AuditSoft-2.1.6-Portable.exe",
   "required": false,
-  "sha256": "0ea53c50b79b8898b7565b5e51d7d90335707c9716ebdd31549d8ccf9d18290e",
-  "signature": "KC8p9kTDnURA2WbTyRoJpoa62tP6G7vW6YGXlOmRq-_SjGEaq2RWtDhB9QSuWNPZ5CT0AgiW0ZI_fHxphnWUDQ"
+  "sha256": "3353147c8f0711f1de4367895f23d98401a1728dd3b87ca625cd9a3adee49adf",
+  "signature": "aOeerh3fbOMH_eWEvtGtBGeOFRMWsYdkvWdAdtLQtsjU--EMvp7_XU-8DEk9LomYX0M04P0fxHKi_uX7CaCXBg"
 }
