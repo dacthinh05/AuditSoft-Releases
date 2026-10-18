@@ -1,15 +1,14 @@
 {
-  "version": "2.1.6",
-  "releaseDate": "2026-10-15",
-  "title": "AuditSoft v2.1.6 — Nâng Cấp Tự Động Tờ Khai QTT 03 (XML TT80/2021) & Khử Lỗi Cấu Trúc HTKK",
+  "version": "2.1.7",
+  "releaseDate": "2026-10-18",
+  "title": "AuditSoft v2.1.7 — Chuẩn Hóa Cấu Trúc Tổng Hợp Điều Chỉnh B410 & Gom Nhóm BCTC (CĐKT & KQKD)",
   "changelog": [
-    "Tự động chuẩn hóa & nâng cấp toàn diện tờ khai Quyết toán thuế TNDN (Mẫu 03/TNDN) lên phiên bản mới nhất theo Thông tư 80/2021/TT-BTC (XML 2.9.4 / HTKK 5.8.0).",
-    "Khắc phục triệt để lỗi cấu trúc không hợp lệ (Mã lỗi HTKK 0278): Tự động khử chữ ký số <CKyDTu> chống lỗi phân giải namespace của HTKK, tự động chuyển đổi thẻ miễn thuế sang <dsThMienThue> và thuế suất sang <ctC7_thuNhap> / <ctC7_thueSuat>.",
-    "Bảo toàn 100% tất cả phụ lục đính kèm: Phụ lục KQKD 03-1A, Phụ lục chuyển lỗ 03-2A, Hồ sơ khai bổ sung 01-KHBS, 01-1/KHBS và toàn bộ 4 phụ lục Giao dịch liên kết theo Nghị định 132/2020/NĐ-CP."
+    "Chuẩn hóa cấu trúc Working Paper B410 và B360: Tích hợp bảng tổng hợp CĐKT và KQKD đã gom nhóm theo danh mục chuẩn B01-DN và B02-DN song song với danh sách bút toán điều chỉnh AJE.",
+    "Bảo toàn 100% chi tiết các cặp định khoản đối ứng Nợ/Có bên vế trái phục vụ kiểm tra dấu vết (Audit Trail), đồng thời gom nhóm toàn bộ khoản mục CĐKT và KQKD bên vế phải.",
+    "Khắc phục triệt để hiện tượng lệch số học giữa ΔTS và ΔNV tại dòng kiểm tra cân đối P1:P2 nhờ tự động kết chuyển ảnh hưởng Lợi nhuận thuần từ KQKD sang chỉ tiêu Lợi nhuận sau thuế chưa phân phối (TK 421) trên Nguồn vốn."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.6/AuditSoft-2.1.6-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.6/AuditSoft-2.1.6-Portable.exe",
-  "required": false,
-  "sha256": "3353147c8f0711f1de4367895f23d98401a1728dd3b87ca625cd9a3adee49adf",
-  "signature": "aOeerh3fbOMH_eWEvtGtBGeOFRMWsYdkvWdAdtLQtsjU--EMvp7_XU-8DEk9LomYX0M04P0fxHKi_uX7CaCXBg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.7/AuditSoft-2.1.7-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.7/AuditSoft-2.1.7-Portable.exe",
+  "sha256": "02129940a93dbe0015736fa99c7e4be44a85369ebf8e5f635b47710a467b7e82",
+  "signature": "I3Sf0KYdK771moSdmFZPs0-OFDesbNPK-pPM0cPgAZI79ngNxlj5TXoYHBEeYAo3j8iSKscbiTSLgJcK5n94Cg"
 }
