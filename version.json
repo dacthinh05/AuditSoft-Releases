@@ -1,14 +1,14 @@
 {
-  "version": "2.1.7",
-  "releaseDate": "2026-10-18",
-  "title": "AuditSoft v2.1.7 — Chuẩn Hóa Cấu Trúc Tổng Hợp Điều Chỉnh B410 & Gom Nhóm BCTC (CĐKT & KQKD)",
+  "version": "2.1.8",
+  "releaseDate": "2026-10-21",
+  "title": "AuditSoft v2.1.8 — Tinh Gọn Giao Diện Đối Chiếu Thuế & Chuẩn Hóa Phiên Bản Tờ Khai",
   "changelog": [
-    "Chuẩn hóa cấu trúc Working Paper B410 và B360: Tích hợp bảng tổng hợp CĐKT và KQKD đã gom nhóm theo danh mục chuẩn B01-DN và B02-DN song song với danh sách bút toán điều chỉnh AJE.",
-    "Bảo toàn 100% chi tiết các cặp định khoản đối ứng Nợ/Có bên vế trái phục vụ kiểm tra dấu vết (Audit Trail), đồng thời gom nhóm toàn bộ khoản mục CĐKT và KQKD bên vế phải.",
-    "Khắc phục triệt để hiện tượng lệch số học giữa ΔTS và ΔNV tại dòng kiểm tra cân đối P1:P2 nhờ tự động kết chuyển ảnh hưởng Lợi nhuận thuần từ KQKD sang chỉ tiêu Lợi nhuận sau thuế chưa phân phối (TK 421) trên Nguồn vốn."
+    "Tinh gọn giao diện Đối chiếu Thuế: Loại bỏ nhãn trạng thái thừa khi có dropdown chuyển đổi phiên bản tờ khai (01/GTGT và 05/TNCN), bảo đảm bố cục 1 dòng trực quan.",
+    "Chuẩn hóa hiển thị nhãn tờ khai bổ sung theo màu nhận diện chuyên nghiệp, ẩn nhãn tờ khai lần đầu mặc định để tối ưu không gian hiển thị.",
+    "Hoàn thiện Typecheck và tương thích giao diện đối chiếu thuế đa kỳ."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.7/AuditSoft-2.1.7-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.7/AuditSoft-2.1.7-Portable.exe",
-  "sha256": "9f943a5dc543a01bb0320e2ea68364294cb8586b9eca680ded09b60e63f74f6b",
-  "signature": "7hZK9WI4Gw0O2jaWVVg8WdKfn9b0ov3o2aKBAWgJkh0McnyyW2Tifj3rS5pjCAPX6koJNsf7PcbaVSNpSizvDA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.8/AuditSoft-2.1.8-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.8/AuditSoft-2.1.8-Portable.exe",
+  "sha256": "ecc24225abd1bfd1fba8e0a8a5dc379abfd9fe80d120f898590d2ee3af06acb1",
+  "signature": "MvagGReGUq_3NpI1Ghrc4xXh_gnCDmYBfKCHYWq0YC0QKWQ7U5OKueVysXsuUvn5UEHSBDTfgT_NVsy6oPzxAw"
 }
