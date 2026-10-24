@@ -1,15 +1,16 @@
 {
-  "version": "2.2.1",
-  "releaseDate": "2026-10-24",
-  "title": "AuditSoft v2.2.1 — Tích Hợp Phân Hệ Lập Kế Hoạch Kiểm Toán Planning Hub & Chuẩn Hóa Điều Hướng VSA",
+  "version": "2.3.0",
+  "releaseDate": "2026-10-25",
+  "title": "AuditSoft v2.3.0 — Phân Hệ Bàn Làm Việc Cut-Off Đa Chu Trình & Tự Động Hóa GLV G195/G395/G495/D595",
   "changelog": [
-    "Tích hợp toàn diện phân hệ Lập Kế hoạch Kiểm toán (Audit Planning Hub) chuẩn VACPA: Chấp nhận khách hàng (A110/A120), Ma trận rủi ro sơ bộ (A410), Mức trọng yếu trung tâm (A710).",
-    "Thanh điều hướng phân hệ thông minh theo 4 giai đoạn kiểm toán chuẩn VSA kết hợp Smart Workflow Banner.",
-    "Neo chính xác thủ tục kiểm toán vào từng dòng chương trình Giấy làm việc chuẩn mẫu VACPA.",
-    "Tối ưu hóa bảng đối chiếu số liệu, responsive spacing và chuẩn hóa trải nghiệm giao diện người dùng."
+    "Ra mắt Bàn làm việc Kiểm tra Khóa sổ (Cut-off Workbench) đa chu trình: Doanh thu (G195), Chi phí mua ngoài (G395), Chi phí khác (G495) và Hàng tồn kho (D595).",
+    "Tự động rà soát phát hiện nghiệp vụ lệch kỳ (hóa đơn sau ngày khóa sổ nhưng hạch toán trong kỳ, hóa đơn xuất trước nhưng giao hàng sau, nhập kho năm sau nhưng ghi nhận năm nay).",
+    "Hỗ trợ nạp đa nguồn linh hoạt: NKC năm kiểm toán, NKC năm sau, Bảng kê HĐĐT mua vào/bán ra XML/Excel, Sổ chi tiết kho đầu năm sau.",
+    "Tự động điền dữ liệu khóa sổ vào trực tiếp file Giấy làm việc chuẩn mẫu VACPA (G195, G395, G495, D595) kèm kết luận kiểm toán và nhận diện năm thực tế.",
+    "KTV có thể tích chọn/bỏ chọn thủ công từng dòng nghiệp vụ trước khi ghi vào Giấy làm việc."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.2.1/AuditSoft-2.2.1-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.2.1/AuditSoft-2.2.1-Portable.exe",
-  "sha256": "851617b195f3c53f6ae7eec5752da1f9e38226bac33cc35566c1e7906946e8fc",
-  "signature": "Vfi74pup092Pvn-hv81xRsnBTZVHIQt92u1z_GNzdiyGBKtp3F5715bkhvYAhNRpQWoqaQlQOPlIqBHIzwMxCA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.0/AuditSoft-2.3.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.0/AuditSoft-2.3.0-Portable.exe",
+  "sha256": "3d7d08b26e47a0f72de2dfbbad124c17bb35729585858d9dd46aa5ace921312c",
+  "signature": "EDBcy8d9hrLRauSDaTrS-1DbmSsP1qZY_Haxq5gqjgbHveaDFyNMxQhCXVhEHWg8B-gbhP6-jGUFhP-Qf5VsDw"
 }
