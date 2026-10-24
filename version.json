@@ -1,15 +1,15 @@
 {
-  "version": "2.1.10",
-  "releaseDate": "2026-10-22",
-  "title": "AuditSoft v2.1.10 — Tinh Gọn Giao Diện, Phân Rã God Components & Chuẩn Hóa IPC",
+  "version": "2.2.0",
+  "releaseDate": "2026-10-24",
+  "title": "AuditSoft v2.2.0 — Tích Hợp Tự Động Hóa Thủ Tục Kiểm Toán VACPA & Tinh Chỉnh Giao Diện",
   "changelog": [
-    "Tinh gọn giao diện & phân rã God Components: Tách nhỏ các màn hình Công nợ 131/331 (DebtPairControls, DebtFileSlot, DebtConfirmationCell) và Bảng đối chiếu doanh thu G150, giảm hơn 40% độ phức tạp code giao diện.",
-    "Phân tách Động cơ Xuất Excel: Tách nhỏ exportDebtExcel thành các builder chuyên biệt (singleVendorWorkbookBuilder, riskAndDiscrepancySheetBuilder), tăng tốc độ xuất file và bảo trì an toàn.",
-    "Kiến trúc IPC Controller: Modular hóa toàn bộ các kênh IPC Main Process theo từng domain riêng biệt (excel, confirmation, pdf, payroll).",
-    "Tương thích phần mềm HTKK 5.8.0 mới nhất và chuẩn hóa 100% Clean URLs cho hệ sinh thái."
+    "Tích hợp tự động hóa chương trình thủ tục kiểm toán chuẩn VACPA trên toàn bộ các chu trình kiểm toán.",
+    "Tự động phát hiện và đồng bộ thư mục hồ sơ kiểm toán (Engagement OutputDir) trên phân hệ Nhật ký Bút toán Điều chỉnh AJE.",
+    "Tối ưu hóa UI/UX: Mở rộng thanh điều hướng phân hệ, cải tiến responsive spacing và chuẩn hóa trải nghiệm người dùng.",
+    "Cập nhật landing page sinh thái và video demo tương tác trực quan cho phân hệ InvoiceDesk."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.10/AuditSoft-2.1.10-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.1.10/AuditSoft-2.1.10-Portable.exe",
-  "sha256": "f2a773fc7459099405af6e0e2065a385732cbdcd9a3df66945dfd7b0384d0aa2",
-  "signature": "Zb0t4mtv-etPp2NtWQkXS7pzwNqXOVZHH45Yl9cyUGQRZuXaeOOpFLavdifIzaAPGYKAYBZfq6jCcnzbZnaQDQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.2.0/AuditSoft-2.2.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.2.0/AuditSoft-2.2.0-Portable.exe",
+  "sha256": "09d547020c1c6d8a9615b5561fd2bd0f78ce3e4556b7c7b94b1904fc061b1512",
+  "signature": "-pbgN1xOiP2KVQ5VKCuZM0LlJnvnn9ewEXwWCEpyPaeYatuGPMaCQTvYHgEp-MWk2llbfKrPo5ENMo513HB_Bw"
 }
