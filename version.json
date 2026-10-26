@@ -1,15 +1,17 @@
 {
-  "version": "2.3.3",
-  "releaseDate": "2026-10-25",
-  "title": "AuditSoft v2.3.3 — Nâng Cấp Nút Thu Gọn Thanh Điều Hướng Sidebar & Ổn Định Phím Tắt",
+  "version": "2.4.0",
+  "releaseDate": "2026-10-26",
+  "title": "AuditSoft v2.4.0 — Đột Phá Soát Xét Chéo GLV Bằng AI, Add-in Excel Realtime & Máy Chủ Đồng Bộ Hồ Sơ",
   "changelog": [
-    "Khắc phục triệt để lỗi nút thu gọn thanh bên (Sidebar Toggle Button) bấm không ăn hoặc bị trượt sự kiện sang khối Logo.",
-    "Tăng diện tích hit-box của nút toggle, thay thế ký tự text bằng icon SVG mượt mà (IconChevronLeft / IconChevronRight).",
-    "Tối ưu hóa giao diện nút toggle khi Sidebar ở trạng thái thu gọn 64px, dễ dàng bấm mở rộng lại thanh bên.",
-    "Đưa trạng thái đóng/mở Sidebar vào Zustand Store toàn cục, đồng bộ xuyên suốt với phím tắt Ctrl + B và F2."
+    "Ra mắt phân hệ Soát Xét Chéo GLV (R01–R11): Tự động đối chiếu số liệu đa chiều giữa Lead Sheets, Sổ AJE, BCTC B420.CDKT và CĐSPS.",
+    "Tích hợp AI Soát Xét Báo Cáo & GLV: Phát hiện mâu thuẫn nhận xét chữ, lưu ý B410 chưa xử lý, thủ tục thiếu kèm cơ chế che tên PII bảo mật tuyệt đối.",
+    "Add-in Excel Realtime (AuditSoft.ExcelLink): Phản hồi cảnh báo trực tiếp trong Microsoft Excel qua Custom Task Pane và Named Pipe tốc độ cao.",
+    "Giám sát Nhóm Kiểm toán Trực tiếp: Hiển thị trạng thái mở file, lần lưu cuối và tiến độ thủ tục x20/x99 ngay trên tab Tiến độ Sổ AJE.",
+    "Hệ thống Máy chủ Đồng bộ Hồ sơ & Mượn/Trả GLV: Hỗ trợ cộng tác an toàn trên mạng nội bộ LAN hoặc từ xa qua cơ chế phân quyền và khóa xung đột.",
+    "Cải tiến Studio Thư Xác Nhận DOCX/Excel và xuất Thư Quản Lý B370 phục vụ hậu kiểm VSA."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.3/AuditSoft-2.3.3-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.3/AuditSoft-2.3.3-Portable.exe",
-  "sha256": "37275fdc31d3ffef5f4ebcc21609cfde0f47406963a07570a53a2caf5bf0f32e",
-  "signature": "8xw3S_PPq_Bz6aYejWvEEz9OCLX3SxtQWZ-mfJ-3TVvPQgThVEEZRuWeGCBqT7jpXMPU5CdZPXRk9aZfw9nODA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.0/AuditSoft-2.4.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.0/AuditSoft-2.4.0-Portable.exe",
+  "sha256": "0112f7fd8af1b212923c8f2dd990eabdcfec2b640beef250de63fed655386018",
+  "signature": "22lCf0lkP_qT7a040NoR7eh9pB9tg3OU2NA59BGy3qZdOsyLnGGj2BgstShUYrCZaoHzaSojiE_RR8Yc8ay-AA"
 }
