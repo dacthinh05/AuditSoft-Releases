@@ -1,15 +1,15 @@
 {
-  "version": "2.3.2",
+  "version": "2.3.3",
   "releaseDate": "2026-10-25",
-  "title": "AuditSoft v2.3.2 — Tinh Chỉnh Giao Diện Topbar & Tự Động Phân Tích Chọn Mẫu VSA 530",
+  "title": "AuditSoft v2.3.3 — Nâng Cấp Nút Thu Gọn Thanh Điều Hướng Sidebar & Ổn Định Phím Tắt",
   "changelog": [
-    "Khắc phục triệt để lỗi tràn và vỡ bố cục thanh công cụ Topbar Header trên các độ phân giải màn hình máy tính xách tay hẹp (tự động co giãn Breadcrumb và ẩn nhãn chữ phụ khi chật chội).",
-    "Tự động kích hoạt phân tích Sổ Nhật ký chung và trích xuất dòng phát sinh khi KTV bấm 'Bước 3: Phân Tích & Chọn Mẫu' tại màn hình Lập kế hoạch (A).",
-    "Ngăn chặn chuyển trang đột ngột sang phân hệ Chọn mẫu VSA 530 khi dữ liệu chưa được nạp hoặc chưa phân tích xong.",
-    "Bổ sung màn hình chờ Loading trực quan, mượt mà tại phân hệ Chọn mẫu thay vì báo khóa thiếu dữ liệu."
+    "Khắc phục triệt để lỗi nút thu gọn thanh bên (Sidebar Toggle Button) bấm không ăn hoặc bị trượt sự kiện sang khối Logo.",
+    "Tăng diện tích hit-box của nút toggle, thay thế ký tự text bằng icon SVG mượt mà (IconChevronLeft / IconChevronRight).",
+    "Tối ưu hóa giao diện nút toggle khi Sidebar ở trạng thái thu gọn 64px, dễ dàng bấm mở rộng lại thanh bên.",
+    "Đưa trạng thái đóng/mở Sidebar vào Zustand Store toàn cục, đồng bộ xuyên suốt với phím tắt Ctrl + B và F2."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.2/AuditSoft-2.3.2-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.2/AuditSoft-2.3.2-Portable.exe",
-  "sha256": "4b8fee9c244e4034598f9fcdc720f9a22caa4ea0aec3ca1c835072a9b4ae7cdf",
-  "signature": "8PpdOTjFWb-0jiWCV6EOY2EPFw-cEvH4hIXMtzv4QWc-777UCJTX03t9j4CMovuXfNrWgJeptZCcEqnDBMSfDA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.3/AuditSoft-2.3.3-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.3.3/AuditSoft-2.3.3-Portable.exe",
+  "sha256": "37275fdc31d3ffef5f4ebcc21609cfde0f47406963a07570a53a2caf5bf0f32e",
+  "signature": "8xw3S_PPq_Bz6aYejWvEEz9OCLX3SxtQWZ-mfJ-3TVvPQgThVEEZRuWeGCBqT7jpXMPU5CdZPXRk9aZfw9nODA"
 }
