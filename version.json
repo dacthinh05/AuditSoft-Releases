@@ -1,17 +1,15 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "releaseDate": "2026-10-26",
-  "title": "AuditSoft v2.4.0 — Đột Phá Soát Xét Chéo GLV Bằng AI, Add-in Excel Realtime & Máy Chủ Đồng Bộ Hồ Sơ",
+  "title": "AuditSoft v2.4.1 — Vá Lỗi Content Security Policy (CSP) & Hoàn Thiện Đồng Bộ",
   "changelog": [
-    "Ra mắt phân hệ Soát Xét Chéo GLV (R01–R11): Tự động đối chiếu số liệu đa chiều giữa Lead Sheets, Sổ AJE, BCTC B420.CDKT và CĐSPS.",
-    "Tích hợp AI Soát Xét Báo Cáo & GLV: Phát hiện mâu thuẫn nhận xét chữ, lưu ý B410 chưa xử lý, thủ tục thiếu kèm cơ chế che tên PII bảo mật tuyệt đối.",
-    "Add-in Excel Realtime (AuditSoft.ExcelLink): Phản hồi cảnh báo trực tiếp trong Microsoft Excel qua Custom Task Pane và Named Pipe tốc độ cao.",
-    "Giám sát Nhóm Kiểm toán Trực tiếp: Hiển thị trạng thái mở file, lần lưu cuối và tiến độ thủ tục x20/x99 ngay trên tab Tiến độ Sổ AJE.",
-    "Hệ thống Máy chủ Đồng bộ Hồ sơ & Mượn/Trả GLV: Hỗ trợ cộng tác an toàn trên mạng nội bộ LAN hoặc từ xa qua cơ chế phân quyền và khóa xung đột.",
-    "Cải tiến Studio Thư Xác Nhận DOCX/Excel và xuất Thư Quản Lý B370 phục vụ hậu kiểm VSA."
+    "Khắc phục triệt để lỗi chặn script nội bộ (Content Security Policy - script-src 'self') khi chạy dev và nạp theme.",
+    "Khắc phục lỗi React preamble '@vitejs/plugin-react can't detect preamble' trong quá trình khởi động ứng dụng.",
+    "Bổ sung cấu hình CSP linh hoạt tự động nới lỏng an toàn cho dev server (127.0.0.1 và localhost).",
+    "Hoàn thiện toàn bộ phân hệ Soát Xét Chéo GLV bằng AI, Add-in Excel Realtime và Máy Chủ Đồng Bộ Hồ Sơ."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.0/AuditSoft-2.4.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.0/AuditSoft-2.4.0-Portable.exe",
-  "sha256": "0112f7fd8af1b212923c8f2dd990eabdcfec2b640beef250de63fed655386018",
-  "signature": "22lCf0lkP_qT7a040NoR7eh9pB9tg3OU2NA59BGy3qZdOsyLnGGj2BgstShUYrCZaoHzaSojiE_RR8Yc8ay-AA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.1/AuditSoft-2.4.1-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.1/AuditSoft-2.4.1-Portable.exe",
+  "sha256": "4444f708cb41bc0baa62f46c0bd1fefed3a7e9cd3e25e065af3cb0ab35bd977a",
+  "signature": "wNs80W7QFAojuhHI0FcgCb77ny7oHbFsmR728NO8j4WyNy_RLpupPrjTldHfwY9gbiJIvLTwyBci9V1oU0iRAA"
 }
