@@ -1,15 +1,16 @@
 {
-  "version": "2.4.1",
-  "releaseDate": "2026-10-26",
-  "title": "AuditSoft v2.4.1 — Vá Lỗi Content Security Policy (CSP) & Hoàn Thiện Đồng Bộ",
+  "version": "2.6.0",
+  "releaseDate": "2026-10-27",
+  "title": "AuditSoft v2.6.0 — Chống Giao Diện AI Slop Toàn Hệ Thống, Chuẩn Hóa Design System & Hoàn Thiện Hồ Sơ",
   "changelog": [
-    "Khắc phục triệt để lỗi chặn script nội bộ (Content Security Policy - script-src 'self') khi chạy dev và nạp theme.",
-    "Khắc phục lỗi React preamble '@vitejs/plugin-react can't detect preamble' trong quá trình khởi động ứng dụng.",
-    "Bổ sung cấu hình CSP linh hoạt tự động nới lỏng an toàn cho dev server (127.0.0.1 và localhost).",
-    "Hoàn thiện toàn bộ phân hệ Soát Xét Chéo GLV bằng AI, Add-in Excel Realtime và Máy Chủ Đồng Bộ Hồ Sơ."
+    "Loại bỏ toàn bộ phong cách AI slop (gradient, sọc viền mép thẻ, backdrop-filter, hex cứng) trên toàn bộ hệ thống renderer.",
+    "Bổ sung bộ thành phần dùng chung chuẩn mực: MetricStrip, ConclusionPanel (xử lý trung thực trạng thái chưa đủ dữ liệu), TabBar hỗ trợ đầy đủ phím điều hướng.",
+    "Khóa chặt chất lượng giao diện bằng bộ luật ESLint no-restricted-syntax (R-STRIPE, R-GRADIENT, R-GLASS, R-TOKEN, R-PILL, R-GLOSS, R-DASH) đạt 0 vi phạm.",
+    "Bảo toàn hiển thị màu sắc biểu đồ khi xuất báo cáo Excel qua cơ chế inlineResolvedPaint trong svgToPng.",
+    "Chuẩn hóa toàn diện các module Tiếp nhận, Tổng quan Hub, Thực hiện kiểm toán, Soát xét chất lượng và Giấy làm việc."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.1/AuditSoft-2.4.1-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.4.1/AuditSoft-2.4.1-Portable.exe",
-  "sha256": "4444f708cb41bc0baa62f46c0bd1fefed3a7e9cd3e25e065af3cb0ab35bd977a",
-  "signature": "wNs80W7QFAojuhHI0FcgCb77ny7oHbFsmR728NO8j4WyNy_RLpupPrjTldHfwY9gbiJIvLTwyBci9V1oU0iRAA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.0/AuditSoft-2.6.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.0/AuditSoft-2.6.0-Portable.exe",
+  "sha256": "8d66e900b00ea715c7e087d5d5d8c3013ecb58c4156aad2cfbbf5c9649f72dcc",
+  "signature": "zsNsUC5d-D36lwOyfVe_lPRhUMqQoVop3WeF58ZUnYZ12vswwEL2l4R5GqbGj-rIL7KLXUe5s3upicT3XREpAQ"
 }
