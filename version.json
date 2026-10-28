@@ -1,16 +1,15 @@
 {
-  "version": "2.6.0",
-  "releaseDate": "2026-10-27",
-  "title": "AuditSoft v2.6.0 — Chống Giao Diện AI Slop Toàn Hệ Thống, Chuẩn Hóa Design System & Hoàn Thiện Hồ Sơ",
+  "version": "2.6.1",
+  "releaseDate": "2026-10-28",
+  "title": "AuditSoft v2.6.1 — Khắc Phục Đối Chiếu Thuế Xin Hoàn 1388 & Chuẩn Hóa Hồ Sơ Kiểm Toán Thuế",
   "changelog": [
-    "Loại bỏ toàn bộ phong cách AI slop (gradient, sọc viền mép thẻ, backdrop-filter, hex cứng) trên toàn bộ hệ thống renderer.",
-    "Bổ sung bộ thành phần dùng chung chuẩn mực: MetricStrip, ConclusionPanel (xử lý trung thực trạng thái chưa đủ dữ liệu), TabBar hỗ trợ đầy đủ phím điều hướng.",
-    "Khóa chặt chất lượng giao diện bằng bộ luật ESLint no-restricted-syntax (R-STRIPE, R-GRADIENT, R-GLASS, R-TOKEN, R-PILL, R-GLOSS, R-DASH) đạt 0 vi phạm.",
-    "Bảo toàn hiển thị màu sắc biểu đồ khi xuất báo cáo Excel qua cơ chế inlineResolvedPaint trong svgToPng.",
-    "Chuẩn hóa toàn diện các module Tiếp nhận, Tổng quan Hub, Thực hiện kiểm toán, Soát xét chất lượng và Giấy làm việc."
+    "Khắc phục triệt để lỗi báo lệch số thuế GTGT đầu vào [25] khi doanh nghiệp lập hồ sơ xin hoàn thuế kết chuyển Nợ 13881 / Có 133.",
+    "Chuẩn hóa nhánh lọc bút toán Có 133 trong TaxCrossReconciler: không trừ các bút toán kết chuyển thuế chờ hoàn Nợ 1388 / Có 133, khớp tuyệt đối 100% từng kỳ kê khai.",
+    "Bổ sung mẫu xuất Excel Bảng tổng hợp hồ sơ kiểm toán thuế 1 Sheet duy nhất gom trọn vẹn Thuế GTGT E380, Doanh thu G150 và Thuế TNCN E381.",
+    "Hoàn thiện các bộ lọc và định dạng giao diện chuẩn mực kiểm toán VACPA."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.0/AuditSoft-2.6.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.0/AuditSoft-2.6.0-Portable.exe",
-  "sha256": "ef618228a820987a1cc2da59ff74bc0d2b5362caf4143fc9078389335895a751",
-  "signature": "Egt4duDFRTtmE_OdUOdc1VUEwr_IxvfB8I8ShG9V9B7KQbUDXq1Q-Fg2DaNjLBev49qoIY0ajalBlbQon990AA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.1/AuditSoft-2.6.1-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.1/AuditSoft-2.6.1-Portable.exe",
+  "sha256": "69c8b0d97dbc66b0e0a78c52774bf048256dcacf8cf674c0015e77a6a5b905cd",
+  "signature": "gNgMuvHGo3pjaPE34P_0Yycb62LzzjDKNP_Eoc9g69uaaQFUpEDnmlo2aw5pV678icCmrmvMXFsSJyQJB5taDg"
 }
