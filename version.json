@@ -1,15 +1,16 @@
 {
-  "version": "2.6.2",
+  "version": "2.6.4",
   "releaseDate": "2026-10-28",
-  "title": "AuditSoft v2.6.2 — Tùy Biến Giấy Làm Việc VACPA, Tích Hợp G500 & Khắc Phục OCR Code Review",
+  "title": "AuditSoft v2.6.4 — Tùy Biến Chu Trình Kiểm Toán: Sản Xuất vs Gia Công (CMT / Giao Gia Công)",
   "changelog": [
-    "Tích hợp tính năng Tùy biến Giấy làm việc VACPA (Tailoring Engine & Panel): hỗ trợ 4 kịch bản tinh gọn (Full, SME, Khách hàng cũ, Thương mại đơn giản) kèm sơ đồ luồng quy trình VSA.",
-    "Tự động hóa hoàn thiện GLV Doanh thu & Chi phí tài chính G 500 (G510, G520, G590, G595).",
-    "Tính năng Ẩn/Hiện thủ tục không áp dụng (KAD), chuẩn hóa KPI hoàn thành kiểm toán và liên kết rủi ro A820.",
-    "Khắc phục toàn diện các lỗi mã nguồn và kiểm thử phát hiện từ Open Code Review: sửa nhận diện Leadsheet có khoảng trắng, đồng bộ cycleRiskOverrides vào A820, bọc an toàn script xử lý dữ liệu và đưa 100% test suite về trạng thái PASS."
+    "Tùy biến Chu trình Sản xuất & Cung ứng: Hỗ trợ 3 cờ năng lực đa chọn (Multi-select Capability Flags): Tự sản xuất (FOB), Nhận gia công (CMT / Tiền công) và Giao/thuê ngoài gia công.",
+    "Bộ máy Tự động Nhận diện (ProductionCycleDetector): Tự động phân tích phát sinh CĐPS (TK 152, 155, 621, 5112, 5113, 002), Nhật ký chung và Tờ khai Hải quan loại hình E52 (tiền công gia công TTTGGC) để đề xuất cấu hình hồ sơ kèm bằng chứng số liệu minh bạch.",
+    "Bộ máy Tailoring VACPA 2019 linh hoạt: Khi nhận gia công CMT thuần túy, tự động tinh gọn các thủ tục kiểm kê kho sở hữu (D531-D533) mà vẫn bảo đảm tuyệt đối 63 giấy làm việc bắt buộc VSA và Thư xác nhận hàng giữ hộ (D534) theo VSA 501.",
+    "Thích ứng Động cơ Tính giá thành (CostInvariantChecker): Cho phép cân đối phương trình TK 154 khi nhận gia công (621 = 0, kết chuyển thẳng sang 632) và tự động nhận diện tiêu thức phân bổ VAS 02 theo nhân công 622 hoặc sản lượng Q.",
+    "Trực quan hóa Phân nhánh Luồng Kiểm toán SVG (AuditWorkflowSvgMap): Cập nhật sơ đồ luồng trực quan phân nhánh giữa Luồng Tự sản xuất và Luồng Nhận gia công CMT tại Node D (Tài sản & Giá thành)."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.2/AuditSoft-2.6.2-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.2/AuditSoft-2.6.2-Portable.exe",
-  "sha256": "941812319766b5da3cb4df32d686ee765cce1f686750fbe02c49b7262d5c558a",
-  "signature": "MSikMJN_hPrT-TBzOk03S2ncRk7uNSsI3Nx5vsDH6FLrhO9BJ1bP2OHU_r6bsFvlPx2Fxxst_VHorBsmBMT8Cw"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.4/AuditSoft-2.6.4-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.6.4/AuditSoft-2.6.4-Portable.exe",
+  "sha256": "c8b6ca83db1431b1a38ab9dc0d9122ed91e3bfb2c84598c967566bc3f17c3d04",
+  "signature": "u7tzJ_TaC1ffkPl7KPlj22rKV9WzHFjI4T1sJf-6OEDUtpuRE5GppZY7DcIIQAhl2FRFemhEHgSMyuFpgfcLAQ"
 }
