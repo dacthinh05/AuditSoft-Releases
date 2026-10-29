@@ -1,15 +1,15 @@
 {
-  "version": "2.8.2",
+  "version": "2.8.3",
   "releaseDate": "2026-10-29",
-  "title": "AuditSoft v2.8.2 — Tách Mục Tổng Hợp B410 Ra Sidebar & Cân Bằng Giao Diện VSA 530",
+  "title": "AuditSoft v2.8.3 — Chỉ Báo Bước Kiểm Toán Header, Tinh Gọn Sổ AJE & Ẩn TaskPane ExcelLink",
   "changelog": [
-    "Tách mục Tổng Hợp B410 ra thanh bên Sidebar: Đưa chức năng gộp và tổng hợp file B410 thành mục độc lập ở giai đoạn 4. HOÀN THÀNH & BÀN GIAO, hỗ trợ KTV truy cập 1-chạm trực tiếp.",
-    "Khắc phục giao diện Chọn Mẫu VSA 530: Phân tách 2 hàng cân bằng giữa bộ chuyển chế độ (Dxxx / C1xx) và bộ chọn phần hành, khóa chặn min-width chống co rút dropdown Phần hành và hiển thị trọn vẹn placeholder ô Đầu TK.",
-    "Đồng bộ tiến độ ký duyệt hồ sơ: Kết nối trạng thái hoàn thành giai đoạn 3–4 với tiến độ soát xét thực tế của thư mục hồ sơ công ty.",
-    "Cầu đối chiếu thuế GTGT mua vào & Tự động hóa Phân tích sơ bộ A510: Đối chiếu chi tiết hóa đơn đầu vào TK 133 và đồng bộ rủi ro A510 sang A710/A810."
+    "Chỉ báo bước kiểm toán trên Header: Bổ sung chỉ báo tiến độ tinh gọn trên thanh điều hướng chung cho toàn bộ module phần hành, hỗ trợ popover nhảy nhanh 6 bước kiểm toán VSA và trạng thái soát xét thời gian thực.",
+    "Chuẩn hóa Sổ AJE (#07A) & khắc phục lỗi render lặp kép: Loại bỏ hiển thị trùng lặp component WriteTab ở tab Điền CĐSPS và Ghi số GLV, chuyển định danh mã 07A đồng bộ và đưa nút Quét đề xuất vào tab Bút toán.",
+    "Mặc định ẩn TaskPane ExcelLink Add-In: Tắt tự động mở thanh Custom Task Pane khi mở file Excel, bổ sung Empty State hướng dẫn trực quan khi chưa kết nối phiên soát xét AuditSoft.",
+    "Tách riêng phân hệ Tiến độ & Ký duyệt hồ sơ (#15A): Bảng tiến độ và ký duyệt trực tiếp từng phần hành thời gian thực, đồng bộ với Sổ AJE và cây thư mục hồ sơ."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.2/AuditSoft-2.8.2-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.2/AuditSoft-2.8.2-Portable.exe",
-  "sha256": "89180aa49e56c8651da3227cf7ad4192f9fe8c330398a7debf8a089268d96901",
-  "signature": "dFfv0i0F9Gc1-gz_7KHI-NkQ3E2uipjFcrdnoKtyNUlHVpELKSnwgcIHOSNpyekF7Eg2MK9XB1IuZz7jhnYhBQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.3/AuditSoft-2.8.3-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.3/AuditSoft-2.8.3-Portable.exe",
+  "sha256": "6650826570fc30c05031d016041c34e2d808a9e62a209efd842a08cc888ee107",
+  "signature": "fuAdBE0pdmVixzbsqLXMfhgNwdiuW1vFH_iaCw70mUEwle4ei_EChts7dbI961jJ07xBW-n83dKGNygvAPx0Ag"
 }
