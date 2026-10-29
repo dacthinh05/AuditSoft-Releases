@@ -1,15 +1,16 @@
 {
-  "version": "2.7.1",
+  "version": "2.8.0",
   "releaseDate": "2026-10-29",
-  "title": "AuditSoft v2.7.1 — Nâng Cấp Gộp Tệp Excel Đa Năng (.xls & Thư Mục) & Nhận Diện Tiêu Đề Bảng Kê",
+  "title": "AuditSoft v2.8.0 — Cầu Đối Chiếu Thuế GTGT Mua Vào & Tự Động Hóa Phân Tích Sơ Bộ A510",
   "changelog": [
-    "Gộp Tệp Excel Đa Năng (Excel Consolidator Pro): Khắc phục triệt để lỗi không nhận diện sheet và tiêu đề cột trên các tệp Excel 97-2003 (.xls đời cũ).",
-    "Đồng bộ Ma trận Sheet & Trích xuất tên Sheet chuẩn: Tự động trích xuất tên sheet thực tế theo OOXML Relationship ID và thứ tự cấu trúc, ngăn ngừa xung đột tên mặc định khi chuyển đổi định dạng.",
-    "Thuật toán Dò Tiêu Đề 2 Tầng Cải tiến (HeaderDetector): Tự động nhận diện và ghép nối tiêu đề đa tầng cách dòng (merged cells) của bảng kê thuế GTGT mua vào/bán ra, giữ nguyên các cột STT, hóa đơn chứng từ và thông tin người bán.",
-    "Hỗ trợ Nạp Cả Thư Mục (Folder Drag & Drop): Bổ sung nút 'Thêm Thư Mục…' và mở rộng vùng kéo thả cho phép nạp trực tiếp toàn bộ thư mục chứa hàng chục tệp Excel cùng lúc với cơ chế sắp xếp tự nhiên (natural sort)."
+    "Cầu đối chiếu thuế GTGT mua vào: Tự động đối chiếu chi tiết hóa đơn đầu vào, thuế suất và số thuế khấu trừ giữa Tờ khai 01/GTGT và Sổ Nhật ký chung (TK 133), xuất bảng tính Excel đối chiếu chi tiết.",
+    "Tự động hóa Phân tích sơ bộ (A510): Khởi chạy nền tức thì khi có số liệu sổ kế toán, tự động đồng bộ cảnh báo rủi ro biến động sang Kế hoạch kiểm toán (A710) và Đánh giá rủi ro VSA 315/330 (A810).",
+    "Tái cấu trúc giao diện chọn mẫu VSA 530: Chuẩn hóa thanh công cụ điều khiển, tích hợp KPI strip thông minh và tách biệt bảng chọn mẫu kiểm tra chi tiết theo chuẩn thiết kế AuditOS.",
+    "Hợp nhất điều hướng thanh bên theo tab: Gom nhóm các phân hệ trùng lặp thành tabbed workspace tiện lợi, chuẩn hóa tiến trình làm việc theo 4 giai đoạn chuẩn mực VSA.",
+    "Nâng cấp kết nối Excel & VietQR: Bổ sung cảnh báo tiến trình Excel đang mở khi cài đặt add-in và chuẩn hóa khung viền mã VietQR quét 1-chạm."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.7.1/AuditSoft-2.7.1-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.7.1/AuditSoft-2.7.1-Portable.exe",
-  "sha256": "b1dbeac7bee1ccb36749a25f0167541d500eab40ee1489f9d0fcedd3d158b759",
-  "signature": "cw4nWhrIMoawvKN8vXxf3-uaNPlXOhiDLHWk2HwiTY5Sx133rNrU8gae7xQ_gxaxkDGyqUMuGKoDB9LibE_PAQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.0/AuditSoft-2.8.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.0/AuditSoft-2.8.0-Portable.exe",
+  "sha256": "b79157c94dc9586dcf4af49ad24692d2c70f27ccb67ed7a3151774ccb446853d",
+  "signature": "56EfC6f8kehzSGPvN-kumBGWtUc2gl8G5kvr15scfqGv7MAj0rQgkAKfjD0rCkiJf9uOaOuiKLysuCkVNv-ZDQ"
 }
