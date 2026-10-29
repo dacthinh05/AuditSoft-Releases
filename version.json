@@ -1,16 +1,15 @@
 {
-  "version": "2.8.0",
+  "version": "2.8.2",
   "releaseDate": "2026-10-29",
-  "title": "AuditSoft v2.8.0 — Cầu Đối Chiếu Thuế GTGT Mua Vào & Tự Động Hóa Phân Tích Sơ Bộ A510",
+  "title": "AuditSoft v2.8.2 — Tách Mục Tổng Hợp B410 Ra Sidebar & Cân Bằng Giao Diện VSA 530",
   "changelog": [
-    "Cầu đối chiếu thuế GTGT mua vào: Tự động đối chiếu chi tiết hóa đơn đầu vào, thuế suất và số thuế khấu trừ giữa Tờ khai 01/GTGT và Sổ Nhật ký chung (TK 133), xuất bảng tính Excel đối chiếu chi tiết.",
-    "Tự động hóa Phân tích sơ bộ (A510): Khởi chạy nền tức thì khi có số liệu sổ kế toán, tự động đồng bộ cảnh báo rủi ro biến động sang Kế hoạch kiểm toán (A710) và Đánh giá rủi ro VSA 315/330 (A810).",
-    "Tái cấu trúc giao diện chọn mẫu VSA 530: Chuẩn hóa thanh công cụ điều khiển, tích hợp KPI strip thông minh và tách biệt bảng chọn mẫu kiểm tra chi tiết theo chuẩn thiết kế AuditOS.",
-    "Hợp nhất điều hướng thanh bên theo tab: Gom nhóm các phân hệ trùng lặp thành tabbed workspace tiện lợi, chuẩn hóa tiến trình làm việc theo 4 giai đoạn chuẩn mực VSA.",
-    "Nâng cấp kết nối Excel & VietQR: Bổ sung cảnh báo tiến trình Excel đang mở khi cài đặt add-in và chuẩn hóa khung viền mã VietQR quét 1-chạm."
+    "Tách mục Tổng Hợp B410 ra thanh bên Sidebar: Đưa chức năng gộp và tổng hợp file B410 thành mục độc lập ở giai đoạn 4. HOÀN THÀNH & BÀN GIAO, hỗ trợ KTV truy cập 1-chạm trực tiếp.",
+    "Khắc phục giao diện Chọn Mẫu VSA 530: Phân tách 2 hàng cân bằng giữa bộ chuyển chế độ (Dxxx / C1xx) và bộ chọn phần hành, khóa chặn min-width chống co rút dropdown Phần hành và hiển thị trọn vẹn placeholder ô Đầu TK.",
+    "Đồng bộ tiến độ ký duyệt hồ sơ: Kết nối trạng thái hoàn thành giai đoạn 3–4 với tiến độ soát xét thực tế của thư mục hồ sơ công ty.",
+    "Cầu đối chiếu thuế GTGT mua vào & Tự động hóa Phân tích sơ bộ A510: Đối chiếu chi tiết hóa đơn đầu vào TK 133 và đồng bộ rủi ro A510 sang A710/A810."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.0/AuditSoft-2.8.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.0/AuditSoft-2.8.0-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.2/AuditSoft-2.8.2-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.2/AuditSoft-2.8.2-Portable.exe",
   "sha256": "b79157c94dc9586dcf4af49ad24692d2c70f27ccb67ed7a3151774ccb446853d",
-  "signature": "56EfC6f8kehzSGPvN-kumBGWtUc2gl8G5kvr15scfqGv7MAj0rQgkAKfjD0rCkiJf9uOaOuiKLysuCkVNv-ZDQ"
+  "signature": "1rsv0gcf51rIG4wiYO7gqXW4DKXmpdRSYWvdROgNQKxUpWpNzd3MUNp8uda6eRWG3aFnurczjw8pV0Bl3jQNBw"
 }
