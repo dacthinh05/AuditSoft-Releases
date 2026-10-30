@@ -1,15 +1,15 @@
 {
-  "version": "2.8.3",
-  "releaseDate": "2026-10-29",
-  "title": "AuditSoft v2.8.3 — Chỉ Báo Bước Kiểm Toán Header, Tinh Gọn Sổ AJE & Ẩn TaskPane ExcelLink",
+  "version": "2.8.4",
+  "releaseDate": "2026-10-30",
+  "title": "AuditSoft v2.8.4 — Mô Hình Bút Toán Canonical, Chuỗi Băm Niêm Phong VSA 560 & Đối Soát Đa Tầng",
   "changelog": [
-    "Chỉ báo bước kiểm toán trên Header: Bổ sung chỉ báo tiến độ tinh gọn trên thanh điều hướng chung cho toàn bộ module phần hành, hỗ trợ popover nhảy nhanh 6 bước kiểm toán VSA và trạng thái soát xét thời gian thực.",
-    "Chuẩn hóa Sổ AJE (#07A) & khắc phục lỗi render lặp kép: Loại bỏ hiển thị trùng lặp component WriteTab ở tab Điền CĐSPS và Ghi số GLV, chuyển định danh mã 07A đồng bộ và đưa nút Quét đề xuất vào tab Bút toán.",
-    "Mặc định ẩn TaskPane ExcelLink Add-In: Tắt tự động mở thanh Custom Task Pane khi mở file Excel, bổ sung Empty State hướng dẫn trực quan khi chưa kết nối phiên soát xét AuditSoft.",
-    "Tách riêng phân hệ Tiến độ & Ký duyệt hồ sơ (#15A): Bảng tiến độ và ký duyệt trực tiếp từng phần hành thời gian thực, đồng bộ với Sổ AJE và cây thư mục hồ sơ."
+    "Canonical Move Model: Chuẩn hóa mọi dòng sổ cái, Nhật ký chung (NKC) từ các phần mềm kế toán khác nhau (MISA, FAST, Bravo, SAP, Excel) về một mô hình CanonicalMoveLine cân bằng kép duy nhất, hỗ trợ bộ lọc truy vấn in-memory tốc độ cao.",
+    "Chuỗi Băm Bảo Vệ Hồ Sơ VSA 560 & VSA 230 (Data Inalterability Hash Chain): Triển khai cơ chế niêm phong hồ sơ kiểm toán và sổ AJE bằng chuỗi băm SHA-256 khi ký phát hành (Issuance Gate); phát hiện tức thì nếu có file Excel bị can thiệp ngoài ứng dụng.",
+    "Universal Multi-Pass Reconciliation Framework: Chuẩn hóa thuật toán đối soát 4 bước (Khớp 1-1 chính xác, Khớp mờ tên đối tác không dấu, Khớp cụm 1-to-N/N-to-1 Bounded Subset-Sum, Dung sai chênh lệch) dùng chung cho Công nợ, BHXH C12, Hải quan và Ngân hàng D146.",
+    "Schema-Driven Working Paper Framework: Tách biệt hoàn toàn mô hình dữ liệu kiểm toán khỏi giao diện hiển thị; tự động hóa xác thực quy tắc nghiệp vụ theo chuẩn VSA cho các biểu mẫu VACPA."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.3/AuditSoft-2.8.3-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.3/AuditSoft-2.8.3-Portable.exe",
-  "sha256": "6650826570fc30c05031d016041c34e2d808a9e62a209efd842a08cc888ee107",
-  "signature": "fuAdBE0pdmVixzbsqLXMfhgNwdiuW1vFH_iaCw70mUEwle4ei_EChts7dbI961jJ07xBW-n83dKGNygvAPx0Ag"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.4/AuditSoft-2.8.4-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.4/AuditSoft-2.8.4-Portable.exe",
+  "sha256": "edd8c251e0188acf8758cf8432e6a6041db8c5a14c4975d50730e37ac05b68ee",
+  "signature": "JKfhu15dSz8qtSar2ExeX-RUjoC0Ik-ZPSZZnbqfLUlWkZkTnRt3NO8S606MiVJ-JJWYJjg_aP9n0G8YuwkRBA"
 }
