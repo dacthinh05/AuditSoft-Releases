@@ -1,14 +1,17 @@
 {
-  "version": "2.8.6",
+  "version": "2.8.7",
   "releaseDate": "2026-10-30",
-  "title": "AuditSoft v2.8.6 — Sửa Lỗi Worker Nạp Bytenode Trong Bản Đóng Gói",
+  "title": "AuditSoft v2.8.7 — Chuẩn Hóa Phân Loại GLV & Đồng Bộ Tiến Độ Ký Duyệt VSA",
   "changelog": [
-    "Khắc phục triệt để lỗi 'Cannot find module bytenode' tại analysis.worker và các worker threads khi chạy bản đóng gói.",
-    "Bổ sung node_modules/bytenode vào asarUnpack và nâng cấp cơ chế tự động dò tìm candidate module resolution cho bytecode loader.",
-    "Bảo toàn 100% tính an toàn của mã nguồn nhị phân V8 bytecode (.jsc) cho toàn bộ hệ thống worker threads."
+    "Chuẩn hóa bộ lọc tệp GLV trong thư mục hồ sơ: nhận diện mẫu VACPA và chu trình Doanh thu & KSNB, loại trừ các file sổ kế toán (NKC, CĐPS) và file kiểm tra cá nhân khỏi bảng ký duyệt VSA 220/230.",
+    "Đồng bộ chính xác 100% số lượng phần hành giữa Bảng tiến độ soát xét và Sidebar theo phân nhóm nghiệp vụ kiểm toán.",
+    "Chống in đúp tiêu đề tên tệp tại Cột 1: hiển thị rõ ràng [Mã GLV] · [Tên phần hành tiếng Việt] và liên kết Soát xét chéo GLV.",
+    "Tự động đồng bộ số liệu CĐSPS từ hồ sơ cuộc kiểm toán sang sổ tiến độ chung và bổ sung nút tương tác nạp CĐSPS 1-click tại bảng tiến độ và Drawer điều kiện phát hành.",
+    "Nâng cấp Thư viện Chuẩn mực VSA: khắc phục lỗi mở tham chiếu đoạn từ các phân hệ, làm nổi bật viền highlight đoạn đang chọn, hỗ trợ nhảy nhanh số đoạn (Quick Jump), sao chép viện dẫn 1-click và tối ưu bố cục đọc chống cuộn lồng.",
+    "Tinh gọn trạng thái cộng tác trên máy cục bộ (hiển thị '—' thay vì 'Đã đóng') và tối ưu bố cục thanh Context Bar."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.6/AuditSoft-2.8.6-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.6/AuditSoft-2.8.6-Portable.exe",
-  "sha256": "2e1d35a90e6c1ff2f3679d859b445fcda574e537022e642b1b53d3c3f41aa1fa",
-  "signature": "8tWPM8riKF0EDDPSOhhsmHdX6SfSILNd53VCDVxjog4CN5l4AmgVth0z_Uu4_Ktg67YYdgyJZ_uzjBkIfW94Dw"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.7/AuditSoft-2.8.7-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.7/AuditSoft-2.8.7-Portable.exe",
+  "sha256": "b0abbe97d75c8ad928ae4b823148dbe5e8dea2710f010f52665ac27f54926aaa",
+  "signature": "Sxzu4Oio1c6yGiqXe67ZOialRTBFfiaMzQhBQ02za9S6EfQWstvdFowoQwR2iVWBcZHFOFAOrsEME4ZkPMg-Dg"
 }
