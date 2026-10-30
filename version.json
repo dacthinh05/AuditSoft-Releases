@@ -1,15 +1,14 @@
 {
-  "version": "2.8.4",
+  "version": "2.8.5",
   "releaseDate": "2026-10-30",
-  "title": "AuditSoft v2.8.4 — Mô Hình Bút Toán Canonical, Chuỗi Băm Niêm Phong VSA 560 & Đối Soát Đa Tầng",
+  "title": "AuditSoft v2.8.5 — Khắc Phục Wrap Text Sheet Note & Chuẩn Hóa Chu Trình Doanh Thu",
   "changelog": [
-    "Canonical Move Model: Chuẩn hóa mọi dòng sổ cái, Nhật ký chung (NKC) từ các phần mềm kế toán khác nhau (MISA, FAST, Bravo, SAP, Excel) về một mô hình CanonicalMoveLine cân bằng kép duy nhất, hỗ trợ bộ lọc truy vấn in-memory tốc độ cao.",
-    "Chuỗi Băm Bảo Vệ Hồ Sơ VSA 560 & VSA 230 (Data Inalterability Hash Chain): Triển khai cơ chế niêm phong hồ sơ kiểm toán và sổ AJE bằng chuỗi băm SHA-256 khi ký phát hành (Issuance Gate); phát hiện tức thì nếu có file Excel bị can thiệp ngoài ứng dụng.",
-    "Universal Multi-Pass Reconciliation Framework: Chuẩn hóa thuật toán đối soát 4 bước (Khớp 1-1 chính xác, Khớp mờ tên đối tác không dấu, Khớp cụm 1-to-N/N-to-1 Bounded Subset-Sum, Dung sai chênh lệch) dùng chung cho Công nợ, BHXH C12, Hải quan và Ngân hàng D146.",
-    "Schema-Driven Working Paper Framework: Tách biệt hoàn toàn mô hình dữ liệu kiểm toán khỏi giao diện hiển thị; tự động hóa xác thực quy tắc nghiệp vụ theo chuẩn VSA cho các biểu mẫu VACPA."
+    "Khắc phục triệt để lỗi wrap-text và phình dòng dọc tại sheet Note trong hồ sơ Chu trình Doanh thu 12 sheet.",
+    "Chuẩn hóa layout gộp ô ngang và cố định chiều cao hàng cho các biểu mẫu A410.1, C1xx(1), C1xx(2), A411.",
+    "Phòng thủ nền tảng setCell với wrapText: false, đảm bảo tương thích hiển thị hoàn hảo trên Microsoft Excel."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.4/AuditSoft-2.8.4-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.4/AuditSoft-2.8.4-Portable.exe",
-  "sha256": "edd8c251e0188acf8758cf8432e6a6041db8c5a14c4975d50730e37ac05b68ee",
-  "signature": "JKfhu15dSz8qtSar2ExeX-RUjoC0Ik-ZPSZZnbqfLUlWkZkTnRt3NO8S606MiVJ-JJWYJjg_aP9n0G8YuwkRBA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.5/AuditSoft-2.8.5-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.5/AuditSoft-2.8.5-Portable.exe",
+  "sha256": "ea134f1c53f996a2e17b1f64d1172f7c7eee4803026deb501c771d39821f6b26",
+  "signature": "wq4Vcv8MLMq0aAg8j6itluXeSAsKVa9W7P5xsnyx3crhkpPccea6FLm6bP7u2yvi99kXcWpjnd5SHR6o_PXGBg"
 }
