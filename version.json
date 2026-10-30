@@ -1,15 +1,16 @@
 {
-  "version": "2.8.8",
+  "version": "2.8.9",
   "releaseDate": "2026-10-30",
-  "title": "AuditSoft v2.8.8 — Sửa Giao Diện Quản Lý Bản Quyền & Nâng Cấp Modal Nổi",
+  "title": "AuditSoft v2.8.9 — Bộ Giấy Làm Việc Master Đa Sheet & Liên Kết Công Thức Sống",
   "changelog": [
-    "Khắc phục triệt để lỗi hiển thị cửa sổ Quản Lý Bản Quyền: chuyển đổi sang hệ thống Modal nổi chuẩn (.modal-backdrop), không bị chen ép làm méo co rút không gian làm việc.",
-    "Tái thiết kế giao diện 3 tab Trạng thái bản quyền, Mua gói / Gia hạn VietQR và Kích hoạt mã: hiển thị rõ nét, hỗ trợ hoàn hảo cả Chế độ Sáng (Light Mode) và Tối (Dark Mode).",
-    "Bảo toàn tính năng tự động đồng bộ Machine ID, tạo mã VietQR chuyển khoản ngân hàng và kiểm tra trạng thái kích hoạt tự động mỗi 3 giây.",
-    "Nâng cấp Thư viện Chuẩn mực VSA: khắc phục lỗi mở tham chiếu đoạn từ các phân hệ, làm nổi bật viền highlight đoạn đang chọn, hỗ trợ nhảy nhanh số đoạn (Quick Jump), sao chép viện dẫn 1-click và tối ưu bố cục đọc chống cuộn lồng."
+    "Nâng cấp nút Xuất Excel tổng hợp thành Bộ Giấy Làm Việc Master Đa Sheet (Master Working Papers Workbook - B360) chuẩn VACPA / Big 4.",
+    "Tự động tích hợp Sheet Trang bìa & Mục lục kiểm toán (00_MUC_LUC) kèm khối Ký duyệt KTV/Trưởng nhóm (Sign-off Box) và bảng Hyperlink nội bộ 2 chiều.",
+    "Trang bị nút điều hướng quay lại Mục lục (◀ 00_MUC_LUC) trên toàn bộ các sheet con hiển thị.",
+    "Liên kết công thức sống nội bộ (Live Formulas) giữa B360 và Bảng ảnh hưởng BCTC, tự động kiểm tra cân đối toàn bảng mà không gãy link.",
+    "Bộ quét Zero External Links bảo đảm 100% không phát sinh liên kết ngoài, mở an toàn trên mọi phiên bản Excel/WPS Office."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.8/AuditSoft-2.8.8-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.8/AuditSoft-2.8.8-Portable.exe",
-  "sha256": "ebaac66fc70755475ea609e1daf4855096b07f3b926b562b91f47e1611c2bbb3",
-  "signature": "sYoRDTaQDByKPnjgEd0ONKOndfGOLTpRU45S-Z5rWRwQGdNI8jcYNwITUhSK2rBkMZ1XUyG3DvisC3LDMcp9CQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.9/AuditSoft-2.8.9-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.9/AuditSoft-2.8.9-Portable.exe",
+  "sha256": "4c01b80b3536fee70e8fd06a043e110b7e0265c131e60a82ee4014cfc1431fb6",
+  "signature": "q8n4tIrY2tesGJL51vd_Y9nlD1oNsJzBzTWkbunK1JgEynr8XoVg-kMiuhF94INOFhjWWd-X7SwudEqiQqAWDA"
 }
