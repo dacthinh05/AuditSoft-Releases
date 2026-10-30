@@ -1,17 +1,15 @@
 {
-  "version": "2.8.7",
+  "version": "2.8.8",
   "releaseDate": "2026-10-30",
-  "title": "AuditSoft v2.8.7 — Chuẩn Hóa Phân Loại GLV & Đồng Bộ Tiến Độ Ký Duyệt VSA",
+  "title": "AuditSoft v2.8.8 — Sửa Giao Diện Quản Lý Bản Quyền & Nâng Cấp Modal Nổi",
   "changelog": [
-    "Chuẩn hóa bộ lọc tệp GLV trong thư mục hồ sơ: nhận diện mẫu VACPA và chu trình Doanh thu & KSNB, loại trừ các file sổ kế toán (NKC, CĐPS) và file kiểm tra cá nhân khỏi bảng ký duyệt VSA 220/230.",
-    "Đồng bộ chính xác 100% số lượng phần hành giữa Bảng tiến độ soát xét và Sidebar theo phân nhóm nghiệp vụ kiểm toán.",
-    "Chống in đúp tiêu đề tên tệp tại Cột 1: hiển thị rõ ràng [Mã GLV] · [Tên phần hành tiếng Việt] và liên kết Soát xét chéo GLV.",
-    "Tự động đồng bộ số liệu CĐSPS từ hồ sơ cuộc kiểm toán sang sổ tiến độ chung và bổ sung nút tương tác nạp CĐSPS 1-click tại bảng tiến độ và Drawer điều kiện phát hành.",
-    "Nâng cấp Thư viện Chuẩn mực VSA: khắc phục lỗi mở tham chiếu đoạn từ các phân hệ, làm nổi bật viền highlight đoạn đang chọn, hỗ trợ nhảy nhanh số đoạn (Quick Jump), sao chép viện dẫn 1-click và tối ưu bố cục đọc chống cuộn lồng.",
-    "Tinh gọn trạng thái cộng tác trên máy cục bộ (hiển thị '—' thay vì 'Đã đóng') và tối ưu bố cục thanh Context Bar."
+    "Khắc phục triệt để lỗi hiển thị cửa sổ Quản Lý Bản Quyền: chuyển đổi sang hệ thống Modal nổi chuẩn (.modal-backdrop), không bị chen ép làm méo co rút không gian làm việc.",
+    "Tái thiết kế giao diện 3 tab Trạng thái bản quyền, Mua gói / Gia hạn VietQR và Kích hoạt mã: hiển thị rõ nét, hỗ trợ hoàn hảo cả Chế độ Sáng (Light Mode) và Tối (Dark Mode).",
+    "Bảo toàn tính năng tự động đồng bộ Machine ID, tạo mã VietQR chuyển khoản ngân hàng và kiểm tra trạng thái kích hoạt tự động mỗi 3 giây.",
+    "Nâng cấp Thư viện Chuẩn mực VSA: khắc phục lỗi mở tham chiếu đoạn từ các phân hệ, làm nổi bật viền highlight đoạn đang chọn, hỗ trợ nhảy nhanh số đoạn (Quick Jump), sao chép viện dẫn 1-click và tối ưu bố cục đọc chống cuộn lồng."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.7/AuditSoft-2.8.7-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.7/AuditSoft-2.8.7-Portable.exe",
-  "sha256": "b0abbe97d75c8ad928ae4b823148dbe5e8dea2710f010f52665ac27f54926aaa",
-  "signature": "Sxzu4Oio1c6yGiqXe67ZOialRTBFfiaMzQhBQ02za9S6EfQWstvdFowoQwR2iVWBcZHFOFAOrsEME4ZkPMg-Dg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.8/AuditSoft-2.8.8-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.8.8/AuditSoft-2.8.8-Portable.exe",
+  "sha256": "ebaac66fc70755475ea609e1daf4855096b07f3b926b562b91f47e1611c2bbb3",
+  "signature": "sYoRDTaQDByKPnjgEd0ONKOndfGOLTpRU45S-Z5rWRwQGdNI8jcYNwITUhSK2rBkMZ1XUyG3DvisC3LDMcp9CQ"
 }
