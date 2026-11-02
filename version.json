@@ -1,15 +1,15 @@
 {
-  "version": "2.9.0",
+  "version": "2.9.1",
   "releaseDate": "2026-11-02",
-  "title": "AuditSoft v2.9.0 — Nâng Cấp Bóc Tách Tờ Khai Thuế PDF & Tự Động Phân Loại Giấy Nộp Tiền, Thông Báo",
+  "title": "AuditSoft v2.9.1 — Tối Ưu Hợp Nhất Bảng Kê Bán Ra & Chuẩn Hóa Cấu Trúc Bảng Tính Excel",
   "changelog": [
     "Tối ưu phân hệ nạp tờ khai thuế (LocalXmlIngestionEngine): nhận diện nhanh và tự động phân loại Giấy nộp tiền (GNT C1-02/NS) và Thông báo cơ quan thuế (TBAO) theo tên tệp và cấu trúc ngay từ đầu, tiết kiệm 90% thời gian nạp hồ sơ.",
     "Bóc tách chuẩn xác 100% các tờ khai thuế PDF in qua máy in ảo Type 3 / Ghostscript: khử nhiễu mã chỉ tiêu, số trang phân số (1/2), số mục in 4.1/4.2 và chuẩn hóa quan hệ kế toán [41] -> [43] -> [22] xuyên suốt 12 kỳ.",
     "Hỗ trợ kéo thả trực tiếp thư mục chứa tệp tờ khai thuế trong môi trường máy tính để bàn.",
     "Tăng cường an ninh cơ chế Auto-Update: kiểm tra tính sẵn sàng của file cài đặt trước khi kích hoạt thông báo nâng cấp cho người dùng."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.0/AuditSoft-2.9.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.0/AuditSoft-2.9.0-Portable.exe",
-  "sha256": "a96e08b9d293c8aeb9eba7220bc1d4f52045a85a296ded0a534aade57382bd65",
-  "signature": "tgp8we7ngS9frdCR1C8N_eGqv9n6d-OskwRVroSAgrbwLDSp-L1BGEHfxLG1yRsyOFVZKD-_ZKkMJN8gxeTWCg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.1/AuditSoft-2.9.1-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.1/AuditSoft-2.9.1-Portable.exe",
+  "sha256": "1b415df78c764c7b0bcc5814bdd487919dcea1a6ee4c3fe80d8844a1434e264f",
+  "signature": "6TnvgX0AgWS0-9hQzB4g3KG-EHtr2zcwKEaQNA5AslzeZNh2L3ullyr1lpbXXB3-RonxjLQVe06ovjG_3Pb7Dg"
 }
