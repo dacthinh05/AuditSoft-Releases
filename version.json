@@ -1,14 +1,15 @@
 {
-  "version": "2.9.2",
-  "releaseDate": "2026-11-02",
-  "title": "AuditSoft v2.9.2 — Hỗ Trợ Gộp Tách Sheet Theo Phân Hệ & Bảo Toàn Định Dạng Bảng Tính",
+  "version": "2.9.3",
+  "releaseDate": "2026-11-03",
+  "title": "AuditSoft v2.9.3 — Tối Ưu Bảng Tính Kiểm Toán, Chuẩn Times New Roman & Khắc Phục Quét Sheet Legacy",
   "changelog": [
-    "Hỗ trợ gộp tách riêng từng Sheet theo phân hệ (Multi-Sheet Consolidation): Tự động gom các sheet cùng tên từ nhiều tệp thành các sheet riêng biệt tương ứng trong tệp Excel kết quả, bảo toàn định dạng và cấu trúc gốc.",
-    "Bảo toàn định dạng bảng tính kế toán & tiêu đề song ngữ 2 tầng (Việt - Hoa / Anh): Nhận diện chuẩn xác tiêu đề song ngữ, tự động áp dụng định dạng số tiền (#,##0), ngoại tệ (#,##0.00), ngày tháng (DD/MM/YYYY) và bảo vệ số 0 đầu dòng cho mã hóa đơn.",
-    "Tối ưu hóa thuật toán suy luận cột kế toán quốc tế: Bổ sung bộ từ điển CJK và cơ chế Fallback thông minh theo giá trị thực (Value-Based Format Fallback)."
+    "Tối ưu giao diện & format bảng tính gộp: Áp dụng chuẩn phông chữ Times New Roman hồ sơ lưu kiểm toán, Navy Blue (#1E3A8A), lưới viền sắc nét, màu dòng kẻ so le (Zebra F8FAFC) và canh lề chuẩn xác từng loại dữ liệu.",
+    "Tự động tính tổng cộng (=SUM) thông minh: Bổ sung tùy chọn thêm dòng TỔNG CỘNG tự động có công thức Excel động cho các cột tiền tệ, số lượng và tỷ giá.",
+    "Khắc phục triệt để lỗi quét thiếu sheet trên tệp .xls đời cũ: Cơ chế fallback đối soát số lượng sheet thực tế giúp đọc đầy đủ 100% các sheet của tệp nhị phân Excel 97-2003.",
+    "Chống gộp nhầm cột tiền tệ: Ngăn cách tuyệt đối giữa cột ngoại tệ (USD) và cột tiền đồng (VND) khi căn chỉnh tiêu đề song ngữ."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.2/AuditSoft-2.9.2-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.2/AuditSoft-2.9.2-Portable.exe",
-  "sha256": "9b8bc3c2713ce8b9f090d6fe9faf45bfc4d66f5261ec96960e7b5e2a7a58b8de",
-  "signature": "2HHqJT-7oskHseI0kaMmtrU_TbE0IRVQTkHXoH6ZZtOzfOBhBN55gUgLMtJy1FlYpiEqQb78CNs9Lfbti7HDAg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.3/AuditSoft-2.9.3-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.3/AuditSoft-2.9.3-Portable.exe",
+  "sha256": "855305f6d5ceba5f5bdacccca397372ffa37995528122936dd77b1f34462c869",
+  "signature": "SAnZtTD24qEuovornkfipx8renqgA5nz57rIwI2u24UyPre2XwIy4iWhpBcEtrWuKchgAjso6SdPwMSWU2CwDQ"
 }
