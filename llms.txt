@@ -12,7 +12,7 @@
 
 ## Sản phẩm
 
-### AuditSoft 2.8.4
+### AuditSoft 2.9.4
 - Trang: https://tenstartup.com/tools/auditsoft/
 - Tải về: https://github.com/dacthinh05/AuditSoft-Releases/releases
 - Tóm tắt: Phần mềm làm hồ sơ kiểm toán báo cáo tài chính theo 4 giai đoạn: tiếp nhận sổ NKC và CĐSPS, lập kế hoạch và mức trọng yếu, thực hiện thủ tục theo từng phần hành, hoàn thành và lưu trữ hồ sơ. Tự điền bộ Giấy làm việc theo mẫu VACPA từ số liệu sổ sách.
@@ -24,7 +24,7 @@
   - Early Bird — Vĩnh Viễn: 4.890.000 đ (Trọn đời / 1 máy)
   - Gia Hạn 1 Năm: 2.890.000 đ (1 năm (gia hạn))
 
-### InvoiceDesk 4.1.9
+### InvoiceDesk 4.3.0
 - Trang: https://tenstartup.com/tools/invoicedesk/
 - Tải về: https://github.com/dacthinh05/InvoiceDesk/releases
 - Tóm tắt: Tải hàng loạt hóa đơn mua vào, bán ra và hóa đơn máy tính tiền từ Cổng HĐĐT của Cục Thuế, tự chia khoảng tra cứu theo tháng để lấy đủ cả năm. Xuất bảng kê chi tiết từng dòng hàng và mẫu nhập MISA AMIS, FAST, HTKK.
@@ -35,7 +35,7 @@
   - PRO 2 Năm: 690.000 đ (2 năm / 1 máy)
   - Dùng Trọn Đời: 1.190.000 đ (Trọn đời / 1 máy)
 
-### TaxInsight 3.13.0
+### TaxInsight 3.15.0
 - Trang: https://tenstartup.com/tools/taxinsight/
 - Tải về: https://github.com/dacthinh05/TaxInsight-Releases/releases
 - Tóm tắt: Dành cho đại lý thuế và kế toán dịch vụ: tải tờ khai đã nộp và giấy nộp tiền C1-02/NS của nhiều doanh nghiệp từ eTax và Cổng dịch vụ công ngành thuế chỉ bằng tài khoản tra cứu, không cần chữ ký số (USB Token). Lập Giấy làm việc GTGT, đối chiếu quyết toán TNCN và khớp giấy nộp tiền với nghĩa vụ thuế.

@@ -12,7 +12,7 @@
 
 ## Sản phẩm
 
-### AuditSoft 2.8.4
+### AuditSoft 2.9.4
 - Trang: https://tenstartup.com/tools/auditsoft/
 - Tải về: https://github.com/dacthinh05/AuditSoft-Releases/releases
 - Tóm tắt: Phần mềm làm hồ sơ kiểm toán báo cáo tài chính theo 4 giai đoạn: tiếp nhận sổ NKC và CĐSPS, lập kế hoạch và mức trọng yếu, thực hiện thủ tục theo từng phần hành, hoàn thành và lưu trữ hồ sơ. Tự điền bộ Giấy làm việc theo mẫu VACPA từ số liệu sổ sách.
@@ -24,17 +24,17 @@
   - Early Bird — Vĩnh Viễn: 4.890.000 đ (Trọn đời / 1 máy)
   - Gia Hạn 1 Năm: 2.890.000 đ (1 năm (gia hạn))
 
-#### Tiếp Nhận Dữ Liệu
+#### Tiếp nhận dữ liệu
 - Chuẩn hóa sổ NKC và bảng CĐSPS xuất từ MISA, Bravo, FAST vào biểu mẫu kiểm toán.
 - Đọc tờ khai thuế XML từ eTax để đối chiếu với sổ sách.
 - Gộp nhiều tệp Excel, chuyển đổi tệp Access (.mdb) cũ.
 
-#### Lập Kế Hoạch Kiểm Toán
+#### Lập kế hoạch kiểm toán
 - Phân tích sơ bộ BCTC (A510) theo VSA 520: biến động, tỷ số tài chính.
 - Xác định mức trọng yếu và lập kế hoạch kiểm toán (nhóm A).
 - Chương trình thủ tục kiểm toán theo VSA cho từng khoản mục.
 
-#### Thực Hiện Theo Phần Hành
+#### Thực hiện theo phần hành
 - Tiền: đối chiếu TGNH và chênh lệch tỷ giá (D146), kiểm tra chi tiết TK 112.
 - Công nợ: chốt công nợ phải thu 131, phải trả 331; thư xác nhận theo VSA 505 và sổ theo dõi thư.
 - Hàng tồn kho và giá thành: kiểm toán kho (D553, D555), giá thành TK 154, đối chiếu bán và xuất kho (G152).
@@ -42,7 +42,7 @@
 - Lương và bảo hiểm (E490, E491 đối chiếu mẫu C12), khấu hao TSCĐ (214), phân bổ CCDC và chi phí trả trước (242), chốt nợ vay (341).
 - Chọn mẫu kiểm toán theo VSA 530; rà soát thanh toán không dùng tiền mặt từ 5 triệu đồng (NĐ 181/2025/NĐ-CP) và chi phí không được trừ.
 
-#### Hoàn Thành & Lưu Trữ Hồ Sơ
+#### Hoàn thành và lưu trữ hồ sơ
 - Tổng hợp điều chỉnh B360 (NKC trước và sau điều chỉnh), sổ bút toán điều chỉnh (AJE) dùng chung, tổng hợp sai sót B410.
 - Soát xét chéo Giấy làm việc theo quy tắc và trợ lý AI (tùy chọn).
 - Kiểm soát chất lượng hồ sơ theo QĐ 2079/QĐ-BTC và biên bản kiểm tra hồ sơ.
@@ -50,6 +50,7 @@
 
 #### Mẫu Giấy làm việc tự điền
 - A - B - H: Master BCTC (A-B-H)
+- A260: Mẫu BGĐ công ty kiểm toán (H180–H230, A260–A291)
 - Leadsheet: 38 CTKT Leadsheet
 - A400-C100: Chu trình KSNB (A400–C100, A810, A820)
 - D100: Tiền & Tương đương tiền
@@ -67,7 +68,7 @@
 - G200: Chi phí SXKD & giá vốn
 - G500: Doanh thu & CP tài chính
 
-### InvoiceDesk 4.1.9
+### InvoiceDesk 4.3.0
 - Trang: https://tenstartup.com/tools/invoicedesk/
 - Tải về: https://github.com/dacthinh05/InvoiceDesk/releases
 - Tóm tắt: Tải hàng loạt hóa đơn mua vào, bán ra và hóa đơn máy tính tiền từ Cổng HĐĐT của Cục Thuế, tự chia khoảng tra cứu theo tháng để lấy đủ cả năm. Xuất bảng kê chi tiết từng dòng hàng và mẫu nhập MISA AMIS, FAST, HTKK.
@@ -78,27 +79,27 @@
   - PRO 2 Năm: 690.000 đ (2 năm / 1 máy)
   - Dùng Trọn Đời: 1.190.000 đ (Trọn đời / 1 máy)
 
-#### Tải Đủ Hóa Đơn Cả Năm
+#### Tải đủ hóa đơn cả năm
 - Tải hóa đơn mua vào, bán ra và hóa đơn khởi tạo từ máy tính tiền (MTT).
 - Tự chia khoảng ngày theo tháng vì Cổng HĐĐT chỉ cho tra cứu tối đa 1 tháng mỗi lần; tự tải lại các tháng bị lỗi.
 - Tự nhận diện mã captcha ngay trên máy, cho nhập tay khi nhận sai.
 
-#### XML, PDF Gốc & Bản Thể Hiện
+#### XML, PDF gốc và bản thể hiện
 - Lưu tệp XML gốc và tải PDF gốc từ nhà cung cấp hóa đơn (MISA, Viettel, VNPT, BKAV, FPT, EasyInvoice…).
 - Kết xuất bản thể hiện hóa đơn, kiểm tra chữ ký số.
 - Đổi tên tệp hàng loạt theo quy tắc thống nhất.
 
-#### Trạng Thái & Rủi Ro Hóa Đơn
+#### Trạng thái và rủi ro hóa đơn
 - Phân loại 6 trạng thái: gốc, điều chỉnh, bị điều chỉnh, thay thế, bị thay thế, hủy; dựng chuỗi hóa đơn thay thế.
 - Rà soát rủi ro, cut-off kỳ kế toán, phát hiện hóa đơn về muộn.
 - Thống kê số lượng theo từng loại hóa đơn, lọc nhanh hóa đơn bị ẩn.
 
-#### Bảng Kê & Đối Soát
+#### Bảng kê và đối soát
 - Bảng kê Excel chi tiết từng dòng hàng: tên hàng, số lượng, đơn giá, thuế suất.
 - Xuất mẫu nhập MISA AMIS, FAST và HTKK (tách thuế suất 0%, 5%, 8%, 10%).
 - Đối soát danh sách hóa đơn trên Cổng thuế với bảng kê của bạn theo mã số thuế và số hóa đơn, nhận diện mã số thuế chi nhánh.
 
-### TaxInsight 3.13.0
+### TaxInsight 3.15.0
 - Trang: https://tenstartup.com/tools/taxinsight/
 - Tải về: https://github.com/dacthinh05/TaxInsight-Releases/releases
 - Tóm tắt: Dành cho đại lý thuế và kế toán dịch vụ: tải tờ khai đã nộp và giấy nộp tiền C1-02/NS của nhiều doanh nghiệp từ eTax và Cổng dịch vụ công ngành thuế chỉ bằng tài khoản tra cứu, không cần chữ ký số (USB Token). Lập Giấy làm việc GTGT, đối chiếu quyết toán TNCN và khớp giấy nộp tiền với nghĩa vụ thuế.
@@ -109,22 +110,22 @@
   - Gói Dịch Vụ / Đại Lý (1 Năm): 890.000 đ (1 năm / 2 máy)
   - Gói Vĩnh Viễn: 1.290.000 đ (Trọn đời / 1 máy)
 
-#### Tải Tờ Khai Không Cần USB Token
+#### Tải tờ khai không cần USB Token
 - Tra cứu và tải tờ khai đã nộp chỉ cần tài khoản eTax, không cần chữ ký số (việc ký nộp tờ khai vẫn cần chữ ký số).
 - Kết nối cả Cổng dịch vụ công và eTax của ngành thuế, tự chuyển cổng khi một cổng lỗi.
 - Quét theo năm, quý, tháng; tự mở rộng đến 31/03 năm sau để không sót hồ sơ quyết toán.
 
-#### Giấy Nộp Tiền & Nghĩa Vụ Thuế
+#### Giấy nộp tiền và nghĩa vụ thuế
 - Tải giấy nộp tiền vào NSNN (mẫu C1-02/NS) và xem chi tiết từng khoản nộp.
 - Tính hạn nộp theo Luật Quản lý thuế 38/2019/QH14 và NĐ 126/2020/NĐ-CP, tự dời ngày nghỉ, lễ.
 - Khớp giấy nộp tiền với tờ khai theo 4 mức tin cậy; báo thiếu dữ liệu thay vì kết luận nợ thuế khi chưa đủ căn cứ.
 
-#### Giấy Làm Việc Thuế
+#### Giấy làm việc thuế
 - Giấy làm việc thuế GTGT: đối chiếu tính liên tục chỉ tiêu [22] ↔ [43], xem theo 12 tháng hoặc 4 quý.
 - Đối chiếu số thuế TNCN khấu trừ từng kỳ (05/KK-TNCN) với quyết toán năm (05/QTT-TNCN) theo Thông tư 80/2021/TT-BTC, kèm lịch sử bổ sung.
 - Mở thẳng tờ khai gốc từ danh sách hồ sơ.
 
-#### Lưu Trữ Có Tổ Chức
+#### Lưu trữ có tổ chức
 - Tự giải nén, cứu tệp ZIP hỏng và lưu theo Mã số thuế / Năm / Loại thuế, kèm mã băm SHA-256.
 - Phân tích tệp XML tờ khai có sẵn trên máy bằng cách kéo thả, không cần đăng nhập.
 - Tự kiểm tra bản cập nhật mỗi khi mở ứng dụng.
