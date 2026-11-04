@@ -1,15 +1,15 @@
 {
-  "version": "2.9.3",
-  "releaseDate": "2026-11-03",
-  "title": "AuditSoft v2.9.3 — Tối Ưu Bảng Tính Kiểm Toán, Chuẩn Times New Roman & Khắc Phục Quét Sheet Legacy",
+  "version": "2.9.4",
+  "releaseDate": "2026-11-04",
+  "title": "AuditSoft v2.9.4 — Cải Tiến Màn Hình Mức Trọng Yếu A710 Bảng Dọc & Tối Ưu Phân Bổ Chọn Mẫu",
   "changelog": [
-    "Tối ưu giao diện & format bảng tính gộp: Áp dụng chuẩn phông chữ Times New Roman hồ sơ lưu kiểm toán, Navy Blue (#1E3A8A), lưới viền sắc nét, màu dòng kẻ so le (Zebra F8FAFC) và canh lề chuẩn xác từng loại dữ liệu.",
-    "Tự động tính tổng cộng (=SUM) thông minh: Bổ sung tùy chọn thêm dòng TỔNG CỘNG tự động có công thức Excel động cho các cột tiền tệ, số lượng và tỷ giá.",
-    "Khắc phục triệt để lỗi quét thiếu sheet trên tệp .xls đời cũ: Cơ chế fallback đối soát số lượng sheet thực tế giúp đọc đầy đủ 100% các sheet của tệp nhị phân Excel 97-2003.",
-    "Chống gộp nhầm cột tiền tệ: Ngăn cách tuyệt đối giữa cột ngoại tệ (USD) và cột tiền đồng (VND) khi căn chỉnh tiêu đề song ngữ."
+    "Tối ưu giao diện Mức trọng yếu A710 dạng bảng dọc: Hợp nhất thẻ tiêu chí, thẻ OM/PM/CTT và tham số thành bảng trực quan 2 cột (Kỳ này & Quy 12 tháng), cho phép KTV dễ dàng so sánh và chọn cột áp dụng cho hồ sơ kiểm toán.",
+    "Tích hợp tỷ lệ & ngưỡng chọn mẫu tự động: Bổ sung tỷ lệ chọn mẫu và ngưỡng kiểm tra chi tiết, tự động điền sẵn ngưỡng phần tử chính cho bảng tính chọn mẫu Book1.",
+    "Bảo toàn công thức sống trên biểu mẫu A710: Tệp A710 xuất ra giữ nguyên công thức hệ số quy năm và ngưỡng chọn mẫu động ở phần phụ lục theo chuẩn VACPA.",
+    "Đồng bộ thông suốt quy trình lập kế hoạch: Kết nối dữ liệu mức trọng yếu đã chọn sang bảng tính mẫu và các thủ tục kiểm toán liên quan."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.3/AuditSoft-2.9.3-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.3/AuditSoft-2.9.3-Portable.exe",
-  "sha256": "855305f6d5ceba5f5bdacccca397372ffa37995528122936dd77b1f34462c869",
-  "signature": "SAnZtTD24qEuovornkfipx8renqgA5nz57rIwI2u24UyPre2XwIy4iWhpBcEtrWuKchgAjso6SdPwMSWU2CwDQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.4/AuditSoft-2.9.4-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.4/AuditSoft-2.9.4-Portable.exe",
+  "sha256": "9895f7c859f01f2fe3385ce6495496912872918d8de70c3f755769a8da875027",
+  "signature": "iRrsLO01ynwCcFCITqITYWEsUWsyP37LflT2asJBHfPDNfIXsoR0l1vlD8ly0KA1P9xcA-PkHDECSeUPZ6m0BA"
 }
