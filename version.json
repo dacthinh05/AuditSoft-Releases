@@ -1,15 +1,14 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "releaseDate": "2026-11-09",
-  "title": "AuditSoft v3.0.0 — Đại Bản Phát Hành: Tích Hợp Cụm Tất Toán, Tối Ưu Phân Hệ Gộp & Chốt Công Nợ Toàn Diện",
+  "title": "AuditSoft v3.0.1 — Nâng Cấp Bộ Tải Bản Cập Nhật Chống Lỗi CDN & Tự Động Chuyển Mirror",
   "changelog": [
-    "Tích hợp Đánh giá Khả năng Thu hồi & Cụm Tất toán (Settlement Trace): Tự động phân tích lịch sử cấn trừ, xác định chu kỳ thanh toán thực tế bình quân và dài nhất của từng đối tác.",
-    "Chuẩn hóa Hyperlink Điều hướng thông minh Bảng 1 & Bảng 2 (Module Chốt công nợ 131/331): Tự động bôi đen dải ô tiền cấu thành và kích hoạt AutoSum khớp số dư tổng hợp.",
-    "Động cơ Gộp Excel Đa năng v2: Tự động giải mã VNI-Windows/TCVN3 sang Unicode chuẩn, xử lý chính xác tiêu đề 2 tầng và lọc sạch khối chữ ký cuối bảng.",
-    "Bảo vệ ô KTV nâng cao: Ngăn chặn xung đột đè ô khi chạy lại phân hành giấy làm việc."
+    "Cơ chế tự phục hồi khi tải bản cập nhật: Tự động thử lại tối đa 3 lần với exponential backoff khi gặp lỗi mạng hoặc mã 502/503/504 từ cụm máy chủ CDN.",
+    "Tự động chuyển đổi máy chủ Mirror: Linh hoạt đảo giữa 2 kho phát hành chính và kho dự phòng để bảo đảm KTV luôn tải được bản cập nhật mà không bị gián đoạn.",
+    "Khắc phục triệt để lỗi Gateway Time-out: Tối ưu hóa luồng tải file bộ cài đặt Setup.exe dung lượng lớn."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.0/AuditSoft-3.0.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.0/AuditSoft-3.0.0-Portable.exe",
-  "sha256": "3082d6bc128ab6627ee37dad6c2678c97183cb462e2d1d14242aae5810203138",
-  "signature": "juNRVhm9h54aSEk2yw7WSDXZfGa0z5r1VBJowD5T9wFDurD9tNOI-uJQ6wKf26JNvp4PoMQAqXrQRvX1ptx4Bw"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.1/AuditSoft-3.0.1-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.1/AuditSoft-3.0.1-Portable.exe",
+  "sha256": "62568f4b69f09bb58511b24591cce0f9451bfa2e0b756c64731bd4f907f2e203",
+  "signature": "DBJa3rCoDVYpdxiDsxOcuv9Su756KKt41iOMkudQjuVPUFuwlDj_eX3Nt6SBJLVgTXWb1PN1BYGJ70IHNWeWBg"
 }
