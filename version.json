@@ -1,14 +1,15 @@
 {
-  "version": "2.9.11",
+  "version": "3.0.0",
   "releaseDate": "2026-11-09",
-  "title": "AuditSoft v2.9.11 — Tối Ưu Hyperlink Bảng 1 & Bảng 2 Module Chốt Công Nợ 131/331",
+  "title": "AuditSoft v3.0.0 — Đại Bản Phát Hành: Tích Hợp Cụm Tất Toán, Tối Ưu Phân Hệ Gộp & Chốt Công Nợ Toàn Diện",
   "changelog": [
-    "Điều hướng thông minh Bảng 1 sang Bảng 2: Khi bấm nút ↓, Excel tự động nhảy và bôi đen toàn bộ dải ô tiền cấu thành số dư (K{start}:K{end}), kích hoạt thanh trạng thái hiển thị Sum khớp 100% số dư đối tác.",
-    "Điều hướng chính xác Bảng 2 về Bảng 1: Khi bấm nút ↩, Excel nhảy trực tiếp vào ô số dư cuối kỳ (Dư Có / Dư Nợ) tại Bảng 1 thay vì đầu dòng.",
-    "Bảo vệ ô KTV khi chạy lại phân hành: Ngăn chặn xung đột đè ô khi hai ô KTV cùng chép vào một ô đích."
+    "Tích hợp Đánh giá Khả năng Thu hồi & Cụm Tất toán (Settlement Trace): Tự động phân tích lịch sử cấn trừ, xác định chu kỳ thanh toán thực tế bình quân và dài nhất của từng đối tác.",
+    "Chuẩn hóa Hyperlink Điều hướng thông minh Bảng 1 & Bảng 2 (Module Chốt công nợ 131/331): Tự động bôi đen dải ô tiền cấu thành và kích hoạt AutoSum khớp số dư tổng hợp.",
+    "Động cơ Gộp Excel Đa năng v2: Tự động giải mã VNI-Windows/TCVN3 sang Unicode chuẩn, xử lý chính xác tiêu đề 2 tầng và lọc sạch khối chữ ký cuối bảng.",
+    "Bảo vệ ô KTV nâng cao: Ngăn chặn xung đột đè ô khi chạy lại phân hành giấy làm việc."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.11/AuditSoft-2.9.11-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.11/AuditSoft-2.9.11-Portable.exe",
-  "sha256": "d02615a8178083265e7e5fae3615838952bed5b810857fc61b8b0ec03a3f3a35",
-  "signature": "3eXdK2sd3qWc5mBfr5caU0h4jXDnjQ1PPzc8sNUjk6B9qYGuRwGmVSdYS2SsLrCZuZ0av2SJWWIXyf2nQPWCDA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.0/AuditSoft-3.0.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.0/AuditSoft-3.0.0-Portable.exe",
+  "sha256": "3082d6bc128ab6627ee37dad6c2678c97183cb462e2d1d14242aae5810203138",
+  "signature": "juNRVhm9h54aSEk2yw7WSDXZfGa0z5r1VBJowD5T9wFDurD9tNOI-uJQ6wKf26JNvp4PoMQAqXrQRvX1ptx4Bw"
 }
