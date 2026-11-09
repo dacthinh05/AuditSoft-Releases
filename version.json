@@ -1,16 +1,15 @@
 {
-  "version": "2.9.6",
-  "releaseDate": "2026-11-05",
-  "title": "AuditSoft v2.9.6 — Chạy Cả Phân Hành D500 Hàng Tồn Kho, E300 Thuế & Nâng Cấp Đối Chiếu D146",
+  "version": "2.9.9",
+  "releaseDate": "2026-11-09",
+  "title": "AuditSoft v2.9.9 — Chuyển Ô KTV Theo Khóa Dòng, Chuẩn Hóa Kiểm Soát Nháp AI & Hoàn Thiện Sau Review Lần 3",
   "changelog": [
-    "Chạy cả phân hành D500 (Hàng tồn kho): Điền tự động bộ giấy làm việc D500, đọc XNT dạng IP, bảng tính giá thành theo tháng, mẫu D520 chuẩn không gộp ô và liên kết thủ tục 7, 8.",
-    "Nâng cấp đối chiếu Ngân hàng D146: Thêm ô nhập nguyên tệ đầu kỳ từ sổ phụ kèm cảnh báo 'Cần nhập' khi thiếu số liệu, bổ sung tùy chọn đưa TK 1281 (tiền gửi có kỳ hạn) vào đối chiếu.",
-    "Chạy cả phân hành E300 (Thuế): Tự động điền giấy làm việc E300, đối chiếu tờ khai GTGT/TNDN/TNCN với sổ sách, đẩy chênh lệch vào Tổng hợp phát hiện.",
-    "Cầu nối bộ Skill kiểm toán (SkillBridge): Cho phép nhập kết quả từ bộ skill kiểm toán vào hồ sơ trực tiếp từ trang Tổng quan, tự động đối chiếu số tổng hợp.",
-    "Bảng theo dõi tiến độ GLV dạng lưới & dọn dẹp giao diện: Bổ sung ma trận tiến độ GLV, chuẩn hóa bộ icon bản quyền, tự loại bỏ dòng tổng cuối sổ NKC và căn chỉnh bảng mức trọng yếu A710."
+    "Chuyển ô KTV theo danh tính dòng & khoanh vùng bảng danh sách không khóa: Tự động chuyển ghi chú KTV theo mã đối tượng trên bảng có khóa, ngừng chép đè và cảnh báo chi tiết vị trí ô ở các bảng danh sách không có cột định danh chắc chắn (unkeyedLists).",
+    "Siết chặt toàn diện bộ kiểm nháp AI (Review lần 3): Ngăn chặn ký tự phân cách lạ nối số máy, đơn vị tiền tệ đa quốc gia (AUD, CAD, HKD, CHF, yên, tệ...), bội số gõ tay (chục, trăm, gấp đôi, x 1000) và ký tự giả số 0 (ø, Ø, ᴏ, ○).",
+    "Bảo vệ nguyên trạng hồ sơ khi chạy lại phân hành: Đảm bảo khi phát sinh xung đột không thể dung hòa, hồ sơ và gốc so vẫn được giữ an toàn, có lưu bản máy mới để KTV đối chiếu.",
+    "Lưu báo cáo review độc lập lần 3: Đảm bảo truy vết đầy đủ các phát hiện mức chặn và nâng chuẩn kiểm soát chất lượng."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.6/AuditSoft-2.9.6-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.6/AuditSoft-2.9.6-Portable.exe",
-  "sha256": "cfa67d6778c41c156c6d74960845972982795b12eef3fdb0e130c218312da9e1",
-  "signature": "6XeB2lY4J5D-tADpaYdctlI7w7g0IC3ZhxxUG5DOSQkSJgKyv_6LAYEu94Pa8XcqwLDO69ht0zgwrq-QyBtVBQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.9/AuditSoft-2.9.9-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.9/AuditSoft-2.9.9-Portable.exe",
+  "sha256": "c4a455228d9d31f8f7b4f2903822397f6a03ff8abe217023b9191950cbf09839",
+  "signature": "HLW8FO3Ue5Jb6mAHayE8AdFr1iLIOondz8CKh8ORdUhv7yPMN_gMosoRnYCafJR-CVc8oqhwIxCHDEVuQ_dEBw"
 }
