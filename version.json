@@ -1,14 +1,15 @@
 {
-  "version": "3.0.1",
+  "version": "3.0.3",
   "releaseDate": "2026-11-09",
-  "title": "AuditSoft v3.0.1 — Nâng Cấp Bộ Tải Bản Cập Nhật Chống Lỗi CDN & Tự Động Chuyển Mirror",
+  "title": "AuditSoft v3.0.3 — Tối Ưu Bảng Tính Excel Chốt Công Nợ & Tái Cấu Trúc Sheet A520",
   "changelog": [
-    "Cơ chế tự phục hồi khi tải bản cập nhật: Tự động thử lại tối đa 3 lần với exponential backoff khi gặp lỗi mạng hoặc mã 502/503/504 từ cụm máy chủ CDN.",
-    "Tự động chuyển đổi máy chủ Mirror: Linh hoạt đảo giữa 2 kho phát hành chính và kho dự phòng để bảo đảm KTV luôn tải được bản cập nhật mà không bị gián đoạn.",
-    "Khắc phục triệt để lỗi Gateway Time-out: Tối ưu hóa luồng tải file bộ cài đặt Setup.exe dung lượng lớn."
+    "Tô màu xen kẽ theo từng nhà cung cấp (Vendor Block Zebra Banding) và viền phân cách khối tại Bảng 2 sheet Chốt CN 331/131.",
+    "Gỡ bỏ Freeze Panes dòng 14 trên sheet A520_RUI_RO_CONG_NO, cho phép cuộn toàn màn hình không bị che khuất.",
+    "Bổ sung thanh Executive Risk Dashboard và nâng cấp Bảng Khuyến nghị & Căn cứ chuẩn mực VSA với số vụ và tổng tiền ảnh hưởng của từng nhóm rủi ro.",
+    "Kích hoạt AutoFilter cho Danh mục chi tiết phát hiện rủi ro kiểm toán trên sheet A520."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.1/AuditSoft-3.0.1-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.1/AuditSoft-3.0.1-Portable.exe",
-  "sha256": "62568f4b69f09bb58511b24591cce0f9451bfa2e0b756c64731bd4f907f2e203",
-  "signature": "DBJa3rCoDVYpdxiDsxOcuv9Su756KKt41iOMkudQjuVPUFuwlDj_eX3Nt6SBJLVgTXWb1PN1BYGJ70IHNWeWBg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.3/AuditSoft-3.0.3-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.3/AuditSoft-3.0.3-Portable.exe",
+  "sha256": "043bf0f7ee21efa2efb088a38be3efb9e628723013a85fd4c75f9146889dd257",
+  "signature": "4-Ix52hJA4kUzZJBP5Slf6U5j9678nm0vx47EK-dEpVW1AxNJQmdejFBvkG0wrhI4ekFhHqmD8QPO0TnvC4NBA"
 }
