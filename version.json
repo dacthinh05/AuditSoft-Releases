@@ -1,15 +1,14 @@
 {
-  "version": "2.9.10",
+  "version": "2.9.11",
   "releaseDate": "2026-11-09",
-  "title": "AuditSoft v2.9.10 — Giải Mã VNI/TCVN3 & Chuẩn Hóa Gộp Tiêu Đề 2 Tầng Phân Hệ Excel Consolidator",
+  "title": "AuditSoft v2.9.11 — Tối Ưu Hyperlink Bảng 1 & Bảng 2 Module Chốt Công Nợ 131/331",
   "changelog": [
-    "Tự động giải mã phông chữ cổ VNI-Windows / TCVN3 sang Unicode dựng sẵn (NFC): Triệt tiêu lỗi vỡ font ở tiêu đề và dữ liệu bảng kê kho, chi tiết nhập xuất tồn.",
-    "Khắc phục triệt để lỗi gộp tiêu đề 2 tầng (Two-Tier Headers): Tự động nhận diện chính xác các nhóm Tồn đầu kỳ, Nhập trong kỳ, Xuất trong kỳ, Tồn cuối kỳ ghép cùng các chỉ tiêu con (Số M3, Số lượng, Thành tiền).",
-    "Bảo toàn 100% cột dữ liệu, chống ghi đè cột: Ngăn chặn hiện tượng dồn ép nhiều cột cùng sheet vào một cột đích trong thuật toán FuzzyColumnAligner.",
-    "Tự động loại bỏ khối chữ ký cuối bảng (Signature Block): Lọc sạch chức danh và người ký (Lập biểu, Kế toán, Tổng giám đốc...) không để lọt vào bảng dữ liệu chi tiết."
+    "Điều hướng thông minh Bảng 1 sang Bảng 2: Khi bấm nút ↓, Excel tự động nhảy và bôi đen toàn bộ dải ô tiền cấu thành số dư (K{start}:K{end}), kích hoạt thanh trạng thái hiển thị Sum khớp 100% số dư đối tác.",
+    "Điều hướng chính xác Bảng 2 về Bảng 1: Khi bấm nút ↩, Excel nhảy trực tiếp vào ô số dư cuối kỳ (Dư Có / Dư Nợ) tại Bảng 1 thay vì đầu dòng.",
+    "Bảo vệ ô KTV khi chạy lại phân hành: Ngăn chặn xung đột đè ô khi hai ô KTV cùng chép vào một ô đích."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.10/AuditSoft-2.9.10-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.10/AuditSoft-2.9.10-Portable.exe",
-  "sha256": "ba1b3edc37770e31b2e4178a42a6c86aaea294d4639185e607f96480ef6810c6",
-  "signature": "1U5494sfvseyosL-kQQK5rhC41Krbc1l1Y3RywCmkF8xaadRWoH3mNZHWSP8LXH6ZpwgpJHN1fciKCnYKM7mDQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.11/AuditSoft-2.9.11-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v2.9.11/AuditSoft-2.9.11-Portable.exe",
+  "sha256": "d02615a8178083265e7e5fae3615838952bed5b810857fc61b8b0ec03a3f3a35",
+  "signature": "3eXdK2sd3qWc5mBfr5caU0h4jXDnjQ1PPzc8sNUjk6B9qYGuRwGmVSdYS2SsLrCZuZ0av2SJWWIXyf2nQPWCDA"
 }
