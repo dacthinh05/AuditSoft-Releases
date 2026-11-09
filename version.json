@@ -1,15 +1,16 @@
 {
-  "version": "3.0.3",
-  "releaseDate": "2026-11-09",
-  "title": "AuditSoft v3.0.3 — Tối Ưu Bảng Tính Excel Chốt Công Nợ & Tái Cấu Trúc Sheet A520",
+  "version": "3.0.4",
+  "releaseDate": "2026-11-10",
+  "title": "AuditSoft v3.0.4 — Thống Nhất Thẻ Kiểm Chéo CĐPS Toàn Hệ Thống & Tối Ưu Đối Chiếu Chi Phí",
   "changelog": [
-    "Tô màu xen kẽ theo từng nhà cung cấp (Vendor Block Zebra Banding) và viền phân cách khối tại Bảng 2 sheet Chốt CN 331/131.",
-    "Gỡ bỏ Freeze Panes dòng 14 trên sheet A520_RUI_RO_CONG_NO, cho phép cuộn toàn màn hình không bị che khuất.",
-    "Bổ sung thanh Executive Risk Dashboard và nâng cấp Bảng Khuyến nghị & Căn cứ chuẩn mực VSA với số vụ và tổng tiền ảnh hưởng của từng nhóm rủi ro.",
-    "Kích hoạt AutoFilter cho Danh mục chi tiết phát hiện rủi ro kiểm toán trên sheet A520."
+    "Chuẩn hóa Thẻ kiểm chéo CĐPS 3 trạng thái thống nhất (Khớp / Lệch / Chưa đủ dữ liệu) trên toàn bộ phân hệ: Công nợ, Kho, Giá thành, Lương E490, Thuế, Vay & Tiền gửi D146, và Độ phủ rủi ro A820.",
+    "Tối ưu hóa đối chiếu CĐPS tài khoản lá: Hỗ trợ mã tài khoản ngăn cách dấu phẩy, chỉ tính tổng các tài khoản lá khi không có dòng tổng hợp (TK 334, 154, 155), triệt tiêu lỗi cộng trùng số dư.",
+    "Nâng cấp đối chiếu NKC Giá thành: Nhận diện chính xác số tháng phát sinh chênh lệch ngay cả khi tổng năm tự bù trừ, thể hiện trung thực trạng thái kiểm toán.",
+    "Sheet A520_RUI_RO_CONG_NO: Tách biệt số dư rỗng từng tài khoản gốc, không gộp lẫn giữa 131 và 331.",
+    "Chuẩn hóa Design Tokens & UI Cleanliness: Loại bỏ toàn bộ mã màu hex và kích cỡ chữ viết cứng, đồng bộ thống nhất theo biến giao diện hệ thống."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.3/AuditSoft-3.0.3-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.3/AuditSoft-3.0.3-Portable.exe",
-  "sha256": "043bf0f7ee21efa2efb088a38be3efb9e628723013a85fd4c75f9146889dd257",
-  "signature": "4-Ix52hJA4kUzZJBP5Slf6U5j9678nm0vx47EK-dEpVW1AxNJQmdejFBvkG0wrhI4ekFhHqmD8QPO0TnvC4NBA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.4/AuditSoft-3.0.4-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.4/AuditSoft-3.0.4-Portable.exe",
+  "sha256": "4a364bb63b0a7ff058cc1aef34cb683b4cc70c4cb1f1663f6977b3003a9269f8",
+  "signature": "Ow9OrAyjQymuei5AUbw92bXnowJpDNWWEs4HVISdzdoyPobSdow2-Jm0hIQ3BvBrUUttxzDLYSF3oiJeFDHHAg"
 }
