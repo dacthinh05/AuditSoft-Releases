@@ -392,6 +392,12 @@ main { position: relative; isolation: isolate; }
   .peak h2 { font-size: 1.875rem; }
   .wp { margin-top: 1.25rem; }
 }
+@media (max-width: 400px) {
+  /* 320 px: logo, nút dùng thử và nút menu phải vừa một hàng. */
+  .nav-container { gap: .75rem; }
+  .nav-actions { gap: .375rem; }
+  .nav-actions .btn { padding-inline: .75rem; font-size: .875rem; }
+}
 @media (max-width: 640px) {
   .facts { grid-template-columns: minmax(0, 1fr); }
   .footer__grid { grid-template-columns: minmax(0, 1fr); }
