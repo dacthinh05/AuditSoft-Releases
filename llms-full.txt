@@ -12,7 +12,7 @@
 
 ## Sản phẩm
 
-### AuditSoft 2.9.4
+### AuditSoft 2.9.6
 - Trang: https://tenstartup.com/tools/auditsoft/
 - Tải về: https://github.com/dacthinh05/AuditSoft-Releases/releases
 - Tóm tắt: Phần mềm làm hồ sơ kiểm toán báo cáo tài chính theo 4 giai đoạn: tiếp nhận sổ NKC và CĐSPS, lập kế hoạch và mức trọng yếu, thực hiện thủ tục theo từng phần hành, hoàn thành và lưu trữ hồ sơ. Tự điền bộ Giấy làm việc theo mẫu VACPA từ số liệu sổ sách.
@@ -134,7 +134,12 @@
 - Vietstock TP (https://tenstartup.com/tools/vietstock/): Công cụ web phân tích so sánh giao dịch liên kết theo NĐ 132/2020/NĐ-CP: sàng lọc doanh nghiệp so sánh và tính khoảng giá trị giao dịch độc lập (tứ phân vị).
 
 ## Cẩm nang
+- Danh sách bài cẩm nang: https://tenstartup.com/cam-nang/
 - Đối chiếu sổ NKC (B360) và hồ sơ kiểm toán: https://tenstartup.com/cam-nang/so-khop-nkc/
+- Cách tải hóa đơn điện tử cả năm từ Cổng HĐĐT về Excel: https://tenstartup.com/cam-nang/tai-hoa-don-dien-tu-ca-nam/
+- Tải tờ khai thuế và giấy nộp tiền không cần USB Token: https://tenstartup.com/cam-nang/tai-to-khai-khong-can-usb-token/
+- Rà soát chi tiền mặt từ 5 triệu đồng theo NĐ 181/2025: https://tenstartup.com/cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/
+- Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ: https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/
 
 ## Câu hỏi thường gặp
 - Dữ liệu tài chính có bị đưa lên máy chủ không? Không. Sổ sách, hóa đơn và tờ khai được xử lý và lưu trên máy của bạn. InvoiceDesk và TaxInsight kết nối thẳng tới cổng của Cục Thuế bằng tài khoản của bạn để tải dữ liệu về. Trợ lý AI trong AuditSoft và InvoiceDesk là tùy chọn: chỉ khi bạn bật và nhập API key Gemini của mình, phần nội dung cần phân tích mới được gửi tới Google.

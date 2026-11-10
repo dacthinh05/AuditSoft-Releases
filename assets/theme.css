@@ -335,6 +335,12 @@ details[open] > .faq-question::after { content: "\2212"; }
 .article-main-body h2 { margin-bottom: 16px; font-size: 1.5rem; }
 .article-main-body h3 { margin: 24px 0 10px; }
 .article-main-body ul { margin: 0 0 16px 20px; list-style: disc; color: var(--text-muted); }
+.guide-list .card { color: inherit; text-decoration: none; transition: border-color 0.15s ease; }
+.guide-list .card:hover { border-color: var(--accent-primary); }
+.guide-list .card p { margin-bottom: 12px; font-size: 0.9375rem; color: var(--text-muted); }
+.guide-card-title { margin-bottom: 12px; font-size: 1.125rem; }
+.guide-card-more { margin-top: auto; font-weight: 600; color: var(--accent-primary); }
+.article-main-body ol { margin: 0 0 16px 22px; list-style: decimal; color: var(--text-muted); }
 .article-main-body li { margin-bottom: 6px; }
 .article-main-body blockquote { margin: 0 0 36px; padding: 16px 20px; background: var(--bg-canvas); border-left: 3px solid var(--accent-primary); }
 .article-main-body blockquote p { margin: 0; }

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ</title>
+  <meta name="description" content="Cách chọn mẫu kiểm toán theo VSA 530 và chương trình kiểm toán mẫu VACPA: phần tử chính, hệ số tin cậy R, cỡ mẫu, khoảng cách mẫu MUS và đánh giá kết quả.">
+  <meta name="keywords" content="chọn mẫu kiểm toán vsa 530, lấy mẫu kiểm toán, cỡ mẫu kiểm toán, chọn mẫu theo đơn vị tiền tệ mus, hệ số tin cậy r, khoảng cách mẫu, chọn mẫu thử nghiệm kiểm soát, chương trình kiểm toán mẫu vacpa">
+  <meta name="author" content="TenStartup">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ">
+  <meta property="og:description" content="Cách chọn mẫu kiểm toán theo VSA 530 và chương trình kiểm toán mẫu VACPA: phần tử chính, hệ số tin cậy R, cỡ mẫu, khoảng cách mẫu MUS và đánh giá kết quả.">
+  <meta property="og:url" content="https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/">
+  <meta property="og:image" content="https://tenstartup.com/assets/og-suite.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="TenStartup">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ">
+  <meta name="twitter:description" content="Cách chọn mẫu kiểm toán theo VSA 530 và chương trình kiểm toán mẫu VACPA: phần tử chính, hệ số tin cậy R, cỡ mẫu, khoảng cách mẫu MUS và đánh giá kết quả.">
+  <meta name="twitter:image" content="https://tenstartup.com/assets/og-suite.png">
+
+  <!-- LLM Context Link -->
+  <link rel="alternate" type="text/markdown" title="LLM Context" href="https://tenstartup.com/llms.txt">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/#article",
+      "headline": "Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ tính",
+      "description": "Cách chọn mẫu kiểm toán theo VSA 530 và chương trình kiểm toán mẫu VACPA: phần tử chính, hệ số tin cậy R, cỡ mẫu, khoảng cách mẫu MUS và đánh giá kết quả.",
+      "datePublished": "2026-11-10T08:00:00+07:00",
+      "dateModified": "2026-11-10T08:00:00+07:00",
+      "author": {
+        "@type": "Organization",
+        "name": "TenStartup",
+        "url": "https://tenstartup.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TenStartup",
+        "url": "https://tenstartup.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tenstartup.com/assets/tenstartup-mark.svg"
+        }
+      },
+      "image": "https://tenstartup.com/assets/og-suite.png",
+      "inLanguage": "vi-VN",
+      "mainEntityOfPage": "https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/",
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "AuditSoft",
+        "url": "https://tenstartup.com/tools/auditsoft/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang Chủ",
+          "item": "https://tenstartup.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AuditSoft",
+          "item": "https://tenstartup.com/tools/auditsoft/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chọn mẫu kiểm toán VSA 530",
+          "item": "https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cỡ mẫu kiểm toán theo đơn vị tiền tệ tính thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cỡ mẫu bằng (Giá trị còn lại sau khi tách phần tử chính × Hệ số tin cậy R) chia cho Mức trọng yếu thực hiện (PM), làm tròn lên. Khoảng cách mẫu bằng giá trị còn lại chia cho cỡ mẫu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nên chọn hệ số tin cậy R bao nhiêu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theo bảng của chương trình kiểm toán mẫu VACPA: 1,2 (70%), 1,6 (80%), 2,3 (90%) hoặc 3,0 (95%). Càng ít đảm bảo từ kiểm soát nội bộ và thủ tục phân tích thì càng cần R cao."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Phần tử chính là gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Là các khoản có giá trị từ ngưỡng trở lên, được kiểm tra toàn bộ thay vì chọn mẫu. AuditSoft đặt ngưỡng mặc định bằng Mức trọng yếu thực hiện, kiểm toán viên có thể hạ thấp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chạy lại chọn mẫu có ra cùng danh sách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có, nếu giữ cùng tổng thể và cùng hạt giống. AuditSoft dùng bộ sinh số ngẫu nhiên có hạt giống để người soát xét tái lập được danh sách mẫu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AuditSoft có chọn mẫu thử nghiệm kiểm soát không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. AuditSoft tính cỡ mẫu thử nghiệm kiểm soát cho 5 chu trình C110 đến C150 theo tần suất kiểm soát và đánh giá lại khi tìm thấy sai lệch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng thử AuditSoft được bao lâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dùng thử đầy đủ tính năng đến 31/12/2026."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+  <link rel="canonical" href="https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/">
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../../assets/theme.css?v=3.0.0">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../../" class="nav-brand">
+        <img src="../../assets/tenstartup-mark.svg" alt="" width="28" height="28">
+        <span class="nav-brand-text">
+          <span class="nav-brand-name">TenStartup</span>
+          <span class="nav-brand-sub">Phần mềm kế toán, kiểm toán, thuế</span>
+        </span>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item nav-dropdown">
+          <button class="nav-link nav-dropdown-toggle" type="button" style="color: var(--accent-primary);">
+            <span>Sản phẩm</span>
+            <svg class="nav-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="../../tools/auditsoft/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-icon">
+                <img src="../../assets/auditsoft.svg" alt="" width="24" height="24">
+              </div>
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">AuditSoft</div>
+                <div class="nav-dropdown-desc">Hồ sơ kiểm toán BCTC từ sổ NKC đến Giấy làm việc VACPA</div>
+              </div>
+            </a>
+            <a href="../../tools/invoicedesk/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-icon">
+                <img src="../../assets/invoicedesk.png" alt="" width="24" height="24">
+              </div>
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">InvoiceDesk</div>
+                <div class="nav-dropdown-desc">Tải và đối soát hóa đơn điện tử cả năm từ Cổng HĐĐT</div>
+              </div>
+            </a>
+            <a href="../../tools/taxinsight/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-icon">
+                <img src="../../assets/taxinsight.svg" alt="" width="24" height="24">
+              </div>
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">TaxInsight</div>
+                <div class="nav-dropdown-desc">Tải tờ khai, giấy nộp tiền và đối chiếu nghĩa vụ thuế</div>
+              </div>
+            </a>
+            <a href="../../tools/vietstock/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-icon">
+                <img src="../../assets/vietstock-mark.svg" alt="" width="24" height="24">
+              </div>
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Vietstock TP <span>· Công cụ khác</span></div>
+                <div class="nav-dropdown-desc">Phân tích giao dịch liên kết theo NĐ 132/2020/NĐ-CP</div>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li><a href="../../#pricing" class="nav-link">Bảng giá</a></li>
+        <li class="nav-item nav-dropdown">
+          <button class="nav-link nav-dropdown-toggle" type="button">
+            <span>Tài liệu</span>
+            <svg class="nav-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="../../cam-nang/so-khop-nkc/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Cẩm nang so khớp NKC</div>
+                <div class="nav-dropdown-desc">Đối chiếu sổ NKC và hồ sơ kiểm toán</div>
+              </div>
+            </a>
+            <a href="../../cam-nang/tai-hoa-don-dien-tu-ca-nam/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Tải hóa đơn điện tử cả năm</div>
+                <div class="nav-dropdown-desc">Mua vào, bán ra, máy tính tiền từ Cổng HĐĐT</div>
+              </div>
+            </a>
+            <a href="../../cam-nang/tai-to-khai-khong-can-usb-token/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Tải tờ khai không cần USB Token</div>
+                <div class="nav-dropdown-desc">Tờ khai và giấy nộp tiền C1-02/NS</div>
+              </div>
+            </a>
+            <a href="../../cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Rà soát chi tiền mặt từ 5 triệu</div>
+                <div class="nav-dropdown-desc">NĐ 181/2025/NĐ-CP và chi phí không được trừ</div>
+              </div>
+            </a>
+            <a href="#" class="nav-dropdown-item active">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Chọn mẫu kiểm toán VSA 530</div>
+                <div class="nav-dropdown-desc">Cỡ mẫu, hệ số R và khoảng cách mẫu MUS</div>
+              </div>
+            </a>
+            <a href="../../cam-nang/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Tất cả cẩm nang</div>
+                <div class="nav-dropdown-desc">Danh sách bài hướng dẫn kế toán, thuế, kiểm toán</div>
+              </div>
+            </a>
+            <a href="../../#faq" class="nav-dropdown-item">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Câu hỏi thường gặp</div>
+                <div class="nav-dropdown-desc">Dữ liệu, bản quyền và cập nhật</div>
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm nav-zalo-btn" title="Hỗ trợ qua Zalo: 0817.567.008">
+          <span>Zalo</span>
+          <span class="nav-zalo-text">0817.567.008</span>
+        </a>
+        <a href="../../#downloads"  class="btn btn-primary btn-sm nowrap nav-dl-btn">Tải dùng thử</a>
+        <button id="navMobileBtn" class="nav-mobile-toggle" type="button" aria-label="Mở menu điều hướng" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="navMobileDrawer" class="nav-mobile-drawer" style="display: none;">
+      <div class="nav-drawer-title">Sản phẩm</div>
+      <ul>
+        <li><a href="../../tools/auditsoft/" class="nav-link">AuditSoft: hồ sơ kiểm toán BCTC</a></li>
+        <li><a href="../../tools/invoicedesk/" class="nav-link">InvoiceDesk: hóa đơn điện tử</a></li>
+        <li><a href="../../tools/taxinsight/" class="nav-link">TaxInsight: tờ khai và giấy nộp tiền</a></li>
+        <li><a href="../../tools/vietstock/" class="nav-link">Vietstock TP: công cụ khác</a></li>
+      </ul>
+      <div class="nav-drawer-title">Hỗ trợ</div>
+      <ul>
+        <li><a href="../../cam-nang/so-khop-nkc/" class="nav-link">Cẩm nang so khớp NKC</a></li>
+        <li><a href="../../cam-nang/tai-hoa-don-dien-tu-ca-nam/" class="nav-link">Tải hóa đơn điện tử cả năm</a></li>
+        <li><a href="../../cam-nang/tai-to-khai-khong-can-usb-token/" class="nav-link">Tải tờ khai không cần USB Token</a></li>
+        <li><a href="../../cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/" class="nav-link">Rà soát chi tiền mặt từ 5 triệu</a></li>
+        <li><a href="#" class="nav-link">Chọn mẫu kiểm toán VSA 530</a></li>
+        <li><a href="../../#pricing" class="nav-link">Bảng giá</a></li>
+        <li><a href="../../#faq" class="nav-link">Câu hỏi thường gặp</a></li>
+        <li><a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="nav-link">Zalo: 0817.567.008</a></li>
+      </ul>
+      <a href="../../#downloads"  class="btn btn-primary btn-block">Tải dùng thử</a>
+    </div>
+  </header>
+  <main class="article-page-wrap">
+    <div class="container">
+      <!-- Breadcrumbs -->
+      <nav class="article-breadcrumbs" aria-label="Đường dẫn điều hướng">
+        <a href="../../">Trang chủ</a>
+        <span>/</span>
+        <a href="../../tools/auditsoft/">AuditSoft</a>
+        <span>/</span>
+        <span class="article-breadcrumbs-current">Chọn mẫu kiểm toán VSA 530</span>
+      </nav>
+
+      <!-- Article Header -->
+      <header class="article-header">
+        <span class="eyebrow">Cẩm nang kiểm toán</span>
+        <h1>Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ tính</h1>
+        <p class="article-lead">
+          VSA 530 đặt khung cho việc lấy mẫu kiểm toán; chương trình kiểm toán mẫu của VACPA cho cách tính cụ thể. Bài này đi qua từng bước: xác định tổng thể, tách phần tử chính, chọn hệ số tin cậy R, tính cỡ mẫu và khoảng cách mẫu, rồi đánh giá kết quả.
+        </p>
+        <div class="article-header-meta">
+          <div class="article-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span>Tác giả: <strong>TenStartup</strong></span>
+          </div>
+          <div class="article-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Thời gian đọc: <strong>7 phút</strong></span>
+          </div>
+          <div class="article-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Cập nhật: <strong>10/11/2026</strong></span>
+          </div>
+        </div>
+      </header>
+
+      <!-- 2-Column Article Grid (Main Content & Sticky Sidebar) -->
+      <div class="article-layout-grid">
+        <article class="article-main-body">
+          <blockquote>
+            <p><strong>Tóm tắt:</strong> Chọn mẫu theo đơn vị tiền tệ (MUS) gồm ba phần: lấy hết các phần tử chính có giá trị từ ngưỡng trở lên, tính cỡ mẫu cho phần còn lại bằng công thức (Giá trị còn lại × R) ÷ Mức trọng yếu thực hiện, rồi chọn theo khoảng cách mẫu từ một điểm xuất phát ngẫu nhiên. AuditSoft làm các bước này trên sổ NKC, cho kết quả lặp lại được khi chạy lại cùng hạt giống và xuất Giấy làm việc chọn mẫu.</p>
+          </blockquote>
+
+          <section id="phan-1">
+            <h2>1. VSA 530 quy định gì về lấy mẫu kiểm toán</h2>
+            <p>Chuẩn mực kiểm toán Việt Nam số 530 (VSA 530) về lấy mẫu kiểm toán được ban hành kèm Thông tư 214/2012/TT-BTC. Chuẩn mực yêu cầu kiểm toán viên:</p>
+            <ul>
+              <li>Xác định tổng thể phù hợp và đầy đủ với mục tiêu của thủ tục kiểm toán.</li>
+              <li>Xác định cỡ mẫu đủ để giảm rủi ro lấy mẫu xuống mức thấp có thể chấp nhận được.</li>
+              <li>Chọn phần tử sao cho mỗi đơn vị lấy mẫu trong tổng thể đều có cơ hội được chọn.</li>
+              <li>Đánh giá kết quả: điều tra bản chất sai sót, dự tính sai sót cho tổng thể và kết luận mẫu có cung cấp cơ sở hợp lý hay không.</li>
+            </ul>
+
+            <p>Chuẩn mực không bắt buộc một công thức cỡ mẫu. Các công ty kiểm toán thường dùng cách tính trong chương trình kiểm toán mẫu của VACPA, là cách AuditSoft áp dụng.</p>
+          </section>
+
+          <section id="phan-2">
+            <h2>2. Xác định tổng thể và đối chiếu với sổ sách</h2>
+            <p>Mẫu chỉ đáng tin khi tổng thể đầy đủ. Trước khi chọn mẫu, AuditSoft:</p>
+            <ul>
+              <li>Lọc sổ NKC theo phần hành và đầu tài khoản cần kiểm tra, theo phát sinh Nợ hoặc Có.</li>
+              <li>Gộp các dòng cùng chứng từ để mỗi đơn vị lấy mẫu là một chứng từ.</li>
+              <li>Đối chiếu tổng thể sau khi lọc với phát sinh trên bảng cân đối số phát sinh; chênh lệch trong ngưỡng làm tròn mặc định 1.000 đồng được coi là khớp.</li>
+            </ul>
+          </section>
+
+          <section id="phan-3">
+            <h2>3. Phần tử chính và hệ số tin cậy R</h2>
+            <p><strong>Phần tử chính</strong> là các khoản có giá trị từ ngưỡng trở lên; tất cả được kiểm tra, không chọn mẫu. Trong AuditSoft, ngưỡng mặc định bằng Mức trọng yếu thực hiện (PM), kiểm toán viên có thể hạ thấp để kiểm tra nhiều phần tử chính hơn.</p>
+            <p><strong>Hệ số tin cậy R</strong> phản ánh mức đảm bảo cần có từ thủ tục chọn mẫu. AuditSoft dùng bảng của chương trình kiểm toán mẫu VACPA, với các mức được phép chọn:</p>
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr><th>Độ tin cậy</th><th>Hệ số R</th><th>Mức giảm rủi ro cần đạt</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>70%</td><td>1,2</td><td>Thấp</td></tr>
+                  <tr><td>80%</td><td>1,6</td><td>Trung bình</td></tr>
+                  <tr><td>90%</td><td>2,3</td><td>Trung bình</td></tr>
+                  <tr><td>95%</td><td>3,0</td><td>Cao</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Đảm bảo từ các thủ tục khác (kiểm soát nội bộ đáng tin cậy, thủ tục phân tích) càng ít thì cần mức giảm rủi ro từ chọn mẫu càng cao, tức R càng lớn và cỡ mẫu càng nhiều.</p>
+          </section>
+
+          <section id="phan-4">
+            <h2>4. Công thức cỡ mẫu và khoảng cách mẫu MUS</h2>
+            <p>Với phần giá trị còn lại sau khi tách phần tử chính:</p>
+            <ul>
+              <li><strong>Cỡ mẫu</strong> n = (Giá trị còn lại × R) ÷ PM, làm tròn lên.</li>
+              <li><strong>Khoảng cách mẫu</strong> J = Giá trị còn lại ÷ n.</li>
+              <li><strong>Điểm xuất phát</strong> là một số ngẫu nhiên từ 1 đến J. Cộng dồn giá trị các phần tử còn lại; phần tử nào chứa điểm xuất phát, rồi điểm xuất phát cộng J, cộng 2J... thì được chọn.</li>
+            </ul>
+
+            <h3>Ví dụ tính (số liệu giả định)</h3>
+            <p>Giá trị còn lại sau khi tách phần tử chính là 10 tỷ đồng, PM là 500 triệu đồng, chọn độ tin cậy 90% (R = 2,3):</p>
+            <ul>
+              <li>n = 10.000.000.000 × 2,3 ÷ 500.000.000 = 46 mẫu.</li>
+              <li>J = 10.000.000.000 ÷ 46 ≈ 217,4 triệu đồng.</li>
+              <li>Nếu điểm xuất phát là 100 triệu đồng, các điểm chọn là 100 triệu, khoảng 317,4 triệu, khoảng 534,8 triệu đồng... trên dãy cộng dồn.</li>
+            </ul>
+
+            <p>Khoản có giá trị lớn hơn J chắc chắn được chọn, nên MUS nghiêng về các khoản lớn, phù hợp khi mục tiêu là phát hiện khai khống.</p>
+          </section>
+
+          <section id="phan-5">
+            <h2>5. Chọn mẫu thử nghiệm kiểm soát</h2>
+            <p>Với thử nghiệm kiểm soát, AuditSoft theo 5 chu trình của VACPA: C110 bán hàng, phải thu, thu tiền; C120 mua hàng, phải trả, trả tiền; C130 hàng tồn kho, giá thành, giá vốn; C140 tiền lương và nhân sự; C150 TSCĐ và XDCB.</p>
+            <ul>
+              <li>Kiểm soát thực hiện theo từng giao dịch: cỡ mẫu = R ÷ Tỷ lệ sai lệch có thể bỏ qua, làm tròn lên.</li>
+              <li>Kiểm soát ít hơn hàng ngày dùng số mẫu tối thiểu đề nghị: hàng tuần 10 mẫu, hàng tháng 2 đến 4 mẫu, hàng quý 2 mẫu, hàng năm 1 mẫu.</li>
+              <li>Khi tìm thấy sai lệch, giới hạn sai lệch tối đa được tính lại bằng hệ số điều chỉnh theo số sai lệch; quá 5 sai lệch thì kiểm toán viên phải xét đoán, thường chuyển sang thử nghiệm cơ bản.</li>
+            </ul>
+
+            <p>Kiểm toán viên có thể nhập cỡ mẫu khác cỡ mẫu tối thiểu khi có lý do.</p>
+          </section>
+
+          <section id="phan-6">
+            <h2>6. Đánh giá kết quả và lưu hồ sơ</h2>
+            <p>Sau khi kiểm tra, AuditSoft dự tính sai sót cho tổng thể và tính cận trên sai sót theo bảng hệ số Poisson, rồi so với PM:</p>
+            <ul>
+              <li><strong>Chấp nhận:</strong> cận trên sai sót không vượt PM.</li>
+              <li><strong>Vùng xám:</strong> sai sót dự tính dưới PM nhưng cận trên vượt PM; cần mở rộng mẫu hoặc làm thêm thủ tục.</li>
+              <li><strong>Sai sót trọng yếu:</strong> sai sót dự tính vượt PM; kiểm toán viên đề xuất bút toán điều chỉnh (AJE).</li>
+            </ul>
+
+            <p>Mẫu được chọn bằng bộ sinh số ngẫu nhiên có hạt giống, nên chạy lại với cùng tổng thể và cùng hạt giống cho cùng danh sách mẫu, thuận tiện cho người soát xét hồ sơ. Kết quả xuất ra Giấy làm việc chọn mẫu dạng Excel. Xem thêm <a href="../../cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/">rà soát chi tiền mặt từ 5 triệu đồng</a> và <a href="../../cam-nang/so-khop-nkc/">đối chiếu sổ NKC (B360)</a>.</p>
+          </section>
+
+          <section id="phan-7">
+            <h2>7. Dùng thử AuditSoft</h2>
+            <p>Dùng thử đầy đủ tính năng đến 31/12/2026. Giá tính theo máy và trùng với màn hình Bản quyền trong phần mềm.</p>
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Gói AuditSoft</th>
+                    <th>Thời hạn</th>
+                    <th>Giá</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Gói 1 Năm (Chuyên Nghiệp)</td>
+                    <td>1 năm (365 ngày) / 1 máy</td>
+                    <td class="price-cell">3.890.000&nbsp;đ</td>
+                  </tr>
+                  <tr>
+                    <td>Gói 3 Năm</td>
+                    <td>3 năm (1.095 ngày) / 1 máy</td>
+                    <td class="price-cell">8.900.000&nbsp;đ</td>
+                  </tr>
+                  <tr>
+                    <td>Early Bird — Vĩnh Viễn</td>
+                    <td>Trọn đời / 1 máy</td>
+                    <td class="price-cell">4.890.000&nbsp;đ</td>
+                  </tr>
+                  <tr>
+                    <td>Gia Hạn 1 Năm</td>
+                    <td>1 năm (gia hạn)</td>
+                    <td class="price-cell">2.890.000&nbsp;đ</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p><a href="../../tools/auditsoft/#pricing">Chọn gói AuditSoft và thanh toán &rarr;</a></p>
+          </section>
+
+          <section id="phan-8">
+            <h2>8. Câu hỏi thường gặp</h2>
+            <div class="faq-list">
+          <details class="faq-item" open>
+            <summary class="faq-question"><span>Cỡ mẫu kiểm toán theo đơn vị tiền tệ tính thế nào?</span></summary>
+            <div class="faq-answer">Cỡ mẫu bằng (Giá trị còn lại sau khi tách phần tử chính × Hệ số tin cậy R) chia cho Mức trọng yếu thực hiện (PM), làm tròn lên. Khoảng cách mẫu bằng giá trị còn lại chia cho cỡ mẫu.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-question"><span>Nên chọn hệ số tin cậy R bao nhiêu?</span></summary>
+            <div class="faq-answer">Theo bảng của chương trình kiểm toán mẫu VACPA: 1,2 (70%), 1,6 (80%), 2,3 (90%) hoặc 3,0 (95%). Càng ít đảm bảo từ kiểm soát nội bộ và thủ tục phân tích thì càng cần R cao.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-question"><span>Phần tử chính là gì?</span></summary>
+            <div class="faq-answer">Là các khoản có giá trị từ ngưỡng trở lên, được kiểm tra toàn bộ thay vì chọn mẫu. AuditSoft đặt ngưỡng mặc định bằng Mức trọng yếu thực hiện, kiểm toán viên có thể hạ thấp.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-question"><span>Chạy lại chọn mẫu có ra cùng danh sách không?</span></summary>
+            <div class="faq-answer">Có, nếu giữ cùng tổng thể và cùng hạt giống. AuditSoft dùng bộ sinh số ngẫu nhiên có hạt giống để người soát xét tái lập được danh sách mẫu.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-question"><span>AuditSoft có chọn mẫu thử nghiệm kiểm soát không?</span></summary>
+            <div class="faq-answer">Có. AuditSoft tính cỡ mẫu thử nghiệm kiểm soát cho 5 chu trình C110 đến C150 theo tần suất kiểm soát và đánh giá lại khi tìm thấy sai lệch.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-question"><span>Dùng thử AuditSoft được bao lâu?</span></summary>
+            <div class="faq-answer">Dùng thử đầy đủ tính năng đến 31/12/2026.</div>
+          </details>
+            </div>
+            <div class="article-cta-actions">
+              <a href="../../tools/auditsoft/" class="btn btn-primary btn-lg nowrap">
+                <span>Xem AuditSoft</span>
+              </a>
+              <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg nowrap">
+                <span>Hỏi qua Zalo: 0817.567.008</span>
+              </a>
+            </div>
+          </section>
+
+          <!-- Author Bio Card -->
+          <div class="article-author-bio-card">
+            <div class="article-author-avatar">TS</div>
+            <div>
+              <h3>TenStartup</h3>
+              <p>
+                TenStartup phát triển AuditSoft, InvoiceDesk và TaxInsight cho kế toán, kiểm toán viên và đại lý thuế tại Việt Nam. Góp ý về nghiệp vụ xin gửi qua Zalo 0817.567.008.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Sticky Right Sidebar: Table of Contents & Sticky Mini CTA -->
+        <aside class="article-sidebar-sticky">
+          <div class="article-toc-card">
+            <div class="article-toc-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              <span>Mục lục bài viết</span>
+            </div>
+            <ul class="article-toc-list">
+              <li><a href="#phan-1">1. VSA 530 quy định gì</a></li>
+              <li><a href="#phan-2">2. Xác định và đối chiếu tổng thể</a></li>
+              <li><a href="#phan-3">3. Phần tử chính và hệ số R</a></li>
+              <li><a href="#phan-4">4. Cỡ mẫu và khoảng cách mẫu</a></li>
+              <li><a href="#phan-5">5. Chọn mẫu thử nghiệm kiểm soát</a></li>
+              <li><a href="#phan-6">6. Đánh giá kết quả mẫu</a></li>
+              <li><a href="#phan-7">7. Dùng thử AuditSoft</a></li>
+              <li><a href="#phan-8">8. Câu hỏi thường gặp</a></li>
+            </ul>
+          </div>
+
+          <div class="article-sticky-cta">
+            <span class="eyebrow">Dùng thử miễn phí</span>
+            <h4>Dùng thử AuditSoft</h4>
+            <p>
+              Dùng thử đầy đủ tính năng đến 31/12/2026.
+            </p>
+            <a href="https://github.com/dacthinh05/AuditSoft-Releases/releases" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nowrap">
+              Tải AuditSoft 2.9.6
+            </a>
+            <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm nowrap">
+              Zalo: 0817.567.008
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="../../assets/tenstartup-mark.svg" alt="" width="24" height="24">
+            <strong>TenStartup</strong>
+          </div>
+          <p>Ba phần mềm Windows cho kế toán, kiểm toán viên và đại lý thuế: AuditSoft, InvoiceDesk, TaxInsight. Dữ liệu tài chính được xử lý trên máy của bạn.</p>
+        </div>
+
+        <div>
+          <div class="footer-heading">Sản phẩm</div>
+          <ul class="footer-list">
+            <li><a href="../../tools/auditsoft/" class="nav-link">AuditSoft</a></li>
+            <li><a href="../../tools/invoicedesk/" class="nav-link">InvoiceDesk</a></li>
+            <li><a href="../../tools/taxinsight/" class="nav-link">TaxInsight</a></li>
+            <li><a href="../../tools/vietstock/" class="nav-link">Vietstock TP (công cụ khác)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Căn cứ pháp lý và cẩm nang</div>
+          <ul class="footer-list">
+            <li><a href="../../cam-nang/so-khop-nkc/" class="nav-link">Cẩm nang đối chiếu sổ NKC (B360)</a></li>
+            <li><a href="../../cam-nang/tai-hoa-don-dien-tu-ca-nam/" class="nav-link">Tải hóa đơn điện tử cả năm</a></li>
+            <li><a href="../../cam-nang/tai-to-khai-khong-can-usb-token/" class="nav-link">Tải tờ khai không cần USB Token</a></li>
+            <li><a href="../../cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/" class="nav-link">Rà soát chi tiền mặt từ 5 triệu</a></li>
+            <li><a href="../../cam-nang/chon-mau-kiem-toan-vsa-530/" class="nav-link">Chọn mẫu kiểm toán VSA 530</a></li>
+            <li>Chuẩn mực kiểm toán Việt Nam: VSA 505, 520, 530</li>
+            <li>NĐ 181/2025/NĐ-CP: thanh toán không dùng tiền mặt từ 5 triệu đồng</li>
+            <li>Thông tư 99/2025/TT-BTC và 133/2016/TT-BTC</li>
+            <li>Thông tư 80/2021/TT-BTC (khai thuế)</li>
+            <li>QĐ 2079/QĐ-BTC (kiểm soát chất lượng hồ sơ)</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Hỗ trợ</div>
+          <ul class="footer-list">
+            <li><a href="../../#downloads" class="nav-link">Tải bản dùng thử</a></li>
+            <li><a href="../../#pricing" class="nav-link">Bảng giá</a></li>
+            <li><a href="../../#about" class="nav-link">Về TenStartup</a></li>
+            <li><a href="../../#faq" class="nav-link">Câu hỏi thường gặp</a></li>
+            <li><a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="nav-link">Zalo: 0817.567.008</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 TenStartup. Toàn bộ quyền được bảo lưu.</span>
+        <span>Phiên bản mới nhất: AuditSoft 2.9.6 · InvoiceDesk 4.3.0 · TaxInsight 3.15.0</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var button = document.getElementById('navMobileBtn');
+      var drawer = document.getElementById('navMobileDrawer');
+      if (!button || !drawer) return;
+      function setOpen(isOpen) {
+        drawer.style.display = isOpen ? 'block' : 'none';
+        button.setAttribute('aria-expanded', String(isOpen));
+      }
+      button.addEventListener('click', function () { setOpen(drawer.style.display !== 'block'); });
+      drawer.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () { setOpen(false); });
+      });
+    })();
+  </script>
+</body>
+</html>

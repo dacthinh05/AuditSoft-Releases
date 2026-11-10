@@ -144,10 +144,13 @@
   <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="./assets/theme.css?v=3.0.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="./assets/scrollcraft.css?v=5.0.0">
+  <link rel="stylesheet" href="./assets/home.css?v=5.0.0">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
+  <a class="skip" href="#noi-dung">Bỏ qua, tới nội dung</a>
   <header class="navbar">
     <div class="container nav-container">
       <a href="./" class="nav-brand">
@@ -216,6 +219,36 @@
                 <div class="nav-dropdown-desc">Đối chiếu sổ NKC và hồ sơ kiểm toán</div>
               </div>
             </a>
+            <a href="./cam-nang/tai-hoa-don-dien-tu-ca-nam/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Tải hóa đơn điện tử cả năm</div>
+                <div class="nav-dropdown-desc">Mua vào, bán ra, máy tính tiền từ Cổng HĐĐT</div>
+              </div>
+            </a>
+            <a href="./cam-nang/tai-to-khai-khong-can-usb-token/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Tải tờ khai không cần USB Token</div>
+                <div class="nav-dropdown-desc">Tờ khai và giấy nộp tiền C1-02/NS</div>
+              </div>
+            </a>
+            <a href="./cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Rà soát chi tiền mặt từ 5 triệu</div>
+                <div class="nav-dropdown-desc">NĐ 181/2025/NĐ-CP và chi phí không được trừ</div>
+              </div>
+            </a>
+            <a href="./cam-nang/chon-mau-kiem-toan-vsa-530/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Chọn mẫu kiểm toán VSA 530</div>
+                <div class="nav-dropdown-desc">Cỡ mẫu, hệ số R và khoảng cách mẫu MUS</div>
+              </div>
+            </a>
+            <a href="./cam-nang/" class="nav-dropdown-item ">
+              <div class="nav-dropdown-content">
+                <div class="nav-dropdown-title">Tất cả cẩm nang</div>
+                <div class="nav-dropdown-desc">Danh sách bài hướng dẫn kế toán, thuế, kiểm toán</div>
+              </div>
+            </a>
             <a href="./#faq" class="nav-dropdown-item">
               <div class="nav-dropdown-content">
                 <div class="nav-dropdown-title">Câu hỏi thường gặp</div>
@@ -249,6 +282,10 @@
       <div class="nav-drawer-title">Hỗ trợ</div>
       <ul>
         <li><a href="./cam-nang/so-khop-nkc/" class="nav-link">Cẩm nang so khớp NKC</a></li>
+        <li><a href="./cam-nang/tai-hoa-don-dien-tu-ca-nam/" class="nav-link">Tải hóa đơn điện tử cả năm</a></li>
+        <li><a href="./cam-nang/tai-to-khai-khong-can-usb-token/" class="nav-link">Tải tờ khai không cần USB Token</a></li>
+        <li><a href="./cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/" class="nav-link">Rà soát chi tiền mặt từ 5 triệu</a></li>
+        <li><a href="./cam-nang/chon-mau-kiem-toan-vsa-530/" class="nav-link">Chọn mẫu kiểm toán VSA 530</a></li>
         <li><a href="./#pricing" class="nav-link">Bảng giá</a></li>
         <li><a href="./#faq" class="nav-link">Câu hỏi thường gặp</a></li>
         <li><a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="nav-link">Zalo: 0817.567.008</a></li>
@@ -256,404 +293,317 @@
       <a href="./#downloads"  class="btn btn-primary btn-block">Tải dùng thử</a>
     </div>
   </header>
-  <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">Phần mềm kế toán, kiểm toán và thuế</span>
-          <h1>Bớt việc tay trong mùa quyết toán, từ hóa đơn đến hồ sơ kiểm toán</h1>
-          <p class="hero-lead">Ba phần mềm chạy trên máy tính của bạn: InvoiceDesk tải hóa đơn, TaxInsight tải tờ khai, AuditSoft dựng hồ sơ kiểm toán theo mẫu VACPA.</p>
-          <div class="hero-actions">
-            <a href="#downloads" class="btn btn-primary btn-lg nowrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span>Tải bản dùng thử</span></a>
-            <a href="#pricing" class="btn btn-ghost">Xem bảng giá</a>
-          </div>
+
+  <main id="noi-dung">
+    <div class="split-ground" aria-hidden="true"></div>
+    <div class="divider" aria-hidden="true">
+      <span class="divider__label divider__label--l">Làm tay</span>
+      <span class="divider__label divider__label--r">Dùng phần mềm</span>
+      <span class="divider__line"></span>
+      <ol class="divider__ticks" aria-hidden="true"><li class="tick"></li><li class="tick"></li><li class="tick"></li><li class="tick"></li><li class="tick"></li><li class="tick"></li></ol>
+    </div>
+    <ol class="tick-rail" aria-hidden="true"><li class="tick"></li><li class="tick"></li><li class="tick"></li><li class="tick"></li><li class="tick"></li><li class="tick"></li></ol>
+
+    <section class="hero split" data-sc-act="flow" aria-labelledby="h-chinh">
+      <div class="split__l hero__manual">
+        <p class="hero__pains" aria-label="Mùa quyết toán làm tay">
+          <span>Dò bằng VLOOKUP, SUMIFS trên Excel.</span>
+          <span>Gõ captcha nhiều lần.</span>
+          <span>Mượn USB Token.</span>
+        </p>
+      </div>
+      <div class="split__r hero__soft">
+        <p class="hero__tag">Phần mềm Windows cho kế toán, kiểm toán và thuế</p>
+        <h1 id="h-chinh">Bớt việc tay trong mùa quyết toán, từ hóa đơn đến hồ sơ kiểm toán</h1>
+        <p class="hero__lead"><strong>InvoiceDesk</strong> tải hóa đơn, <strong>TaxInsight</strong> tải tờ khai, <strong>AuditSoft</strong> dựng hồ sơ kiểm toán theo mẫu VACPA. Cả ba chạy trên máy tính của bạn.</p>
+        <div class="actions">
+          <a href="#downloads" class="btn btn--primary btn--lg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Tải bản dùng thử</a>
+          <a href="#pricing" class="btn btn--secondary btn--lg">Xem bảng giá</a>
         </div>
-        <figure class="hero-figure">
-          <img src="./assets/shot-auditsoft.webp" alt="Ảnh chụp màn hình AuditSoft" class="shot" width="1600" height="1000" fetchpriority="high" decoding="async">
-          <figcaption class="shot-caption">Màn hình tổng quan hồ sơ của AuditSoft.</figcaption>
+        <figure class="scene">
+          <div class="scene__inner">
+            <img class="scene__base" data-sc-parallax="0.9" src="./assets/hero-base.webp" alt="AuditSoft: màn hình tổng quan hồ sơ kiểm toán với các phần hành" width="1600" height="1000" fetchpriority="high" decoding="async">
+            <div class="scene__card scene__card--nkc" data-sc-parallax="-0.2"><img src="./assets/hero-nkc.webp" alt="" width="1251" height="154" decoding="async"></div>
+            <div class="scene__card scene__card--vacpa" data-sc-parallax="-0.6"><img src="./assets/hero-vacpa.webp" alt="" width="232" height="48" decoding="async"></div>
+            <div class="scene__card scene__card--cash" data-sc-parallax="-1.1"><img src="./assets/hero-cash.webp" alt="" width="410" height="305" decoding="async"></div>
+          </div>
         </figure>
-        <div class="hero-micro">
-          <span class="hero-micro-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Có bản dùng thử đầy đủ tính năng</span></span>
-          <span class="hero-micro-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Dữ liệu xử lý trên máy của bạn</span></span>
-          <span class="hero-micro-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Tra cứu thuế không cần USB Token</span></span>
-        </div>
       </div>
     </section>
 
-    <section id="ecosystem" class="section section--alt">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">3 phần mềm</span>
-          <h2>Ba phần mềm cho kế toán, kiểm toán và đại lý thuế</h2>
-          <p>Sổ NKC hàng trăm nghìn dòng, hóa đơn tra cứu từng tháng, tờ khai đăng nhập từng tài khoản: ba phần mềm này làm thay những việc đó. Mỗi phần mềm cài và mua riêng, làm việc với dữ liệu từ MISA, FAST, Bravo, HTKK, eTax và Cổng hóa đơn điện tử.</p>
+    <section id="comparison" class="ledger" data-sc-act="pin" data-sc-span="2.6" aria-labelledby="h-so-sanh">
+      <div data-sc-stage class="ledger__stage">
+        <div class="split ledger__head">
+          <div class="split__l"><p class="ledger__intro">So sánh từng việc trong mùa quyết toán.</p></div>
+          <div class="split__r"><h2 id="h-so-sanh">Những việc phần mềm làm thay bạn</h2></div>
         </div>
-
-        <div id="downloads" class="grid-3">
-          <div class="card product-card">
-            <img src="./assets/shot-auditsoft.webp" alt="Ảnh chụp màn hình AuditSoft" class="product-card-shot" width="1600" height="1000" loading="lazy" decoding="async">
-            <div class="product-card-body">
-              <div class="product-card-title">
-                <img src="./assets/auditsoft.svg" alt="" width="36" height="36" loading="lazy">
-                <div>
-                  <h3>AuditSoft</h3>
-                  <span class="product-card-meta">Phiên bản 2.9.4</span>
-                </div>
-              </div>
-              <p>Hồ sơ kiểm toán BCTC từ sổ NKC đến Giấy làm việc VACPA.</p>
-              <ul class="feature-check-list lead-note">
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Đối chiếu 2 sổ NKC trước và sau điều chỉnh (B360)</span></li>
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Chọn mẫu kiểm toán theo VSA 530</span></li>
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Tự điền 18 mẫu Giấy làm việc theo mẫu VACPA</span></li>
-              </ul>
-              <div class="product-card-foot">
-                <p class="product-card-price">Từ <strong class="nowrap">3.890.000&nbsp;đ/năm</strong>. Dùng thử đến 31/12/2026.</p>
-                <div class="product-card-actions">
-                  <a href="https://github.com/dacthinh05/AuditSoft-Releases/releases" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span>Tải dùng thử</span></a>
-                  <a href="./tools/auditsoft/" class="btn btn-ghost">Chi tiết</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card product-card">
-            <img src="./assets/shot-invoicedesk.webp" alt="Ảnh chụp màn hình InvoiceDesk" class="product-card-shot" width="1600" height="853" loading="lazy" decoding="async">
-            <div class="product-card-body">
-              <div class="product-card-title">
-                <img src="./assets/invoicedesk.png" alt="" width="36" height="36" loading="lazy">
-                <div>
-                  <h3>InvoiceDesk</h3>
-                  <span class="product-card-meta">Phiên bản 4.3.0</span>
-                </div>
-              </div>
-              <p>Tải và đối soát hóa đơn điện tử cả năm từ Cổng HĐĐT.</p>
-              <ul class="feature-check-list lead-note">
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Tải hóa đơn mua vào, bán ra và máy tính tiền cả năm</span></li>
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Bảng kê Excel chi tiết từng dòng hàng</span></li>
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Xuất mẫu nhập MISA AMIS, FAST, HTKK</span></li>
-              </ul>
-              <div class="product-card-foot">
-                <p class="product-card-price">Từ <strong class="nowrap">490.000&nbsp;đ/năm</strong>. Dùng thử 7 ngày.</p>
-                <div class="product-card-actions">
-                  <a href="https://github.com/dacthinh05/InvoiceDesk/releases" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span>Tải dùng thử</span></a>
-                  <a href="./tools/invoicedesk/" class="btn btn-ghost">Chi tiết</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card product-card">
-            <img src="./assets/shot-taxinsight.webp" alt="Ảnh chụp màn hình TaxInsight" class="product-card-shot" width="1600" height="858" loading="lazy" decoding="async">
-            <div class="product-card-body">
-              <div class="product-card-title">
-                <img src="./assets/taxinsight.svg" alt="" width="36" height="36" loading="lazy">
-                <div>
-                  <h3>TaxInsight</h3>
-                  <span class="product-card-meta">Phiên bản 3.15.0</span>
-                </div>
-              </div>
-              <p>Tải tờ khai, giấy nộp tiền và đối chiếu nghĩa vụ thuế.</p>
-              <ul class="feature-check-list lead-note">
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Tải tờ khai và giấy nộp tiền không cần USB Token</span></li>
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Giấy làm việc GTGT chỉ tiêu [22] ↔ [43]</span></li>
-                <li class="feature-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Khớp giấy nộp tiền với nghĩa vụ và hạn nộp</span></li>
-              </ul>
-              <div class="product-card-foot">
-                <p class="product-card-price">Từ <strong class="nowrap">490.000&nbsp;đ/năm</strong>. Dùng thử 7 ngày.</p>
-                <div class="product-card-actions">
-                  <a href="https://github.com/dacthinh05/TaxInsight-Releases/releases" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span>Tải dùng thử</span></a>
-                  <a href="./tools/taxinsight/" class="btn btn-ghost">Chi tiết</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="lead-note"><strong>Công cụ khác:</strong> Vietstock TP. Công cụ web phân tích so sánh giao dịch liên kết theo NĐ 132/2020/NĐ-CP: sàng lọc doanh nghiệp so sánh và tính khoảng giá trị giao dịch độc lập (tứ phân vị). <a href="./tools/vietstock/">Xem chi tiết</a></p>
-      </div>
-    </section>
-
-    <section id="pipeline" class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">Quy trình</span>
-          <h2>3 bước từ dữ liệu thô đến hồ sơ</h2>
-          <p>Cài bằng bộ cài Windows (.exe); dữ liệu nằm trên máy của bạn.</p>
-        </div>
-
-        <ol class="steps">
-          <li class="step">
-            <h3>Lấy dữ liệu về máy</h3>
-            <p>InvoiceDesk tải hóa đơn, TaxInsight tải tờ khai và giấy nộp tiền. Sổ NKC, bảng CĐSPS xuất từ MISA, FAST, Bravo nạp thẳng vào AuditSoft.</p>
+        <ol class="ledger__rows">
+          <li class="ledger__row split">
+            <div class="split__l"><p class="ledger__metric">Đối chiếu sổ NKC với sổ đã điều chỉnh</p><p class="ledger__bad"><span>Dò bằng VLOOKUP, SUMIFS trên Excel, dễ bỏ&nbsp;sót</span></p></div>
+            <div class="split__r"><p class="ledger__good"><span class="ledger__mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>AuditSoft đối chiếu 2 sổ, tổng hợp điều chỉnh B360 và sai sót&nbsp;B410</p></div>
           </li>
-          <li class="step">
-            <h3>Đối chiếu và rà soát</h3>
-            <p>Đối chiếu 2 sổ NKC, chọn mẫu theo VSA 530, rà soát thanh toán tiền mặt và chi phí không được trừ, khớp giấy nộp tiền với nghĩa vụ thuế.</p>
+          <li class="ledger__row split">
+            <div class="split__l"><p class="ledger__metric">Tải hóa đơn điện tử cả năm</p><p class="ledger__bad"><span>Tra cứu từng tháng trên Cổng HĐĐT, gõ captcha nhiều&nbsp;lần</span></p></div>
+            <div class="split__r"><p class="ledger__good"><span class="ledger__mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>InvoiceDesk tự chia theo tháng, tải đủ mua vào, bán ra và máy tính&nbsp;tiền</p></div>
           </li>
-          <li class="step">
-            <h3>Xuất hồ sơ</h3>
-            <p>Bảng kê hóa đơn Excel, Giấy làm việc thuế GTGT và TNCN, bộ Giấy làm việc kiểm toán theo mẫu VACPA giữ nguyên công thức của mẫu.</p>
+          <li class="ledger__row split">
+            <div class="split__l"><p class="ledger__metric">Lấy tờ khai, giấy nộp tiền của nhiều khách hàng</p><p class="ledger__bad"><span>Đăng nhập từng tài khoản, có nơi phải mượn USB&nbsp;Token</span></p></div>
+            <div class="split__r"><p class="ledger__good"><span class="ledger__mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>TaxInsight tải bằng tài khoản tra cứu, không cần USB&nbsp;Token</p></div>
+          </li>
+          <li class="ledger__row split">
+            <div class="split__l"><p class="ledger__metric">Rà soát thanh toán tiền mặt từ 5 triệu đồng</p><p class="ledger__bad"><span>Lọc tay từng bút toán chi&nbsp;tiền</span></p></div>
+            <div class="split__r"><p class="ledger__good"><span class="ledger__mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>AuditSoft lọc theo ngưỡng của NĐ&nbsp;181/2025/NĐ-CP</p></div>
+          </li>
+          <li class="ledger__row split">
+            <div class="split__l"><p class="ledger__metric">Lập Giấy làm việc kiểm toán</p><p class="ledger__bad"><span>Chép số liệu tay vào từng mẫu&nbsp;biểu</span></p></div>
+            <div class="split__r"><p class="ledger__good"><span class="ledger__mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>AuditSoft tự điền mẫu Giấy làm việc VACPA từ sổ&nbsp;sách</p></div>
+          </li>
+          <li class="ledger__row split">
+            <div class="split__l"><p class="ledger__metric">Dữ liệu tài chính</p><p class="ledger__bad"><span>Tải lên công cụ web của bên thứ&nbsp;ba</span></p></div>
+            <div class="split__r"><p class="ledger__good"><span class="ledger__mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Xử lý trên máy của bạn; AI chỉ chạy khi bạn tự&nbsp;bật</p></div>
           </li>
         </ol>
       </div>
     </section>
-    <section id="comparison" class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">Làm tay và dùng phần mềm</span>
-          <h2>Làm tay so với 3 phần mềm TenStartup</h2>
-          <p>Những việc phần mềm làm thay bạn trong mùa quyết toán.</p>
-        </div>
 
-        <div class="comparison-table-wrap">
-          <table class="comparison-table">
-            <thead>
-              <tr>
-                <th class="col-task">Công việc</th>
-                <th class="col-bad">Làm tay</th>
-                <th class="col-good">3 phần mềm TenStartup</th>
-              </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td class="col-task">Đối chiếu sổ NKC với sổ đã điều chỉnh</td>
-              <td class="col-bad" data-label="Làm tay">Dò bằng VLOOKUP, SUMIFS trên Excel, dễ bỏ&nbsp;sót</td>
-              <td class="col-good" data-label="3 phần mềm TenStartup">AuditSoft đối chiếu 2 sổ, tổng hợp điều chỉnh B360 và sai sót&nbsp;B410</td>
-            </tr>
-            <tr>
-              <td class="col-task">Tải hóa đơn điện tử cả năm</td>
-              <td class="col-bad" data-label="Làm tay">Tra cứu từng tháng trên Cổng HĐĐT, gõ captcha nhiều&nbsp;lần</td>
-              <td class="col-good" data-label="3 phần mềm TenStartup">InvoiceDesk tự chia theo tháng, tải đủ mua vào, bán ra và máy tính&nbsp;tiền</td>
-            </tr>
-            <tr>
-              <td class="col-task">Lấy tờ khai, giấy nộp tiền của nhiều khách hàng</td>
-              <td class="col-bad" data-label="Làm tay">Đăng nhập từng tài khoản, có nơi phải mượn USB&nbsp;Token</td>
-              <td class="col-good" data-label="3 phần mềm TenStartup">TaxInsight tải bằng tài khoản tra cứu, không cần USB&nbsp;Token</td>
-            </tr>
-            <tr>
-              <td class="col-task">Rà soát thanh toán tiền mặt từ 5 triệu đồng</td>
-              <td class="col-bad" data-label="Làm tay">Lọc tay từng bút toán chi&nbsp;tiền</td>
-              <td class="col-good" data-label="3 phần mềm TenStartup">AuditSoft lọc theo ngưỡng của NĐ&nbsp;181/2025/NĐ-CP</td>
-            </tr>
-            <tr>
-              <td class="col-task">Lập Giấy làm việc kiểm toán</td>
-              <td class="col-bad" data-label="Làm tay">Chép số liệu tay vào từng mẫu&nbsp;biểu</td>
-              <td class="col-good" data-label="3 phần mềm TenStartup">AuditSoft tự điền mẫu Giấy làm việc VACPA từ sổ&nbsp;sách</td>
-            </tr>
-            <tr>
-              <td class="col-task">Dữ liệu tài chính</td>
-              <td class="col-bad" data-label="Làm tay">Tải lên công cụ web của bên thứ&nbsp;ba</td>
-              <td class="col-good" data-label="3 phần mềm TenStartup">Xử lý trên máy của bạn; AI chỉ chạy khi bạn tự&nbsp;bật</td>
-            </tr>
-            </tbody>
-          </table>
+    <section id="downloads" class="products" aria-labelledby="h-san-pham">
+      <div class="split products__head">
+        <div class="split__l"></div>
+        <div class="split__r">
+          <h2 id="h-san-pham">Mỗi phần mềm lo một khâu của mùa quyết toán</h2>
+          <p>Mỗi phần mềm cài và mua riêng.</p>
+          <ul class="hero__checks">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Dùng thử đầy đủ tính năng</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Dữ liệu xử lý trên máy của bạn</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tra cứu thuế không cần USB Token</li>
+          </ul>
+        </div>
+      </div>
+      <article class="product split" data-sc-act="flow">
+        <div class="split__l"><p class="product__input" data-sc-in>Sổ NKC hàng trăm nghìn dòng</p></div>
+        <div class="split__r">
+          <figure class="product__shot" data-sc-reveal="left" data-sc-reveal-at="0.08 0.34"><img src="./assets/real-auditsoft-hub.png" alt="AuditSoft: tổng quan hồ sơ, nạp sổ NKC và các phần hành kiểm toán" width="2976" height="1860" loading="lazy" decoding="async"></figure>
+          <div class="product__body" data-sc-in>
+            <div class="product__title"><img src="./assets/auditsoft.svg" alt="" width="40" height="40"><div><h3>AuditSoft</h3><span>Phiên bản 2.9.6</span></div></div>
+            <p class="product__desc">Hồ sơ kiểm toán BCTC từ sổ NKC đến Giấy làm việc VACPA.</p>
+            <ul class="checks"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Đối chiếu 2 sổ NKC trước và sau điều chỉnh (B360)</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Chọn mẫu kiểm toán theo VSA 530</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tự điền 18 mẫu Giấy làm việc theo mẫu VACPA</li></ul>
+            <p class="panel__meta"><span>Từ <strong class="nowrap">3.890.000&nbsp;đ/năm</strong></span><span>Dùng thử đến 31/12/2026</span></p>
+            <div class="panel__actions">
+              <a href="https://github.com/dacthinh05/AuditSoft-Releases/releases" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Tải bản dùng thử</a>
+              <a href="./tools/auditsoft/" class="btn btn--secondary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="product split" data-sc-act="flow">
+        <div class="split__l"><p class="product__input" data-sc-in>Hóa đơn tra cứu từng tháng</p></div>
+        <div class="split__r">
+          <figure class="product__shot" data-sc-reveal="left" data-sc-reveal-at="0.08 0.34"><img src="./assets/shot-invoicedesk.webp" alt="InvoiceDesk: danh sách hóa đơn mua vào theo ngày lập, thuế GTGT và trạng thái" width="1600" height="853" loading="lazy" decoding="async"></figure>
+          <div class="product__body" data-sc-in>
+            <div class="product__title"><img src="./assets/invoicedesk.png" alt="" width="40" height="40"><div><h3>InvoiceDesk</h3><span>Phiên bản 4.3.0</span></div></div>
+            <p class="product__desc">Tải và đối soát hóa đơn điện tử cả năm từ Cổng HĐĐT.</p>
+            <ul class="checks"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tải hóa đơn mua vào, bán ra và máy tính tiền cả năm</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Bảng kê Excel chi tiết từng dòng hàng</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Xuất mẫu nhập MISA AMIS, FAST, HTKK</li></ul>
+            <p class="panel__meta"><span>Từ <strong class="nowrap">490.000&nbsp;đ/năm</strong></span><span>Dùng thử 7 ngày</span></p>
+            <div class="panel__actions">
+              <a href="https://github.com/dacthinh05/InvoiceDesk/releases" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Tải bản dùng thử</a>
+              <a href="./tools/invoicedesk/" class="btn btn--secondary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="product split" data-sc-act="flow">
+        <div class="split__l"><p class="product__input" data-sc-in>Tờ khai đăng nhập từng tài khoản</p></div>
+        <div class="split__r">
+          <figure class="product__shot" data-sc-reveal="left" data-sc-reveal-at="0.08 0.34"><img src="./assets/shot-taxinsight.webp" alt="TaxInsight: danh sách tờ khai GTGT và TNCN theo kỳ, trạng thái đã chấp nhận" width="1600" height="858" loading="lazy" decoding="async"></figure>
+          <div class="product__body" data-sc-in>
+            <div class="product__title"><img src="./assets/taxinsight.svg" alt="" width="40" height="40"><div><h3>TaxInsight</h3><span>Phiên bản 3.15.0</span></div></div>
+            <p class="product__desc">Tải tờ khai, giấy nộp tiền và đối chiếu nghĩa vụ thuế.</p>
+            <ul class="checks"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tải tờ khai và giấy nộp tiền không cần USB Token</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Giấy làm việc GTGT chỉ tiêu [22] ↔ [43]</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Khớp giấy nộp tiền với nghĩa vụ và hạn nộp</li></ul>
+            <p class="panel__meta"><span>Từ <strong class="nowrap">490.000&nbsp;đ/năm</strong></span><span>Dùng thử 7 ngày</span></p>
+            <div class="panel__actions">
+              <a href="https://github.com/dacthinh05/TaxInsight-Releases/releases" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Tải bản dùng thử</a>
+              <a href="./tools/taxinsight/" class="btn btn--secondary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="split">
+        <div class="split__l"></div>
+        <div class="split__r"><p class="other-tool"><strong>Công cụ khác:</strong> Vietstock TP, công cụ web phân tích so sánh giao dịch liên kết theo NĐ 132/2020/NĐ-CP: sàng lọc doanh nghiệp so sánh và tính khoảng giá trị giao dịch độc lập (tứ phân vị). <a href="./tools/vietstock/">Xem chi tiết</a></p></div>
+      </div>
+    </section>
+
+    <section id="pipeline" class="pipeline split" aria-labelledby="h-quy-trinh">
+      <div class="split__l">
+        <div class="sources" data-sc-in>
+          <p>Làm việc với dữ liệu từ</p>
+          <ul><li>MISA</li><li>FAST</li><li>Bravo</li><li>HTKK</li><li>eTax</li><li>Cổng HĐĐT</li></ul>
+        </div>
+      </div>
+      <div class="split__r">
+        <h2 id="h-quy-trinh" data-sc-in>3 bước từ dữ liệu thô đến hồ sơ</h2>
+        <p class="pipeline__note" data-sc-in>Cài bằng bộ cài Windows (.exe); dữ liệu nằm trên máy của bạn.</p>
+        <ol class="steps" data-sc-stagger="70" data-sc-in>
+          <li><h3>Lấy dữ liệu về máy</h3><p>InvoiceDesk tải hóa đơn, TaxInsight tải tờ khai và giấy nộp tiền. Sổ NKC, bảng CĐSPS xuất từ MISA, FAST, Bravo nạp thẳng vào AuditSoft.</p><p class="steps__tools">InvoiceDesk · TaxInsight</p></li>
+          <li><h3>Đối chiếu và rà soát</h3><p>Đối chiếu 2 sổ NKC, chọn mẫu theo VSA 530, rà soát thanh toán tiền mặt và chi phí không được trừ, khớp giấy nộp tiền với nghĩa vụ thuế.</p><p class="steps__tools">AuditSoft · TaxInsight</p></li>
+          <li><h3>Xuất hồ sơ</h3><p>Bảng kê hóa đơn Excel, Giấy làm việc thuế GTGT và TNCN, bộ Giấy làm việc kiểm toán theo mẫu VACPA giữ nguyên công thức của mẫu.</p><p class="steps__tools">Cả ba phần mềm</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="dung-thu" class="peak" data-sc-act="pin" data-sc-span="3.2" aria-labelledby="h-dung-thu">
+      <div data-sc-stage class="peak__stage split">
+        <div class="split__l peak__manual" aria-hidden="true">
+          <ul class="peak__struck">
+            <li>Dò bằng VLOOKUP, SUMIFS trên Excel, dễ bỏ&nbsp;sót</li>
+            <li>Tra cứu từng tháng trên Cổng HĐĐT, gõ captcha nhiều&nbsp;lần</li>
+            <li>Đăng nhập từng tài khoản, có nơi phải mượn USB&nbsp;Token</li>
+            <li>Lọc tay từng bút toán chi&nbsp;tiền</li>
+            <li>Chép số liệu tay vào từng mẫu&nbsp;biểu</li>
+            <li>Tải lên công cụ web của bên thứ&nbsp;ba</li>
+          </ul>
+        </div>
+        <div class="split__r peak__soft">
+          <div class="peak__block">
+            <h2 id="h-dung-thu">Dùng thử trước, mua khi thấy hợp</h2>
+            <div class="wp" role="img" aria-label="Giấy làm việc: sáu việc mùa quyết toán đã soát">
+              <p class="wp__title"><span>Giấy làm việc</span><span class="wp__stamp">Đã soát</span></p>
+              <ul class="wp__list">
+                <li class="wp__item"><span class="wp__box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Đối chiếu sổ NKC với sổ đã điều chỉnh</li>
+                <li class="wp__item"><span class="wp__box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Tải hóa đơn điện tử cả năm</li>
+                <li class="wp__item"><span class="wp__box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Lấy tờ khai, giấy nộp tiền của nhiều khách hàng</li>
+                <li class="wp__item"><span class="wp__box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Rà soát thanh toán tiền mặt từ 5 triệu đồng</li>
+                <li class="wp__item"><span class="wp__box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Lập Giấy làm việc kiểm toán</li>
+                <li class="wp__item"><span class="wp__box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Dữ liệu tài chính</li>
+              </ul>
+            </div>
+            <p class="peak__lead" data-sc-cue="0.64">Cả 3 phần mềm đều có bản dùng thử đầy đủ tính năng. AuditSoft: dùng thử đến 31/12/2026; InvoiceDesk: dùng thử 7 ngày; TaxInsight: dùng thử 7 ngày.</p>
+            <div class="actions" data-sc-cue="0.68" data-sc-rise="0">
+              <a href="#downloads" class="btn btn--primary btn--lg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Tải bản dùng thử</a>
+              <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--lg">Hỏi qua Zalo</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="pricing" class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">Bảng giá</span>
-          <h2>Giá bản quyền từng phần mềm</h2>
+    <section id="pricing" class="section" aria-labelledby="h-bang-gia">
+      <div class="wrap">
+        <div class="section__head" data-sc-in>
+          <h2 id="h-bang-gia">Giá bản quyền từng phần mềm</h2>
           <p>Mỗi phần mềm mua riêng, giá tính theo máy và trùng với màn hình Bản quyền trong phần mềm.</p>
         </div>
-
-        <div class="pricing-grid-3">
-          <div class="pricing-card" data-product="auditsoft">
-            <div class="price-card-head">
-              <img src="./assets/auditsoft.svg" alt="" width="32" height="32" loading="lazy">
-              <h3>AuditSoft</h3>
-            </div>
-            <p class="price-card-trial">Dùng thử đầy đủ tính năng đến 31/12/2026.</p>
-            <ul class="price-list">
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Gói 1 Năm (Chuyên Nghiệp)</span>
-                  <span class="price-row-term">1 năm (365 ngày) / 1 máy</span>
-                </span>
-                <span class="price-amount">3.890.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Gói 3 Năm</span>
-                  <span class="price-row-term">3 năm (1.095 ngày) / 1 máy</span>
-                </span>
-                <span class="price-amount">8.900.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Early Bird — Vĩnh Viễn</span>
-                  <span class="price-row-term">Trọn đời / 1 máy</span>
-                </span>
-                <span class="price-amount">4.890.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Gia Hạn 1 Năm</span>
-                  <span class="price-row-term">1 năm (gia hạn)</span>
-                </span>
-                <span class="price-amount">2.890.000&nbsp;đ</span>
-              </li>
+        <div class="prices" data-sc-stagger="70" data-sc-in>
+          <div class="pricing-card" data-product="auditsoft" data-featured>
+            <div class="price__head"><img src="./assets/auditsoft.svg" alt="" width="32" height="32"><h3>AuditSoft</h3><span class="price__badge">KIỂM TOÁN BCTC</span></div>
+            <p class="price__from">Từ<strong>3.890.000&nbsp;đ</strong></p>
+            <p class="price__trial">Dùng thử đầy đủ tính năng đến 31/12/2026.</p>
+            <ul class="price__list">
+              <li><span><span class="price__name">Gói 1 Năm (Chuyên Nghiệp)</span><span class="price__term">1 năm (365 ngày) / 1 máy</span></span><span class="price__amount">3.890.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">Gói 3 Năm</span><span class="price__term">3 năm (1.095 ngày) / 1 máy</span></span><span class="price__amount">8.900.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">Early Bird — Vĩnh Viễn</span><span class="price__term">Trọn đời / 1 máy</span></span><span class="price__amount">4.890.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">Gia Hạn 1 Năm</span><span class="price__term">1 năm (gia hạn)</span></span><span class="price__amount">2.890.000&nbsp;đ</span></li>
             </ul>
-            <a href="./tools/auditsoft/#pricing" class="btn btn-secondary btn-block price-card-cta">Chọn gói và thanh toán</a>
+            <a href="./tools/auditsoft/#pricing" class="btn btn--primary btn--block">Chọn gói và thanh toán</a>
           </div>
           <div class="pricing-card" data-product="invoicedesk">
-            <div class="price-card-head">
-              <img src="./assets/invoicedesk.png" alt="" width="32" height="32" loading="lazy">
-              <h3>InvoiceDesk</h3>
-            </div>
-            <p class="price-card-trial">Dùng thử đầy đủ tính năng 7 ngày.</p>
-            <ul class="price-list">
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">PRO 1 Năm</span>
-                  <span class="price-row-term">1 năm / 1 máy</span>
-                </span>
-                <span class="price-amount">490.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">PRO 2 Năm</span>
-                  <span class="price-row-term">2 năm / 1 máy</span>
-                </span>
-                <span class="price-amount">690.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Dùng Trọn Đời</span>
-                  <span class="price-row-term">Trọn đời / 1 máy</span>
-                </span>
-                <span class="price-amount">1.190.000&nbsp;đ</span>
-              </li>
+            <div class="price__head"><img src="./assets/invoicedesk.png" alt="" width="32" height="32"><h3>InvoiceDesk</h3></div>
+            <p class="price__from">Từ<strong>490.000&nbsp;đ</strong></p>
+            <p class="price__trial">Dùng thử đầy đủ tính năng 7 ngày.</p>
+            <ul class="price__list">
+              <li><span><span class="price__name">PRO 1 Năm</span><span class="price__term">1 năm / 1 máy</span></span><span class="price__amount">490.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">PRO 2 Năm</span><span class="price__term">2 năm / 1 máy</span></span><span class="price__amount">690.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">Dùng Trọn Đời</span><span class="price__term">Trọn đời / 1 máy</span></span><span class="price__amount">1.190.000&nbsp;đ</span></li>
             </ul>
-            <a href="./tools/invoicedesk/#pricing" class="btn btn-secondary btn-block price-card-cta">Chọn gói và thanh toán</a>
+            <a href="./tools/invoicedesk/#pricing" class="btn btn--secondary btn--block">Chọn gói và thanh toán</a>
           </div>
           <div class="pricing-card" data-product="taxinsight">
-            <div class="price-card-head">
-              <img src="./assets/taxinsight.svg" alt="" width="32" height="32" loading="lazy">
-              <h3>TaxInsight</h3>
-            </div>
-            <p class="price-card-trial">Dùng thử đầy đủ tính năng 7 ngày.</p>
-            <ul class="price-list">
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Gói Cá Nhân (1 Năm)</span>
-                  <span class="price-row-term">1 năm / 1 máy</span>
-                </span>
-                <span class="price-amount">490.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Gói Dịch Vụ / Đại Lý (1 Năm)</span>
-                  <span class="price-row-term">1 năm / 2 máy</span>
-                </span>
-                <span class="price-amount">890.000&nbsp;đ</span>
-              </li>
-              <li class="price-row">
-                <span>
-                  <span class="price-row-name">Gói Vĩnh Viễn</span>
-                  <span class="price-row-term">Trọn đời / 1 máy</span>
-                </span>
-                <span class="price-amount">1.290.000&nbsp;đ</span>
-              </li>
+            <div class="price__head"><img src="./assets/taxinsight.svg" alt="" width="32" height="32"><h3>TaxInsight</h3></div>
+            <p class="price__from">Từ<strong>490.000&nbsp;đ</strong></p>
+            <p class="price__trial">Dùng thử đầy đủ tính năng 7 ngày.</p>
+            <ul class="price__list">
+              <li><span><span class="price__name">Gói Cá Nhân (1 Năm)</span><span class="price__term">1 năm / 1 máy</span></span><span class="price__amount">490.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">Gói Dịch Vụ / Đại Lý (1 Năm)</span><span class="price__term">1 năm / 2 máy</span></span><span class="price__amount">890.000&nbsp;đ</span></li>
+              <li><span><span class="price__name">Gói Vĩnh Viễn</span><span class="price__term">Trọn đời / 1 máy</span></span><span class="price__amount">1.290.000&nbsp;đ</span></li>
             </ul>
-            <a href="./tools/taxinsight/#pricing" class="btn btn-secondary btn-block price-card-cta">Chọn gói và thanh toán</a>
+            <a href="./tools/taxinsight/#pricing" class="btn btn--secondary btn--block">Chọn gói và thanh toán</a>
           </div>
         </div>
+        <p class="price__note">Cần tư vấn chọn gói? <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer">Nhắn Zalo 0817.567.008</a></p>
       </div>
     </section>
 
-    <section id="about" class="section section--alt">
-      <div class="container about-grid">
-        <div>
-          <span class="eyebrow">Về TenStartup</span>
-          <h2>Phần mềm làm ra cho nghề kế toán, kiểm toán và thuế</h2>
+    <section id="about" class="section section--line" aria-labelledby="h-ve-tenstartup">
+      <div class="wrap about">
+        <div class="about__intro" data-sc-in>
+          <h2 id="h-ve-tenstartup">Phần mềm làm ra cho nghề kế toán, kiểm toán và thuế</h2>
           <p>TenStartup phát triển AuditSoft, InvoiceDesk và TaxInsight cho kế toán, kiểm toán viên và đại lý thuế tại Việt Nam.</p>
         </div>
-        <div class="about-facts">
-          <div class="about-fact">
-            <h3>Người sáng lập</h3>
-            <p>TenStartup do Thinh Lynx sáng lập và trực tiếp phát triển sản phẩm.</p>
-          </div>
-          <div class="about-fact">
-            <h3>Hỗ trợ</h3>
-            <p>Trao đổi kỹ thuật và cấp mã kích hoạt qua Zalo <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="nowrap">0817.567.008</a>.</p>
-          </div>
-          <div class="about-fact">
-            <h3>Cập nhật</h3>
-            <p>Phần mềm tự kiểm tra bản mới mỗi khi mở. Bộ cài được phát hành công khai qua GitHub Releases.</p>
-          </div>
-          <div class="about-fact">
-            <h3>Dữ liệu</h3>
-            <p>Sổ sách, hóa đơn và tờ khai được xử lý và lưu trên máy của bạn. Trợ lý AI là tùy chọn và dùng API key của chính bạn.</p>
-          </div>
-        </div>
+        <dl class="facts" data-sc-stagger="60" data-sc-in>
+          <div><dt>Người sáng lập</dt><dd>TenStartup do Thinh Lynx sáng lập và trực tiếp phát triển sản phẩm.</dd></div>
+          <div><dt>Hỗ trợ</dt><dd>Trao đổi kỹ thuật và cấp mã kích hoạt qua Zalo <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="nowrap">0817.567.008</a>.</dd></div>
+          <div><dt>Cập nhật</dt><dd>Phần mềm tự kiểm tra bản mới mỗi khi mở. Bộ cài được phát hành công khai qua GitHub Releases.</dd></div>
+          <div><dt>Dữ liệu</dt><dd>Sổ sách, hóa đơn và tờ khai được xử lý và lưu trên máy của bạn. Trợ lý AI là tùy chọn và dùng API key của chính bạn.</dd></div>
+        </dl>
       </div>
     </section>
 
-    <section id="faq" class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">Câu hỏi thường gặp</span>
-          <h2>Câu hỏi của kế toán trưởng và kiểm toán viên</h2>
+    <section id="faq" class="section section--line" aria-labelledby="h-hoi-dap">
+      <div class="wrap faq-wrap">
+        <div class="section__head section__head--side" data-sc-in>
+          <h2 id="h-hoi-dap">Câu hỏi của kế toán trưởng và kiểm toán viên</h2>
           <p>Về dữ liệu, bản quyền, dùng thử và cập nhật.</p>
         </div>
-
-        <div class="faq-list">
-          <details class="faq-item" open>
-            <summary class="faq-question"><span>Dữ liệu tài chính có bị đưa lên máy chủ không?</span></summary>
-            <div class="faq-answer">Không. Sổ sách, hóa đơn và tờ khai được xử lý và lưu trên máy của bạn. InvoiceDesk và TaxInsight kết nối thẳng tới cổng của Cục Thuế bằng tài khoản của bạn để tải dữ liệu về. Trợ lý AI trong AuditSoft và InvoiceDesk là tùy chọn: chỉ khi bạn bật và nhập API key Gemini của mình, phần nội dung cần phân tích mới được gửi tới Google.</div>
+        <div class="faq" data-sc-in>
+          <details open>
+            <summary>Dữ liệu tài chính có bị đưa lên máy chủ không?</summary>
+            <div>Không. Sổ sách, hóa đơn và tờ khai được xử lý và lưu trên máy của bạn. InvoiceDesk và TaxInsight kết nối thẳng tới cổng của Cục Thuế bằng tài khoản của bạn để tải dữ liệu về. Trợ lý AI trong AuditSoft và InvoiceDesk là tùy chọn: chỉ khi bạn bật và nhập API key Gemini của mình, phần nội dung cần phân tích mới được gửi tới Google.</div>
           </details>
-          <details class="faq-item">
-            <summary class="faq-question"><span>Dùng thử được bao lâu?</span></summary>
-            <div class="faq-answer">Bản dùng thử có đầy đủ tính năng. AuditSoft: dùng thử đến 31/12/2026; InvoiceDesk: dùng thử 7 ngày; TaxInsight: dùng thử 7 ngày.</div>
+          <details>
+            <summary>Dùng thử được bao lâu?</summary>
+            <div>Bản dùng thử có đầy đủ tính năng. AuditSoft: dùng thử đến 31/12/2026; InvoiceDesk: dùng thử 7 ngày; TaxInsight: dùng thử 7 ngày.</div>
           </details>
-          <details class="faq-item">
-            <summary class="faq-question"><span>Đổi máy tính thì bản quyền có chuyển sang máy mới được không?</span></summary>
-            <div class="faq-answer">Có. Bản quyền gắn với mã máy. Khi đổi máy, cài lại Windows hoặc máy hỏng, nhắn Zalo 0817.567.008 kèm mã máy mới để được cấp lại mã kích hoạt.</div>
+          <details>
+            <summary>Đổi máy tính thì bản quyền có chuyển sang máy mới được không?</summary>
+            <div>Có. Bản quyền gắn với mã máy. Khi đổi máy, cài lại Windows hoặc máy hỏng, nhắn Zalo 0817.567.008 kèm mã máy mới để được cấp lại mã kích hoạt.</div>
           </details>
-          <details class="faq-item">
-            <summary class="faq-question"><span>Khi Cục Thuế thay đổi cổng hoặc mẫu tờ khai thì sao?</span></summary>
-            <div class="faq-answer">Các phần mềm tự kiểm tra bản cập nhật mỗi khi mở. Bản sửa lỗi tương thích được phát hành qua GitHub Releases trong thời hạn bản quyền của bạn.</div>
+          <details>
+            <summary>Khi Cục Thuế thay đổi cổng hoặc mẫu tờ khai thì sao?</summary>
+            <div>Các phần mềm tự kiểm tra bản cập nhật mỗi khi mở. Bản sửa lỗi tương thích được phát hành qua GitHub Releases trong thời hạn bản quyền của bạn.</div>
           </details>
-          <details class="faq-item">
-            <summary class="faq-question"><span>Làm dịch vụ kế toán cho nhiều công ty nên chọn gói nào?</span></summary>
-            <div class="faq-answer">TaxInsight có Gói Dịch Vụ / Đại Lý (1 Năm) (890.000 đ, 1 năm / 2 máy); gói cá nhân (1 năm) cũng không giới hạn số mã số thuế tải. Các gói còn lại tính theo máy, xem chi tiết ở bảng giá.</div>
+          <details>
+            <summary>Làm dịch vụ kế toán cho nhiều công ty nên chọn gói nào?</summary>
+            <div>TaxInsight có Gói Dịch Vụ / Đại Lý (1 Năm) (890.000 đ, 1 năm / 2 máy); gói cá nhân (1 năm) cũng không giới hạn số mã số thuế tải. Các gói còn lại tính theo máy, xem chi tiết ở bảng giá.</div>
           </details>
-        </div>
-        <div class="final-cta">
-          <h2>Dùng thử trước, mua khi thấy hợp</h2>
-          <p>Cả 3 phần mềm đều có bản dùng thử đầy đủ tính năng. AuditSoft: dùng thử đến 31/12/2026; InvoiceDesk: dùng thử 7 ngày; TaxInsight: dùng thử 7 ngày.</p>
-          <div class="final-cta-actions">
-            <a href="#downloads" class="btn btn-primary btn-lg nowrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span>Tải bản dùng thử</span></a>
-            <a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Hỏi qua Zalo</a>
-          </div>
         </div>
       </div>
     </section>
   </main>
+
   <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
+    <div class="wrap">
+      <div class="footer__grid">
         <div>
-          <div class="footer-brand">
-            <img src="./assets/tenstartup-mark.svg" alt="" width="24" height="24">
-            <strong>TenStartup</strong>
-          </div>
+          <a href="./" class="brand"><img src="./assets/tenstartup-mark.svg" alt="" width="24" height="24"><strong>TenStartup</strong></a>
           <p>Ba phần mềm Windows cho kế toán, kiểm toán viên và đại lý thuế: AuditSoft, InvoiceDesk, TaxInsight. Dữ liệu tài chính được xử lý trên máy của bạn.</p>
         </div>
-
         <div>
-          <div class="footer-heading">Sản phẩm</div>
-          <ul class="footer-list">
-            <li><a href="./tools/auditsoft/" class="nav-link">AuditSoft</a></li>
-            <li><a href="./tools/invoicedesk/" class="nav-link">InvoiceDesk</a></li>
-            <li><a href="./tools/taxinsight/" class="nav-link">TaxInsight</a></li>
-            <li><a href="./tools/vietstock/" class="nav-link">Vietstock TP (công cụ khác)</a></li>
+          <h2>Sản phẩm</h2>
+          <ul>
+            <li><a href="./tools/auditsoft/">AuditSoft</a></li>
+            <li><a href="./tools/invoicedesk/">InvoiceDesk</a></li>
+            <li><a href="./tools/taxinsight/">TaxInsight</a></li>
+            <li><a href="./tools/vietstock/">Vietstock TP (công cụ khác)</a></li>
           </ul>
         </div>
-
         <div>
-          <div class="footer-heading">Căn cứ pháp lý và cẩm nang</div>
-          <ul class="footer-list">
-            <li><a href="./cam-nang/so-khop-nkc/" class="nav-link">Cẩm nang đối chiếu sổ NKC (B360)</a></li>
+          <h2>Căn cứ pháp lý và cẩm nang</h2>
+          <ul>
+            <li><a href="./cam-nang/so-khop-nkc/">Cẩm nang đối chiếu sổ NKC (B360)</a></li>
+            <li><a href="./cam-nang/tai-hoa-don-dien-tu-ca-nam/">Tải hóa đơn điện tử cả năm</a></li>
+            <li><a href="./cam-nang/tai-to-khai-khong-can-usb-token/">Tải tờ khai không cần USB Token</a></li>
+            <li><a href="./cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/">Rà soát chi tiền mặt từ 5 triệu</a></li>
+            <li><a href="./cam-nang/chon-mau-kiem-toan-vsa-530/">Chọn mẫu kiểm toán VSA 530</a></li>
             <li>Chuẩn mực kiểm toán Việt Nam: VSA 505, 520, 530</li>
             <li>NĐ 181/2025/NĐ-CP: thanh toán không dùng tiền mặt từ 5 triệu đồng</li>
             <li>Thông tư 99/2025/TT-BTC và 133/2016/TT-BTC</li>
@@ -661,40 +611,26 @@
             <li>QĐ 2079/QĐ-BTC (kiểm soát chất lượng hồ sơ)</li>
           </ul>
         </div>
-
         <div>
-          <div class="footer-heading">Hỗ trợ</div>
-          <ul class="footer-list">
-            <li><a href="./#downloads" class="nav-link">Tải bản dùng thử</a></li>
-            <li><a href="./#pricing" class="nav-link">Bảng giá</a></li>
-            <li><a href="./#about" class="nav-link">Về TenStartup</a></li>
-            <li><a href="./#faq" class="nav-link">Câu hỏi thường gặp</a></li>
-            <li><a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer" class="nav-link">Zalo: 0817.567.008</a></li>
+          <h2>Hỗ trợ</h2>
+          <ul>
+            <li><a href="./#downloads">Tải bản dùng thử</a></li>
+            <li><a href="./#pricing">Bảng giá</a></li>
+            <li><a href="./#about">Về TenStartup</a></li>
+            <li><a href="./#faq">Câu hỏi thường gặp</a></li>
+            <li><a href="https://zalo.me/0817567008" target="_blank" rel="noopener noreferrer">Zalo: 0817.567.008</a></li>
           </ul>
         </div>
       </div>
-
-      <div class="footer-bottom">
+      <div class="footer__bottom">
         <span>&copy; 2026 TenStartup. Toàn bộ quyền được bảo lưu.</span>
-        <span>Phiên bản mới nhất: AuditSoft 2.9.4 · InvoiceDesk 4.3.0 · TaxInsight 3.15.0</span>
+        <span>Phiên bản mới nhất: AuditSoft 2.9.6 · InvoiceDesk 4.3.0 · TaxInsight 3.15.0</span>
       </div>
     </div>
   </footer>
 
-  <script>
-    (function () {
-      var button = document.getElementById('navMobileBtn');
-      var drawer = document.getElementById('navMobileDrawer');
-      if (!button || !drawer) return;
-      function setOpen(isOpen) {
-        drawer.style.display = isOpen ? 'block' : 'none';
-        button.setAttribute('aria-expanded', String(isOpen));
-      }
-      button.addEventListener('click', function () { setOpen(drawer.style.display !== 'block'); });
-      drawer.querySelectorAll('a').forEach(function (link) {
-        link.addEventListener('click', function () { setOpen(false); });
-      });
-    })();
-  </script>
+  <script src="./assets/scrollcraft.js?v=5.0.0"></script>
+  <script>ScrollCraft.mount(document.body);</script>
+  <script src="./assets/home.js?v=5.0.0"></script>
 </body>
 </html>
