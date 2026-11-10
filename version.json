@@ -1,16 +1,15 @@
 {
-  "version": "3.0.4",
+  "version": "3.0.6",
   "releaseDate": "2026-11-10",
-  "title": "AuditSoft v3.0.4 — Thống Nhất Thẻ Kiểm Chéo CĐPS Toàn Hệ Thống & Tối Ưu Đối Chiếu Chi Phí",
+  "title": "AuditSoft v3.0.6 — Cấu Trúc Hoạt Động & Sơ Đồ Kiến Trúc",
   "changelog": [
-    "Chuẩn hóa Thẻ kiểm chéo CĐPS 3 trạng thái thống nhất (Khớp / Lệch / Chưa đủ dữ liệu) trên toàn bộ phân hệ: Công nợ, Kho, Giá thành, Lương E490, Thuế, Vay & Tiền gửi D146, và Độ phủ rủi ro A820.",
-    "Tối ưu hóa đối chiếu CĐPS tài khoản lá: Hỗ trợ mã tài khoản ngăn cách dấu phẩy, chỉ tính tổng các tài khoản lá khi không có dòng tổng hợp (TK 334, 154, 155), triệt tiêu lỗi cộng trùng số dư.",
-    "Nâng cấp đối chiếu NKC Giá thành: Nhận diện chính xác số tháng phát sinh chênh lệch ngay cả khi tổng năm tự bù trừ, thể hiện trung thực trạng thái kiểm toán.",
-    "Sheet A520_RUI_RO_CONG_NO: Tách biệt số dư rỗng từng tài khoản gốc, không gộp lẫn giữa 131 và 331.",
-    "Chuẩn hóa Design Tokens & UI Cleanliness: Loại bỏ toàn bộ mã màu hex và kích cỡ chữ viết cứng, đồng bộ thống nhất theo biến giao diện hệ thống."
+    "Bảng thủ tục x20 của 13 phần hành tô màu theo mức máy làm: xanh lá khi máy làm trọn trên sổ, vàng nhạt khi máy làm một phần và ghi rõ phần còn lại cho KTV.",
+    "Thủ tục KTV tự làm không tô màu, cột kết luận ghi \"KTV thực hiện: …\" thay vì để trống, để KTV nhìn GLV là biết còn việc gì.",
+    "Chạy lại phần hành không tô lại và giữ nguyên lời KTV ở các dòng KTV đã nhận từ lần chạy trước.",
+    "Màn kết quả chạy phần hành có chú giải ý nghĩa từng màu."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.4/AuditSoft-3.0.4-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.4/AuditSoft-3.0.4-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.6/AuditSoft-3.0.6-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.6/AuditSoft-3.0.6-Portable.exe",
   "sha256": "4a364bb63b0a7ff058cc1aef34cb683b4cc70c4cb1f1663f6977b3003a9269f8",
-  "signature": "Ow9OrAyjQymuei5AUbw92bXnowJpDNWWEs4HVISdzdoyPobSdow2-Jm0hIQ3BvBrUUttxzDLYSF3oiJeFDHHAg"
+  "signature": "GOHz6uILMBQWABSia18BQAFK5miYoVIAir4Kx_zWyYMRppKJAKzC-6eW0lBE890SGs9ZIIPQ8qUqsJJOAO4tAQ"
 }
