@@ -1,17 +1,16 @@
 {
-  "version": "3.0.10",
+  "version": "3.0.9",
   "releaseDate": "2026-11-11",
-  "title": "AuditSoft v3.0.10 — Cột Chứng Từ & Ngoại Tệ Bảng Kê x90, Chuyển XLSX & Bản Đồ Mẫu v2",
+  "title": "AuditSoft v3.0.9 — Chốt Công Nợ Ngoại Tệ Nguyên Tệ, Gộp Kho Đa Tháng & Tối Ưu Quản Lý Hồ Sơ",
   "changelog": [
-    "Bổ sung cột chứng từ (Số HĐ, Ngày HĐ, Hợp đồng, Tờ khai hải quan) và ngoại tệ (Tỷ giá, USD) cho bảng kê bút toán kiểm chi tiết x90-x95.",
-    "Chuyển đổi GLV .xls sang .xlsx tự động, hỗ trợ bản đồ mẫu v2 (định vị theo tên vùng, Excel Table) và chạy mẫu D600, D700.",
-    "Chốt công nợ ngoại tệ 131/331 theo số dư nguyên tệ: bảo toàn nguyên tệ USD khi cấn trừ, lược bỏ sheet A520 và bảng dự phòng 331.",
-    "Tích hợp AI Audit Workspace và hoàn thiện khảo sát, kiến trúc trợ lý kiểm toán BCTC.",
-    "Gộp kho nhiều tháng G152 và loại trừ kết chuyển, xuất kho, phân bổ nội bộ để triệt tiêu cảnh báo rủi ro thuế giả định (VSA 240).",
-    "Tối ưu hóa quản trị hồ sơ: không đánh dấu mất khóa khi tiến trình nền bận xử lý Excel nếu token ủy quyền còn hiệu lực."
+    "Chốt công nợ 131/331 ngoại tệ theo số dư nguyên tệ: bảo toàn nguyên tệ USD khi cấn trừ, phân tách cột nguyên tệ tăng/giảm trên sheet đánh giá, lược bỏ sheet A520 và bảng dự phòng 331.",
+    "Bổ sung công cụ gộp sổ chi tiết vật tư hàng hóa nhiều tháng (G152) tự động chuẩn hóa cấu trúc và số dư.",
+    "Xử lý loại trừ kết chuyển, xuất kho và phân bổ nội bộ để triệt tiêu cảnh báo rủi ro thuế giả định (VSA 240 / Cost Consistency).",
+    "Tối ưu hóa quản trị hồ sơ: không đánh dấu mất khóa khi tiến trình bận xử lý Excel nếu token ủy quyền còn hiệu lực.",
+    "Cập nhật bảng danh mục giấy làm việc, thứ tự phân hành trên sidebar và bổ sung tài liệu kiến trúc ADR & Glossary."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.10/AuditSoft-3.0.10-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.10/AuditSoft-3.0.10-Portable.exe",
-  "sha256": "564d19e1fa85702e6ae9301a26b63c4e8ff29ead49002b23bcdd4ae72209b653",
-  "signature": "dEP9lV0WaiWLwahQ5LVDwLJAEXN01c-Csk5rT_D3Qa_2W3KyGXwf7agBWn_cpazDEaJUAiq0ulZZg2rx2VVSBw"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.9/AuditSoft-3.0.9-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.9/AuditSoft-3.0.9-Portable.exe",
+  "sha256": "7f84c2a2f068036843e90642bbe8b80d911c043fabbb38b5820e7fa0a1509c2b",
+  "signature": "lnECBG8_PnFBzghoUhy5Nz_cCP7lvJQE_OMhG14ih_4CEryeknDTKf9SVZ6868bEE3P6dHwOg3APc4ddWdM-AA"
 }
