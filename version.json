@@ -1,17 +1,17 @@
 {
-  "version": "3.0.7",
-  "releaseDate": "2026-11-10",
-  "title": "AuditSoft v3.0.7 — Hợp Nhất Phân Hệ: Cổng Xác Nhận, Bảo Mật Bản Cài & Chuẩn Hóa Công Nợ",
+  "version": "3.0.10",
+  "releaseDate": "2026-11-11",
+  "title": "AuditSoft v3.0.10 — Cột Chứng Từ & Ngoại Tệ Bảng Kê x90, Chuyển XLSX & Bản Đồ Mẫu v2",
   "changelog": [
-    "Tích hợp kết quả đối chiếu từ Cổng xác nhận (Portal) trực tiếp vào sổ thư xác nhận hồ sơ.",
-    "Bổ sung tính năng xuất và nạp bộ input mẫu phân hành (giúp chuẩn hóa dữ liệu đầu vào cho 13 phân hành kiểm toán).",
-    "Tăng cường bảo mật bản phát hành: khóa Electron Fuses, mã hóa bytecode và kiểm tra tính toàn vẹn artifact.",
-    "Nâng cấp bộ đọc & xuất sổ công nợ 131/331: đọc khối 'Đối tượng :', gộp gọn lưu ý hóa đơn và định dạng số chuẩn trên sheet gốc.",
-    "Cho phép chọn và chạy hàng loạt nhiều phân hành theo mã hoặc nhóm tài khoản (D600, G200-300-400...).",
-    "Sửa đối chiếu doanh thu thuế G150 / E380, ngưỡng chi tiền mặt VSA 250 và cảnh báo ngoại lệ trùng khi nhập từ bộ skill."
+    "Bổ sung cột chứng từ (Số HĐ, Ngày HĐ, Hợp đồng, Tờ khai hải quan) và ngoại tệ (Tỷ giá, USD) cho bảng kê bút toán kiểm chi tiết x90-x95.",
+    "Chuyển đổi GLV .xls sang .xlsx tự động, hỗ trợ bản đồ mẫu v2 (định vị theo tên vùng, Excel Table) và chạy mẫu D600, D700.",
+    "Chốt công nợ ngoại tệ 131/331 theo số dư nguyên tệ: bảo toàn nguyên tệ USD khi cấn trừ, lược bỏ sheet A520 và bảng dự phòng 331.",
+    "Tích hợp AI Audit Workspace và hoàn thiện khảo sát, kiến trúc trợ lý kiểm toán BCTC.",
+    "Gộp kho nhiều tháng G152 và loại trừ kết chuyển, xuất kho, phân bổ nội bộ để triệt tiêu cảnh báo rủi ro thuế giả định (VSA 240).",
+    "Tối ưu hóa quản trị hồ sơ: không đánh dấu mất khóa khi tiến trình nền bận xử lý Excel nếu token ủy quyền còn hiệu lực."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.7/AuditSoft-3.0.7-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.7/AuditSoft-3.0.7-Portable.exe",
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.10/AuditSoft-3.0.10-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.10/AuditSoft-3.0.10-Portable.exe",
   "sha256": "564d19e1fa85702e6ae9301a26b63c4e8ff29ead49002b23bcdd4ae72209b653",
-  "signature": "BkYYrh_Ls8AiNfTD3mtGTuy7jq56s3NWx5D66s-MnRKQheWa7C1zsEhR5EWwqr6LGKYbLLZf09wOJyktegS1Cw"
+  "signature": "dEP9lV0WaiWLwahQ5LVDwLJAEXN01c-Csk5rT_D3Qa_2W3KyGXwf7agBWn_cpazDEaJUAiq0ulZZg2rx2VVSBw"
 }
