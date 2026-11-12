@@ -1,17 +1,17 @@
 {
-  "version": "3.0.10",
-  "releaseDate": "2026-11-11",
-  "title": "AuditSoft v3.0.10 — KSNB Chu Trình Vào GLV Phần Hành, Chuẩn Hóa C1yy/A710 & Nâng Cấp Hiệu Năng",
+  "version": "3.1.0",
+  "releaseDate": "2026-11-12",
+  "title": "AuditSoft v3.1.0: Mở App Nhanh Hơn, Đọc .xls 97-2003, Chốt Công Nợ Đúng Kỳ, GLV Theo Đợt & Quy Chế PACO",
   "changelog": [
-    "Khắc phục tràn chữ cột phần tử chọn bảng C1yy (tách nhãn kỳ và chứng từ đại diện 2 tầng) và chuẩn hóa căn chỉnh bảng mức trọng yếu A710.",
-    "Đưa kiểm soát nội bộ (KSNB) của 5 chu trình vào file giấy làm việc phần hành (D300, E200, D500, E400, D700 kèm walkthrough tối thiểu 3 mẫu).",
-    "Tối ưu hiệu năng giao diện: nạp động exceljs khi cần và loại bỏ adm-zip khỏi bản giao diện.",
-    "Mẫu thử nghiệm kiểm soát C1xx: điểm bắt đầu cố định (0,6043 × khoảng cách mẫu), chạy lại ra đúng mẫu cũ theo chuẩn VACPA.",
-    "Cộng sai số dự phòng vào cận trên sai sót Stringer (VSA 530) và hoàn thiện chọn thư mục khách hàng gom GLV theo năm.",
-    "Nâng cấp bảo mật thư viện Zod 4.6.7 và tinh gọn mã nguồn, loại bỏ các phân hệ thừa không gắn màn hình."
+    "Tăng tốc mở app: trang chủ chỉ nạp 3 cửa sổ phụ khi mở lần đầu (giảm 17,6% gói khởi động) và xuất Soát xét chéo GLV, Biên bản QĐ 2079 không ghi đè file cũ.",
+    "Tự đọc file Excel 97-2003 (.xls) và bảng HTML giả .xls trên toàn hệ thống; bổ sung công cụ Chuyển Đổi Excel 97-2003 chuyển hàng loạt sang .xlsx.",
+    "Nâng cấp Chốt công nợ 331/131: đọc đúng kỳ trả có năm, tách nhiều kỳ trong một diễn giải, bổ sung 3311 vãng lai, theo dõi USD và ngày chốt giữa kỳ.",
+    "Nâng cấp file GLV máy xuất: đúng niên độ/kỳ đợt trên ADD, tô màu ô máy điền, lấy cột số năm trước từ GLV năm trước đã kiểm toán, chọn mẫu theo đợt đang làm.",
+    "File GLV E200 khi chạy cả phần hành kèm các sheet Chốt công nợ 331; bảng tính lại khấu hao 214 và phân bổ 242 hỗ trợ sổ lập mỗi tháng một sheet.",
+    "Sửa đối chiếu tờ khai hải quan (xuất/nhập, đối tác cấp 2, số lượng), bổ sung bộ luật Quy chế PACO (bước 1/8) và rút gọn nhãn cơ sở OM trên thẻ KPI A710."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.10/AuditSoft-3.0.10-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.0.10/AuditSoft-3.0.10-Portable.exe",
-  "sha256": "43cd1fe4c13123f99f8c8a0c3264172946136a8892968089ff2f4a645a7f0f50",
-  "signature": "o7-obXQ7elVJCT7hFLpUVyk1UFSbVwJD6Hl_4i8uAgvB6DEBXNzS6GW1jQwYaTwgSrVmOqIxNRJNJpypxmp9Ag"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.1.0/AuditSoft-3.1.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.1.0/AuditSoft-3.1.0-Portable.exe",
+  "sha256": "72448893d55d9a340b90f091048927ec3f40375b621a8b2e756f9a65ce875441",
+  "signature": "J8a8-nv1wreSpQ-koeFie6siKr4L0EevFKPaKGJM7vm-w5nCZbKq-7ulovg3UAbKlcwzgQSzXwrXnfmrTsKbDg"
 }
