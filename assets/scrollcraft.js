@@ -303,9 +303,8 @@
     var worlds = [];
     var drifts = [];
     var playheads = [];
-    var scrollEls = [];
     var vh = innerHeight, vw = innerWidth;
-    var y = 0, needsLayout = true;
+    var y = 0;
     var progressBar = root.querySelector('[data-sc-progress]');
     var docEl = document.documentElement;
 
@@ -641,7 +640,6 @@
         }
       });
 
-      needsLayout = false;
       read();
     }
 
@@ -674,7 +672,7 @@
             // time actually needs to change, so a clip sitting at the very top
             // of its act would never seek, never fire 'seeked', and never
             // replace its poster until the reader scrolled it off zero.
-            try { V.el.currentTime = Math.max(V.target * (V.el.duration || 1), 0.001); } catch (e) {}
+            try { V.el.currentTime = Math.max(V.target * (V.el.duration || 1), 0.001); } catch {}
             read();
             // Prime the decoder the moment the clip can be primed, without
             // waiting for a gesture. A muted inline play() is allowed with no
@@ -840,7 +838,7 @@
             bubbles: true,
             detail: { index: k, count: W.segs.length, label: cur.label, el: cur.el, progress: pr }
           }));
-        } catch (e) {}
+        } catch {}
       }
     }
 
@@ -1041,7 +1039,7 @@
           if (!V.stuckAt) V.stuckAt = nw;
           else if (nw - V.stuckAt > 700) {
             V.stuckAt = nw;
-            try { V.el.currentTime = V.el.currentTime + 0.001; } catch (e) {}
+            try { V.el.currentTime = V.el.currentTime + 0.001; } catch {}
           }
           continue;
         }
@@ -1051,7 +1049,7 @@
         V.cur += (V.target - V.cur) * (reduce ? 1 : V.lerp);
         var dur = V.el.duration || 1;
         var t = clamp(V.cur, 0, 0.999) * dur;
-        if (Math.abs(V.el.currentTime - t) > eps) { try { V.el.currentTime = t; } catch (e) {} }
+        if (Math.abs(V.el.currentTime - t) > eps) { try { V.el.currentTime = t; } catch {} }
       }
       scTickFrame = requestAnimationFrame(tick);
     }
@@ -1083,13 +1081,13 @@
       var done = function () {
         V.priming = false;
         if (!V.primed) { V.primed = true; primedCount++; }
-        try { V.el.pause(); } catch (e) {}
+        try { V.el.pause(); } catch {}
         // repaint: nudge past the deadband so the next tick writes for real
         try {
           var dur = V.el.duration || 1;
           V.cur = clamp(V.cur, 0, 0.999);
           V.el.currentTime = clamp(V.cur * dur + 0.05, 0, dur * 0.999);
-        } catch (e) {}
+        } catch {}
       };
       var fail = function () { V.priming = false; };
       // A play() promise is allowed to stay pending forever (iOS does this to a
@@ -1099,7 +1097,7 @@
       // done(), which is idempotent.
       setTimeout(function () { if (V.priming) fail(); }, 2000);
       var pr;
-      try { pr = V.el.play(); } catch (e) { fail(); return; }
+      try { pr = V.el.play(); } catch { fail(); return; }
       if (pr && pr.then) pr.then(done, fail);
       else done();
     }
@@ -1256,9 +1254,9 @@
       // leaves the element holding the resource.
       for (var v = 0; v < playheads.length; v++) {
         var V = playheads[v];
-        try { V.el.pause(); } catch (e) {}
+        try { V.el.pause(); } catch {}
         if (V.objectURL) {
-          try { V.el.removeAttribute('src'); V.el.load(); } catch (e) {}
+          try { V.el.removeAttribute('src'); V.el.load(); } catch {}
           URL.revokeObjectURL(V.objectURL);
           V.objectURL = null;
         }
