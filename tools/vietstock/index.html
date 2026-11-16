@@ -116,7 +116,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../assets/theme.css?v=3.0.0">
+  <link rel="stylesheet" href="../../assets/theme.css?v=3.1.0">
 
   <!-- Living Design Tokens & Dedicated SiteForge Styles for Vietstock TP -->
   <style>
@@ -621,11 +621,11 @@
 
       <ul class="nav-menu">
         <li class="nav-item nav-dropdown">
-          <button class="nav-link nav-dropdown-toggle" type="button" style="color: var(--accent-primary);">
+          <button class="nav-link nav-dropdown-toggle" type="button" popovertarget="navMenuProducts" aria-controls="navMenuProducts" style="color: var(--accent-primary);">
             <span>Sản phẩm</span>
             <svg class="nav-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="nav-dropdown-menu">
+          <div id="navMenuProducts" class="nav-dropdown-menu" popover="auto">
             <a href="../../tools/auditsoft/" class="nav-dropdown-item ">
               <div class="nav-dropdown-icon">
                 <img src="../../assets/auditsoft.svg" alt="" width="24" height="24">
@@ -666,11 +666,11 @@
         </li>
         <li><a href="../../#pricing" class="nav-link">Bảng giá</a></li>
         <li class="nav-item nav-dropdown">
-          <button class="nav-link nav-dropdown-toggle" type="button">
+          <button class="nav-link nav-dropdown-toggle" type="button" popovertarget="navMenuGuides" aria-controls="navMenuGuides">
             <span>Tài liệu</span>
             <svg class="nav-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="nav-dropdown-menu">
+          <div id="navMenuGuides" class="nav-dropdown-menu" popover="auto">
             <a href="../../cam-nang/so-khop-nkc/" class="nav-dropdown-item ">
               <div class="nav-dropdown-content">
                 <div class="nav-dropdown-title">Cẩm nang so khớp NKC</div>
@@ -723,13 +723,13 @@
           <span class="nav-zalo-text">0817.567.008</span>
         </a>
         <a href="../../#downloads"  class="btn btn-primary btn-sm nowrap nav-dl-btn">Tải dùng thử</a>
-        <button id="navMobileBtn" class="nav-mobile-toggle" type="button" aria-label="Mở menu điều hướng" aria-expanded="false">
+        <button id="navMobileBtn" class="nav-mobile-toggle" type="button" aria-label="Mở menu điều hướng" popovertarget="navMobileDrawer" aria-controls="navMobileDrawer">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
       </div>
     </div>
 
-    <div id="navMobileDrawer" class="nav-mobile-drawer" style="display: none;">
+    <div id="navMobileDrawer" class="nav-mobile-drawer" popover="auto">
       <div class="nav-drawer-title">Sản phẩm</div>
       <ul>
         <li><a href="../../tools/auditsoft/" class="nav-link">AuditSoft: hồ sơ kiểm toán BCTC</a></li>
@@ -1461,26 +1461,14 @@
       </div>
     </div>
   </footer>
+  <script src="../../assets/nav.js?v=1.0.0"></script>
+  <script src="../../assets/nav.js?v=1.0.0"></script>
+  <script src="../../assets/nav.js?v=1.0.0"></script>
+  <script src="../../assets/nav.js?v=1.0.0"></script>
+  <script src="../../assets/nav.js?v=1.0.0"></script>
 
-  <!-- Core JavaScript: Interactive Simulator Engine, Navigation & Payment -->
+  <!-- Core JavaScript: Interactive Simulator Engine & Payment (thanh menu nằm ở assets/nav.js) -->
   <script>
-    // Mobile Navigation Drawer Toggle
-    const navMobileBtn = document.getElementById('navMobileBtn');
-    const navMobileDrawer = document.getElementById('navMobileDrawer');
-    if (navMobileBtn && navMobileDrawer) {
-      navMobileBtn.addEventListener('click', () => {
-        const isOpen = navMobileDrawer.style.display === 'block';
-        navMobileDrawer.style.display = isOpen ? 'none' : 'block';
-        navMobileDrawer.classList.toggle('active');
-      });
-      navMobileDrawer.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          navMobileDrawer.style.display = 'none';
-          navMobileDrawer.classList.remove('active');
-        });
-      });
-    }
-
     // --- TRANSFER PRICING SIMULATOR ENGINE (Decree 132/2020 N+1 Interpolation) ---
     // Sample Peer Group (N=8) sorted ascending
     const compsDatasets = {

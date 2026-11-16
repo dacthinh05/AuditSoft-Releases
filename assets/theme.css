@@ -106,6 +106,11 @@ p { margin: 0; color: var(--text-muted); }
 .btn-sm { min-height: 40px; padding: 8px 14px; font-size: 0.875rem; }
 .btn-block { width: 100%; }
 
+/* Chuyển trang mượt (hiệu ứng mờ dần) giữa các trang cùng site. Trình duyệt chưa hỗ trợ thì đổi trang như cũ. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}
+
 /* Thanh điều hướng */
 .navbar { position: sticky; top: 0; z-index: 100; background: var(--bg-surface); border-bottom: 1px solid var(--border-color); }
 .navbar .nav-container { display: flex; align-items: center; justify-content: space-between; gap: 24px; max-width: 1440px; min-height: 64px; padding-left: 24px; padding-right: 24px; }
@@ -119,10 +124,14 @@ p { margin: 0; color: var(--text-muted); }
 .nav-link:hover { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 4px; }
 .nav-item { position: relative; }
 .nav-dropdown-toggle { white-space: nowrap; }
+/* Menu thả xuống là popover (lớp trên cùng); assets/nav.js đặt top/left ngay dưới nút. */
 .nav-dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
+  position: fixed;
+  inset: auto;
+  top: 64px; /* mặc định khi assets/nav.js chưa chạy */
+  margin: 0;
+  overflow: visible;
+  color: inherit;
   display: none;
   min-width: 340px;
   padding: 8px;
@@ -131,7 +140,9 @@ p { margin: 0; color: var(--text-muted); }
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-frame);
 }
-.nav-dropdown:hover .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu { display: block; }
+.nav-dropdown-menu:is(:popover-open, .is-open) { display: block; }
+/* Cầu nối khoảng hở giữa nút và menu để rê chuột xuống menu không làm menu đóng. */
+.nav-dropdown-menu::before { content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 8px; }
 .nav-dropdown-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px; border-radius: var(--radius-sm); text-decoration: none; }
 .nav-dropdown-item:hover, .nav-dropdown-item.active { background: var(--bg-subtle); }
 .nav-dropdown-icon { flex-shrink: 0; width: 24px; height: 24px; color: var(--accent-primary); }
@@ -141,8 +152,9 @@ p { margin: 0; color: var(--text-muted); }
 .nav-dropdown-desc { font-size: 0.8125rem; line-height: 1.45; color: var(--text-muted); }
 .nav-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .nav-mobile-toggle { align-items: center; justify-content: center; width: 44px; height: 44px; background: none; border: 1px solid var(--border-color); border-radius: var(--radius-sm); color: var(--text-main); cursor: pointer; }
-.nav-mobile-drawer { display: none; padding: 16px 24px 24px; background: var(--bg-surface); border-top: 1px solid var(--border-color); }
-.nav-mobile-drawer.active { display: block; }
+/* Menu điện thoại là popover phủ ngang màn hình ngay dưới thanh menu; assets/nav.js đặt top và chiều cao. */
+.nav-mobile-drawer { display: none; position: fixed; inset: auto 0 auto 0; top: 65px; width: 100%; max-width: none; height: auto; margin: 0; color: inherit; padding: 16px 24px 24px; background: var(--bg-surface); border: 0; border-top: 1px solid var(--border-color); box-shadow: var(--shadow-frame); max-height: calc(100dvh - 65px); overflow-y: auto; }
+.nav-mobile-drawer:is(:popover-open, .is-open) { display: block; }
 .nav-mobile-drawer ul { margin-bottom: 16px; }
 .nav-mobile-drawer .nav-link { display: flex; min-height: 44px; }
 .nav-drawer-title { margin-bottom: 4px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-faint); }

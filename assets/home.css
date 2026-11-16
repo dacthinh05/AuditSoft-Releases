@@ -72,6 +72,11 @@ strong { font-weight: 600; color: var(--ink); }
 .actions { display: flex; flex-wrap: wrap; gap: .75rem; }
 
 /* ----------------------------------------------------------------- nav -- */
+/* Chuyển trang mượt (hiệu ứng mờ dần) giữa các trang cùng site. Trình duyệt chưa hỗ trợ thì đổi trang như cũ. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}
+
 /* Thanh menu dùng chung markup với các trang sản phẩm (get_navbar_html).
    Ở trang này nó không dính: cuộn qua là vạch chia thành chrome duy nhất. */
 .navbar { position: relative; z-index: 50; background: #fff; border-bottom: 1px solid var(--line); }
@@ -98,14 +103,19 @@ strong { font-weight: 600; color: var(--ink); }
 }
 .nav-zalo-btn { gap: .375rem; }
 .nav-dropdown { position: relative; }
+/* Menu thả xuống là popover (lớp trên cùng); assets/nav.js đặt top/left ngay dưới nút. */
 .nav-dropdown-menu {
-  position: absolute; top: calc(100% + 8px); left: 0; width: 22rem; z-index: 60;
+  position: fixed; inset: auto; top: 68px; margin: 0; overflow: visible; width: 22rem; color: inherit; /* top mặc định khi assets/nav.js chưa chạy */
   background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow-lg); padding: .5rem;
-  opacity: 0; visibility: hidden; transform: translateY(4px);
-  transition: opacity 150ms var(--ease), transform 150ms var(--ease), visibility 150ms;
+  display: none; opacity: 0; transform: translateY(4px);
+  transition: opacity 150ms var(--ease), transform 150ms var(--ease), display 150ms, overlay 150ms;
+  transition-behavior: allow-discrete;
 }
-.nav-dropdown.is-open .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu { opacity: 1; visibility: visible; transform: none; }
+.nav-dropdown-menu:is(:popover-open, .is-open) { display: block; opacity: 1; transform: none; }
+@starting-style { .nav-dropdown-menu:is(:popover-open, .is-open) { opacity: 0; transform: translateY(4px); } }
+/* Cầu nối khoảng hở giữa nút và menu để rê chuột xuống menu không làm menu đóng. */
+.nav-dropdown-menu::before { content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 8px; }
 .nav-dropdown-item { display: flex; gap: .75rem; padding: .625rem; border-radius: var(--radius-sm); text-decoration: none; color: var(--ink); }
 .nav-dropdown-icon img { width: 28px; height: 28px; margin-top: 2px; }
 .nav-dropdown-title { font-size: .9375rem; font-weight: 600; }
@@ -113,9 +123,11 @@ strong { font-weight: 600; color: var(--ink); }
 .nav-dropdown-desc { font-size: .8125rem; color: var(--ink-faint); line-height: 1.4; }
 @media (hover: hover) and (pointer: fine) { .nav-dropdown-item:hover { background: var(--paper); } }
 .nav-dropdown-arrow { transition: transform 150ms var(--ease); }
-.nav-dropdown.is-open .nav-dropdown-arrow { transform: rotate(180deg); }
+.nav-dropdown:has(.nav-dropdown-menu:is(:popover-open, .is-open)) .nav-dropdown-arrow { transform: rotate(180deg); }
 .nav-mobile-toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; color: var(--ink); cursor: pointer; place-items: center; }
-.nav-mobile-drawer { border-top: 1px solid var(--line); padding: .5rem var(--gutter) 1.5rem; background: #fff; max-height: calc(100vh - 68px); overflow-y: auto; }
+/* Menu điện thoại là popover phủ ngang màn hình ngay dưới thanh menu; assets/nav.js đặt top và chiều cao. */
+.nav-mobile-drawer { display: none; position: fixed; inset: auto 0 auto 0; top: 68px; width: 100%; max-width: none; height: auto; margin: 0; color: inherit; border: 0; border-top: 1px solid var(--line); box-shadow: var(--shadow-lg); padding: .5rem var(--gutter) 1.5rem; background: #fff; max-height: calc(100dvh - 68px); overflow-y: auto; }
+.nav-mobile-drawer:is(:popover-open, .is-open) { display: block; }
 .nav-drawer-title { font-size: .8125rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-faint); margin: 1.25rem 0 .25rem; }
 .nav-mobile-drawer ul { list-style: none; margin: 0; padding: 0; }
 .nav-mobile-drawer li .nav-link { display: flex; width: 100%; padding: .75rem 0; border-radius: 0; border-bottom: 1px solid var(--line); color: var(--ink); }
@@ -337,6 +349,7 @@ strong { font-weight: 600; color: var(--ink); }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .nav-dropdown-menu, .nav-dropdown-arrow { transition: none; }
   .js .scene__card { animation: none; opacity: 1; transform: none; }
   .js [data-reveal] { transform: none; transition: opacity 200ms linear; }
   .btn, .faq summary::after, .product__manual summary::after { transition: none; }
