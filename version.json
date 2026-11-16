@@ -1,19 +1,14 @@
 {
-  "version": "3.3.0",
+  "version": "3.3.1",
   "releaseDate": "2026-11-16",
-  "title": "AuditSoft v3.3.0: Chọn Mẫu Theo Quy Chế PACO 2.2.2, Thử Nghiệm Kiểm Soát 3 Khâu, Electron 45 An Toàn Hơn",
+  "title": "AuditSoft v3.3.1: Báo Rõ Khi Mất Thư Mục Hồ Sơ, Màn Chọn Mẫu Dễ Xem, Bảng Giá Mới",
   "changelog": [
-    "Chọn mẫu theo công cụ PACO v2.2.2: hệ số R theo từng tài khoản trên thang 10 bậc, có màn hình bảng hệ số R của hồ sơ; tài khoản ngoài bảng R chọn phần tử cụ thể theo Điều 6.2; tiền gộp 111 + 112; xuất 3 sheet .chonmau, .1, .2 đúng bố cục công cụ chọn mẫu, có thanh tiến độ 4 bước.",
-    "Thử nghiệm kiểm soát theo 3 khâu: màn hình, chọn mẫu, xuất C100 và chương trình C110, C120, C140; lưu riêng từng kiểm soát, R theo kết quả thử, bảng tổng hợp cho trưởng nhóm.",
-    "Mức trọng yếu A710 theo 4 trường hợp Điều 5; trọng yếu kế hoạch đợt 1 tính trên giá trị kế hoạch thận trọng; chọn mẫu hai đợt theo Điều 8, suy rộng sai sót theo bình quân tỷ lệ, chọn thư xác nhận theo Quy chế.",
-    "G100 so giá bán cho bên liên quan với khách độc lập; G152 gộp nhiều file kho và giá thành theo tháng, nạp được file giá thành .xls; cut-off nhận bảng kê hóa đơn chi tiết theo dòng hàng.",
-    "Không ghi \"khớp\" khi thiếu dữ liệu: đối chiếu thuế (thiếu sổ hoặc tờ khai), kho và giá thành, R08 công nợ khi sổ tổng hợp rỗng; giấy chu trình doanh thu chỉ ghi đạt khi đã thử nghiệm mẫu; QĐ2079 nhận walkthrough ở sheet A4x1.1; KSNB trong file phần hành không bị cắt chữ khi in.",
-    "Đối chiếu tờ khai nhập khẩu đọc đúng danh sách tờ khai ECUS (trị giá hóa đơn nguyên tệ, trị giá tính thuế VND) và nhật ký chung một cột tiền (cột Sops, số tờ khai ở cột Số hóa đơn, tên đối tác ở cột Tên CN); phiếu trả tiền, nộp thuế, chi phí ghi số tờ khai không còn bị cộng vào trị giá hàng.",
-    "Nâng nền tảng lên Electron 45, lưu file qua file tạm nên không hỏng khi app tắt giữa chừng, chặn mở file chạy được từ hồ sơ; đọc NKC nhanh hơn (7,3 s còn 2,7 s, RAM giảm 72%); thêm công cụ chuyển Word 97-2003 (.doc) sang .docx.",
-    "Sửa tính toán: 9 lỗi Rủi ro thuế, đối chiếu tờ khai đúng khách hàng, tờ khai hải quan gộp chung hóa đơn, lương E490 theo kỳ lương, cột khấu hao là công thức sống, chốt công nợ theo bản chất số dư."
+    "Khi thư mục hồ sơ đã bị chuyển hoặc xóa khỏi máy: thanh bên và các màn hồ sơ báo rõ bằng tiếng Việt kèm nút chọn lại thư mục, thay cho lỗi kỹ thuật \"Không tìm thấy thư mục đã chỉ định\"; ghi giấy làm việc không còn tự tạo lại thư mục cũ, tránh hồ sơ bị tách làm hai nơi.",
+    "Màn Chọn mẫu VSA 530: các ô Cách chọn, Phương pháp chọn phần còn lại và TK đối ứng loại trừ dễ đọc, cùng kiểu với phần còn lại của app; ô Ngưỡng kiểm 100% hiện đủ chữ.",
+    "Bảng giá mới: gói 1 năm 1.990.000 đ, 3 năm 4.490.000 đ, vĩnh viễn 2.490.000 đ, gia hạn 1.490.000 đ."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.0/AuditSoft-3.3.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.0/AuditSoft-3.3.0-Portable.exe",
-  "sha256": "b57d5a733e2dce3255f80301b030ec11b30a3ea302e44b3292b0463c318de42a",
-  "signature": "AuPRhu8_CnBSAsatjpCHkl5kG1kKAhb1s15K_hJs5-bQxAcca7XEHVdc5t1Y3iJu-tPFSzXvlnOTDDYKAS4qAg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.1/AuditSoft-3.3.1-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.1/AuditSoft-3.3.1-Portable.exe",
+  "sha256": "15212b55e8d77193521e7677d7a56111e1e39091dbb7c7ed28626355d4699c88",
+  "signature": "oC6Xod-2O5MgsakA5pz324NE6iex8A9wTpEXqHCUJd3kn-0NXzEDWKE9cMdAvEiWNxCz155kZkr_ZcjOkAUQAA"
 }
