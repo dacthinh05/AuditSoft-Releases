@@ -12,17 +12,17 @@
 
 ## Sản phẩm
 
-### AuditSoft 3.1.0
+### AuditSoft 3.2.0
 - Trang: https://tenstartup.com/tools/auditsoft/
 - Tải về: https://github.com/dacthinh05/AuditSoft-Releases/releases
 - Tóm tắt: Phần mềm làm hồ sơ kiểm toán báo cáo tài chính theo 4 giai đoạn: tiếp nhận sổ NKC và CĐSPS, lập kế hoạch và mức trọng yếu, thực hiện thủ tục theo từng phần hành, hoàn thành và lưu trữ hồ sơ. Tự điền bộ Giấy làm việc theo mẫu VACPA từ số liệu sổ sách.
 - Dùng thử: Dùng thử đầy đủ tính năng đến 31/12/2026
 - Dữ liệu: Sổ sách và hồ sơ được xử lý và lưu trên máy của bạn. Trợ lý AI là tùy chọn: chỉ khi bạn bật và nhập API key Gemini của mình, phần nội dung cần soát xét mới được gửi tới Google.
 - Bảng giá (theo máy):
-  - Gói 1 Năm (Chuyên Nghiệp): 3.890.000 đ (1 năm (365 ngày) / 1 máy)
-  - Gói 3 Năm: 8.900.000 đ (3 năm (1.095 ngày) / 1 máy)
-  - Early Bird — Vĩnh Viễn: 4.890.000 đ (Trọn đời / 1 máy)
-  - Gia Hạn 1 Năm: 2.890.000 đ (1 năm (gia hạn))
+  - Gói 1 Năm (Chuyên Nghiệp): 1.990.000 đ (1 năm (365 ngày) / 1 máy)
+  - Gói 3 Năm: 4.490.000 đ (3 năm (1.095 ngày) / 1 máy)
+  - Early Bird — Vĩnh Viễn: 2.490.000 đ (Trọn đời / 1 máy)
+  - Gia Hạn 1 Năm: 1.490.000 đ (1 năm (gia hạn))
 
 ### InvoiceDesk 4.4.5
 - Trang: https://tenstartup.com/tools/invoicedesk/
