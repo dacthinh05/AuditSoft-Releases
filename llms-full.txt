@@ -12,7 +12,7 @@
 
 ## Sản phẩm
 
-### AuditSoft 3.2.0
+### AuditSoft 3.3.2
 - Trang: https://tenstartup.com/tools/auditsoft/
 - Tải về: https://github.com/dacthinh05/AuditSoft-Releases/releases
 - Tóm tắt: Phần mềm làm hồ sơ kiểm toán báo cáo tài chính theo 4 giai đoạn: tiếp nhận sổ NKC và CĐSPS, lập kế hoạch và mức trọng yếu, thực hiện thủ tục theo từng phần hành, hoàn thành và lưu trữ hồ sơ. Tự điền bộ Giấy làm việc theo mẫu VACPA từ số liệu sổ sách.
