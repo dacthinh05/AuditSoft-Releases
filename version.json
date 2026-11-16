@@ -1,17 +1,19 @@
 {
-  "version": "3.1.0",
-  "releaseDate": "2026-11-12",
-  "title": "AuditSoft v3.1.0: Mở App Nhanh Hơn, Đọc .xls 97-2003, Chốt Công Nợ Đúng Kỳ, GLV Theo Đợt & Quy Chế PACO",
+  "version": "3.3.0",
+  "releaseDate": "2026-11-16",
+  "title": "AuditSoft v3.3.0: Chọn Mẫu Theo Quy Chế PACO 2.2.2, Thử Nghiệm Kiểm Soát 3 Khâu, Electron 45 An Toàn Hơn",
   "changelog": [
-    "Tăng tốc mở app: trang chủ chỉ nạp 3 cửa sổ phụ khi mở lần đầu (giảm 17,6% gói khởi động) và xuất Soát xét chéo GLV, Biên bản QĐ 2079 không ghi đè file cũ.",
-    "Tự đọc file Excel 97-2003 (.xls) và bảng HTML giả .xls trên toàn hệ thống; bổ sung công cụ Chuyển Đổi Excel 97-2003 chuyển hàng loạt sang .xlsx.",
-    "Nâng cấp Chốt công nợ 331/131: đọc đúng kỳ trả có năm, tách nhiều kỳ trong một diễn giải, bổ sung 3311 vãng lai, theo dõi USD và ngày chốt giữa kỳ.",
-    "Nâng cấp file GLV máy xuất: đúng niên độ/kỳ đợt trên ADD, tô màu ô máy điền, lấy cột số năm trước từ GLV năm trước đã kiểm toán, chọn mẫu theo đợt đang làm.",
-    "File GLV E200 khi chạy cả phần hành kèm các sheet Chốt công nợ 331; bảng tính lại khấu hao 214 và phân bổ 242 hỗ trợ sổ lập mỗi tháng một sheet.",
-    "Sửa đối chiếu tờ khai hải quan (xuất/nhập, đối tác cấp 2, số lượng), bổ sung bộ luật Quy chế PACO (bước 1/8) và rút gọn nhãn cơ sở OM trên thẻ KPI A710."
+    "Chọn mẫu theo công cụ PACO v2.2.2: hệ số R theo từng tài khoản trên thang 10 bậc, có màn hình bảng hệ số R của hồ sơ; tài khoản ngoài bảng R chọn phần tử cụ thể theo Điều 6.2; tiền gộp 111 + 112; xuất 3 sheet .chonmau, .1, .2 đúng bố cục công cụ chọn mẫu, có thanh tiến độ 4 bước.",
+    "Thử nghiệm kiểm soát theo 3 khâu: màn hình, chọn mẫu, xuất C100 và chương trình C110, C120, C140; lưu riêng từng kiểm soát, R theo kết quả thử, bảng tổng hợp cho trưởng nhóm.",
+    "Mức trọng yếu A710 theo 4 trường hợp Điều 5; trọng yếu kế hoạch đợt 1 tính trên giá trị kế hoạch thận trọng; chọn mẫu hai đợt theo Điều 8, suy rộng sai sót theo bình quân tỷ lệ, chọn thư xác nhận theo Quy chế.",
+    "G100 so giá bán cho bên liên quan với khách độc lập; G152 gộp nhiều file kho và giá thành theo tháng, nạp được file giá thành .xls; cut-off nhận bảng kê hóa đơn chi tiết theo dòng hàng.",
+    "Không ghi \"khớp\" khi thiếu dữ liệu: đối chiếu thuế (thiếu sổ hoặc tờ khai), kho và giá thành, R08 công nợ khi sổ tổng hợp rỗng; giấy chu trình doanh thu chỉ ghi đạt khi đã thử nghiệm mẫu; QĐ2079 nhận walkthrough ở sheet A4x1.1; KSNB trong file phần hành không bị cắt chữ khi in.",
+    "Đối chiếu tờ khai nhập khẩu đọc đúng danh sách tờ khai ECUS (trị giá hóa đơn nguyên tệ, trị giá tính thuế VND) và nhật ký chung một cột tiền (cột Sops, số tờ khai ở cột Số hóa đơn, tên đối tác ở cột Tên CN); phiếu trả tiền, nộp thuế, chi phí ghi số tờ khai không còn bị cộng vào trị giá hàng.",
+    "Nâng nền tảng lên Electron 45, lưu file qua file tạm nên không hỏng khi app tắt giữa chừng, chặn mở file chạy được từ hồ sơ; đọc NKC nhanh hơn (7,3 s còn 2,7 s, RAM giảm 72%); thêm công cụ chuyển Word 97-2003 (.doc) sang .docx.",
+    "Sửa tính toán: 9 lỗi Rủi ro thuế, đối chiếu tờ khai đúng khách hàng, tờ khai hải quan gộp chung hóa đơn, lương E490 theo kỳ lương, cột khấu hao là công thức sống, chốt công nợ theo bản chất số dư."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.1.0/AuditSoft-3.1.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.1.0/AuditSoft-3.1.0-Portable.exe",
-  "sha256": "72448893d55d9a340b90f091048927ec3f40375b621a8b2e756f9a65ce875441",
-  "signature": "J8a8-nv1wreSpQ-koeFie6siKr4L0EevFKPaKGJM7vm-w5nCZbKq-7ulovg3UAbKlcwzgQSzXwrXnfmrTsKbDg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.0/AuditSoft-3.3.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.0/AuditSoft-3.3.0-Portable.exe",
+  "sha256": "b57d5a733e2dce3255f80301b030ec11b30a3ea302e44b3292b0463c318de42a",
+  "signature": "AuPRhu8_CnBSAsatjpCHkl5kG1kKAhb1s15K_hJs5-bQxAcca7XEHVdc5t1Y3iJu-tPFSzXvlnOTDDYKAS4qAg"
 }
