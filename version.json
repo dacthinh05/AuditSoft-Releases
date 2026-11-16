@@ -1,14 +1,12 @@
 {
-  "version": "3.3.1",
+  "version": "3.3.2",
   "releaseDate": "2026-11-16",
-  "title": "AuditSoft v3.3.1: Báo Rõ Khi Mất Thư Mục Hồ Sơ, Màn Chọn Mẫu Dễ Xem, Bảng Giá Mới",
+  "title": "AuditSoft v3.3.2: Ghi Rõ Hạn Ưu Đãi Gói Early Bird Vĩnh Viễn",
   "changelog": [
-    "Khi thư mục hồ sơ đã bị chuyển hoặc xóa khỏi máy: thanh bên và các màn hồ sơ báo rõ bằng tiếng Việt kèm nút chọn lại thư mục, thay cho lỗi kỹ thuật \"Không tìm thấy thư mục đã chỉ định\"; ghi giấy làm việc không còn tự tạo lại thư mục cũ, tránh hồ sơ bị tách làm hai nơi.",
-    "Màn Chọn mẫu VSA 530: các ô Cách chọn, Phương pháp chọn phần còn lại và TK đối ứng loại trừ dễ đọc, cùng kiểu với phần còn lại của app; ô Ngưỡng kiểm 100% hiện đủ chữ.",
-    "Bảng giá mới: gói 1 năm 1.990.000 đ, 3 năm 4.490.000 đ, vĩnh viễn 2.490.000 đ, gia hạn 1.490.000 đ."
+    "Màn hình Bản quyền: gói Early Bird vĩnh viễn ghi rõ là giá mở bán đến 31/12/2026, nhãn gói đổi thành \"ƯU ĐÃI ĐẾN 31/12/2026\". Giá các gói không đổi."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.1/AuditSoft-3.3.1-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.1/AuditSoft-3.3.1-Portable.exe",
-  "sha256": "15212b55e8d77193521e7677d7a56111e1e39091dbb7c7ed28626355d4699c88",
-  "signature": "oC6Xod-2O5MgsakA5pz324NE6iex8A9wTpEXqHCUJd3kn-0NXzEDWKE9cMdAvEiWNxCz155kZkr_ZcjOkAUQAA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.2/AuditSoft-3.3.2-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.2/AuditSoft-3.3.2-Portable.exe",
+  "sha256": "2c28ed944bf9500678f60c95dbd45eef843765ac2289c22c4d8811e4c5042bf2",
+  "signature": "lDCfjVfIH-jL3AYuIb98ehjslnTHGs_4i05FvqbhOfjuyiQ5mFh4uHXRMhaBZBe_WifkyK7zuOYv9wipSofJBA"
 }
