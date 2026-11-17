@@ -1,12 +1,20 @@
 {
-  "version": "3.3.3",
+  "version": "3.3.4",
   "releaseDate": "2026-11-17",
-  "title": "AuditSoft v3.3.3: Bớt Cảnh Báo Thiếu Hóa Đơn Khi Chốt Công Nợ",
+  "title": "AuditSoft v3.3.4: GLV Đúng Số Từ Form NKC Công Ty, Hồ Sơ Đợt 1 Ghi Cột Riêng, Kiểm Tỷ Giá Công Nợ USD",
   "changelog": [
-    "Chốt công nợ: khi sổ chi tiết không ghi số hóa đơn, app chỉ cảnh báo chứng từ không có dấu hiệu hóa đơn (diễn giải không nhắc số hóa đơn, không có dòng thuế GTGT), ở mức Cần kiểm tra. Nhà cung cấp ngoại tệ không bị xét thiếu hóa đơn. Số dư và tuổi nợ không đổi."
+    "GLV từ form NKC của công ty: đọc đúng cân đối phát sinh khi có dòng tổng nằm trên tiêu đề (trước đây số dư cuối kỳ bị lệch cột); bút toán không còn mất ngày khi sổ có cả cột NGÀY và NGÀY HĐ; diễn giải gộp một dòng, bỏ ngoặc kép thừa.",
+    "GLV dễ đọc hơn: kết luận máy ghi ở bảng thủ tục và diễn giải ở bảng kê chi tiết tự xuống dòng, dòng tự cao lên cho đủ chữ; tiêu đề cột năm trước không còn lỗi #VALUE! khi chưa nhập kỳ đợt.",
+    "Hồ sơ đợt 1: sheet tổng hợp ghi số đã kiểm toán đợt 1 ở cột \"kiểm toán đợt 1\", cột cuối kỳ để trống, biến động so với đầu kỳ; đợt 2 đọc lại số đợt 1 từ cột này. Mẫu D210, F110 thêm cột đợt.",
+    "GLV giữ đủ công thức chênh lệch ở D146 và G 510 (trước đây bị mất khi sinh file); GLV chỉ giữ căn cứ có con số, bỏ trích dẫn VSA, thông tư không cần thiết.",
+    "D553: lấy số nhập xuất tồn từ bảng tồn kho khi không có bảng giá thành, kết luận theo chênh lệch.",
+    "Màn Cut-off gọn hơn: kết luận đặt trước, mỗi dòng một ô tích.",
+    "Chốt công nợ USD: báo số dư và chứng từ có tỷ giá bất thường; hồ sơ giữa kỳ không còn báo chưa đánh giá lại tỷ giá; ước tính lãi, lỗ tỷ giá cuối niên độ theo tỷ giá VCB hoặc tỷ giá KTV nhập. Thẻ rủi ro gọn hơn, cột Loại cấu phần đổi thành Phần còn, file Excel có nút quay về từ cụm tất toán, sổ ngoại tệ cộng khớp số dư USD.",
+    "Đối chiếu tờ khai nhập: đọc đúng sổ công nợ 331 USD của MISA có tiêu đề hai tầng, ghép từng phiếu nhập với từng tờ khai.",
+    "Sổ Nhật ký chung được đọc ngay khi nạp, nên màn Lương E490 và các màn khác có số mà không phải mở màn Phân tích sơ bộ trước."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.3/AuditSoft-3.3.3-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.3/AuditSoft-3.3.3-Portable.exe",
-  "sha256": "33421701629f47277e8abe876dd2d2ffa27b35767c94d210e1c84581ace9d4b3",
-  "signature": "o6a9yeiSv81oJ_5R7i4V_4L2tupoIgRWu-DwCJ8EO766163nmsSuZNyAl7mKMPcdqlPmlIGKHvMAORVyp53aDg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.4/AuditSoft-3.3.4-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.4/AuditSoft-3.3.4-Portable.exe",
+  "sha256": "face1616435ba08446ed00463d17dff7d8fb3406ac7307853cf44d8f84faefd4",
+  "signature": "n5WpNyUpMoCl9ydgFhMKXQzZuBfX5t_I-uI_J4o_6MGf4yxDQwWr4iHPJ1y9Vqr_RliCpy2YWmitbCJ8mCSrBg"
 }
