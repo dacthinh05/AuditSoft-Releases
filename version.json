@@ -1,12 +1,12 @@
 {
-  "version": "3.3.2",
-  "releaseDate": "2026-11-16",
-  "title": "AuditSoft v3.3.2: Ghi Rõ Hạn Ưu Đãi Gói Early Bird Vĩnh Viễn",
+  "version": "3.3.3",
+  "releaseDate": "2026-11-17",
+  "title": "AuditSoft v3.3.3: Bớt Cảnh Báo Thiếu Hóa Đơn Khi Chốt Công Nợ",
   "changelog": [
-    "Màn hình Bản quyền: gói Early Bird vĩnh viễn ghi rõ là giá mở bán đến 31/12/2026, nhãn gói đổi thành \"ƯU ĐÃI ĐẾN 31/12/2026\". Giá các gói không đổi."
+    "Chốt công nợ: khi sổ chi tiết không ghi số hóa đơn, app chỉ cảnh báo chứng từ không có dấu hiệu hóa đơn (diễn giải không nhắc số hóa đơn, không có dòng thuế GTGT), ở mức Cần kiểm tra. Nhà cung cấp ngoại tệ không bị xét thiếu hóa đơn. Số dư và tuổi nợ không đổi."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.2/AuditSoft-3.3.2-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.2/AuditSoft-3.3.2-Portable.exe",
-  "sha256": "2c28ed944bf9500678f60c95dbd45eef843765ac2289c22c4d8811e4c5042bf2",
-  "signature": "lDCfjVfIH-jL3AYuIb98ehjslnTHGs_4i05FvqbhOfjuyiQ5mFh4uHXRMhaBZBe_WifkyK7zuOYv9wipSofJBA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.3/AuditSoft-3.3.3-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.3/AuditSoft-3.3.3-Portable.exe",
+  "sha256": "33421701629f47277e8abe876dd2d2ffa27b35767c94d210e1c84581ace9d4b3",
+  "signature": "o6a9yeiSv81oJ_5R7i4V_4L2tupoIgRWu-DwCJ8EO766163nmsSuZNyAl7mKMPcdqlPmlIGKHvMAORVyp53aDg"
 }
