@@ -1,14 +1,17 @@
 {
-  "version": "3.3.7",
-  "releaseDate": "2026-11-19",
-  "title": "AuditSoft v3.3.7: Bộ Mẫu GLV Sạch Số Của Khách Cũ, Tổng Giá Vốn Đợt 1 Ở G210 Tính Đúng",
+  "version": "3.3.10",
+  "releaseDate": "2026-11-21",
+  "title": "AuditSoft v3.3.10: Giao Diện Mới Gọn Hơn, Chọn Màu Nhấn, Sửa Chốt Công Nợ Và Đối Chiếu D 553",
   "changelog": [
-    "Bộ mẫu GLV các phần hành D, E, F, G không còn số và chữ của khách cũ. Trước đây GLV của khách mới có thể mang số cũ ở những ô app không ghi tới, ví dụ khoản thuế GTGT chờ hoàn ở E 310, cột năm trước của G520, lương năm trước ở E 490, bảng D 610.1, D794, E 110.1, G 551, G 595.",
-    "G210: dòng Cộng giá vốn ở cột kiểm toán đợt 1 tính đúng, không còn ra #REF!.",
-    "Thêm kiểm tra tự động chặn bộ mẫu GLV có số tiền gõ sẵn."
+    "Giao diện mới: thanh bên và thanh trên gọn hơn, nút Trợ lý chuyển lên thanh trên. Tổng quan hồ sơ, trang Tiếp nhận Sổ NKC và trang Làm phần hành được làm lại cho dễ nhìn.",
+    "Các trang dùng chung một kiểu: thanh tab, dải số liệu ở đầu trang, thông báo khi chưa chọn thư mục hồ sơ và đầu trang. Tiêu đề trang chỉ viết hoa chữ đầu câu.",
+    "Chọn màu nhấn cho giao diện (xanh dương, xanh ngọc, hồng, cam, tím) trong menu bản quyền ở góc trên bên phải.",
+    "Chốt công nợ: xử lý đúng khi sổ chi tiết thiếu, gộp mã hoặc chỉ có số dư chuyển sổ; sheet TH và CT được định dạng lại.",
+    "Tồn kho: đối chiếu D 553 đúng với tệp tồn kho lũy kế có cột Tên kho.",
+    "Đối chiếu tờ khai hải quan: file Excel có thêm cột Incoterm và nhãn hàng mẫu."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.7/AuditSoft-3.3.7-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.7/AuditSoft-3.3.7-Portable.exe",
-  "sha256": "0a3bfa124c81912085b3a44d0b0b4e1e09e23545c602216c3c0d95d4bee0933d",
-  "signature": "4WKM3KZGzPz01phuWXf7-xxndAD1Qz-gMdeYk_k8I0_4y2XhIk-ETNE_uQs6MyjEzW0GFSGyjz_fWp6fYCyoAA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.10/AuditSoft-3.3.10-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.10/AuditSoft-3.3.10-Portable.exe",
+  "sha256": "14642c2a411b89dc672bca002a28264cfe9a67f729ee2c0a63b808db47d4bd6f",
+  "signature": "O67yoF6Gx68AynQRazvZXF8SGijcd1O8zJWrMyRiTsQ4yk3VMVhdOqGRJ2n5PPXaQ32bnJ6Nn7CLi-N0OaWrDw"
 }
