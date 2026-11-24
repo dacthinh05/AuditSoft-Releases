@@ -2,7 +2,7 @@
    Menu "Sản phẩm", "Tài liệu" và menu điện thoại là popover có sẵn của trình duyệt: nút bấm mở
    bằng popovertarget, tự đóng khi bấm ra ngoài hoặc nhấn Esc, tự trả con trỏ về nút.
    Mã ở đây chỉ làm phần trình duyệt chưa tự làm được:
-   - đặt menu ngay dưới nút (CSS neo vị trí chưa có đủ trên các trình duyệt);
+   - đặt menu ngay dưới nút khi trình duyệt chưa có CSS neo vị trí (có rồi thì CSS tự làm);
    - mở menu khi rê chuột trên máy tính;
    - đóng menu khi chọn một mục dẫn tới chỗ khác trong cùng trang;
    - trình duyệt cũ chưa có popover thì bật tắt bằng class is-open. */
@@ -13,6 +13,8 @@
   var native = Object.prototype.hasOwnProperty.call(HTMLElement.prototype, 'popover');
   var menus = Array.prototype.slice.call(header.querySelectorAll('[popover]'));
   var GAP = 8;
+  // Trình duyệt có CSS neo vị trí thì menu thả xuống tự nằm dưới nút (xem nav-dropdown-menu trong CSS).
+  var cssAnchor = !!(window.CSS && CSS.supports && CSS.supports('position-anchor: --a'));
 
   function triggerOf(menu) { return header.querySelector('[popovertarget="' + menu.id + '"]'); }
   function isOpen(menu) { return native ? menu.matches(':popover-open') : menu.classList.contains('is-open'); }
@@ -24,6 +26,7 @@
       menu.style.maxHeight = (innerHeight - top) + 'px';
       return;
     }
+    if (cssAnchor) return;
     var r = triggerOf(menu).getBoundingClientRect();
     var width = menu.offsetWidth;
     menu.style.top = (r.bottom + GAP) + 'px';

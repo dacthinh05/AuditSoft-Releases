@@ -114,6 +114,15 @@ strong { font-weight: 600; color: var(--ink); }
 }
 .nav-dropdown-menu:is(:popover-open, .is-open) { display: block; opacity: 1; transform: none; }
 @starting-style { .nav-dropdown-menu:is(:popover-open, .is-open) { opacity: 0; transform: translateY(4px); } }
+/* Trình duyệt có CSS neo vị trí: menu tự nằm dưới nút (tên neo khai ở đây theo id menu, HTML giữ nguyên),
+   sát mép phải thì lật sang canh phải nút. assets/nav.js khi đó không đặt top/left. */
+@supports (position-anchor: --a) {
+  [popovertarget="navMenuProducts"] { anchor-name: --nav-products; }
+  #navMenuProducts { position-anchor: --nav-products; }
+  [popovertarget="navMenuGuides"] { anchor-name: --nav-guides; }
+  #navMenuGuides { position-anchor: --nav-guides; }
+  .nav-dropdown-menu { top: anchor(bottom); left: anchor(left); margin: 8px 0 0; position-try-fallbacks: flip-inline; }
+}
 /* Cầu nối khoảng hở giữa nút và menu để rê chuột xuống menu không làm menu đóng. */
 .nav-dropdown-menu::before { content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 8px; }
 .nav-dropdown-item { display: flex; gap: .75rem; padding: .625rem; border-radius: var(--radius-sm); text-decoration: none; color: var(--ink); }

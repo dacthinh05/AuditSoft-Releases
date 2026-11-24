@@ -117,7 +117,7 @@
 
 #### Giấy nộp tiền và nghĩa vụ thuế
 - Tải giấy nộp tiền vào NSNN (mẫu C1-02/NS) và xem chi tiết từng khoản nộp.
-- Tính hạn nộp theo Luật Quản lý thuế 38/2019/QH14 và NĐ 126/2020/NĐ-CP, tự dời ngày nghỉ, lễ.
+- Tính hạn nộp theo Luật Quản lý thuế 38/2019/QH14 và NĐ 126/2020/NĐ-CP (kỳ trước 01/7/2026), Luật 108/2025/QH15 và NĐ 252/2026/NĐ-CP (từ 01/7/2026), tự dời ngày nghỉ, lễ.
 - Khớp giấy nộp tiền với tờ khai theo 4 mức tin cậy; báo thiếu dữ liệu thay vì kết luận nợ thuế khi chưa đủ căn cứ.
 
 #### Giấy làm việc thuế
@@ -140,6 +140,10 @@
 - Tải tờ khai thuế và giấy nộp tiền không cần USB Token: https://tenstartup.com/cam-nang/tai-to-khai-khong-can-usb-token/
 - Rà soát chi tiền mặt từ 5 triệu đồng theo NĐ 181/2025: https://tenstartup.com/cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/
 - Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ: https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/
+- Hóa đơn điện tử từ 01/7/2026: điểm mới NĐ 254/2026 và TT 91/2026: https://tenstartup.com/cam-nang/hoa-don-dien-tu-nghi-dinh-254-2026/
+- Quản lý thuế từ 01/7/2026: điểm mới NĐ 252/2026 và TT 89/2026: https://tenstartup.com/cam-nang/quan-ly-thue-nghi-dinh-252-2026/
+- Xử phạt thuế, hóa đơn 2026: điểm mới NĐ 310/2025 và NĐ 291/2026: https://tenstartup.com/cam-nang/xu-phat-thue-hoa-don-2026/
+- Xử phạt kế toán, kiểm toán độc lập: NĐ 132/2026 và NĐ 228/2025: https://tenstartup.com/cam-nang/xu-phat-ke-toan-kiem-toan-2026/
 
 ## Câu hỏi thường gặp
 - Dữ liệu tài chính có bị đưa lên máy chủ không? Không. Sổ sách, hóa đơn và tờ khai được xử lý và lưu trên máy của bạn. InvoiceDesk và TaxInsight kết nối thẳng tới cổng của Cục Thuế bằng tài khoản của bạn để tải dữ liệu về. Trợ lý AI trong AuditSoft và InvoiceDesk là tùy chọn: chỉ khi bạn bật và nhập API key Gemini của mình, phần nội dung cần phân tích mới được gửi tới Google.

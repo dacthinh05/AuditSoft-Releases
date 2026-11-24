@@ -56,3 +56,7 @@
 - Tải tờ khai thuế và giấy nộp tiền không cần USB Token: https://tenstartup.com/cam-nang/tai-to-khai-khong-can-usb-token/
 - Rà soát chi tiền mặt từ 5 triệu đồng theo NĐ 181/2025: https://tenstartup.com/cam-nang/ra-soat-thanh-toan-tien-mat-5-trieu/
 - Chọn mẫu kiểm toán theo VSA 530: cỡ mẫu, MUS và ví dụ: https://tenstartup.com/cam-nang/chon-mau-kiem-toan-vsa-530/
+- Hóa đơn điện tử từ 01/7/2026: điểm mới NĐ 254/2026 và TT 91/2026: https://tenstartup.com/cam-nang/hoa-don-dien-tu-nghi-dinh-254-2026/
+- Quản lý thuế từ 01/7/2026: điểm mới NĐ 252/2026 và TT 89/2026: https://tenstartup.com/cam-nang/quan-ly-thue-nghi-dinh-252-2026/
+- Xử phạt thuế, hóa đơn 2026: điểm mới NĐ 310/2025 và NĐ 291/2026: https://tenstartup.com/cam-nang/xu-phat-thue-hoa-don-2026/
+- Xử phạt kế toán, kiểm toán độc lập: NĐ 132/2026 và NĐ 228/2025: https://tenstartup.com/cam-nang/xu-phat-ke-toan-kiem-toan-2026/
