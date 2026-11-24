@@ -1,17 +1,13 @@
 {
-  "version": "3.3.10",
-  "releaseDate": "2026-11-21",
-  "title": "AuditSoft v3.3.10: Giao Diện Mới Gọn Hơn, Chọn Màu Nhấn, Sửa Chốt Công Nợ Và Đối Chiếu D 553",
+  "version": "3.4.0",
+  "releaseDate": "2026-11-24",
+  "title": "AuditSoft v3.4.0: Hộp Thoại Mới Và Không Tạo Hồ Sơ Trên Desktop",
   "changelog": [
-    "Giao diện mới: thanh bên và thanh trên gọn hơn, nút Trợ lý chuyển lên thanh trên. Tổng quan hồ sơ, trang Tiếp nhận Sổ NKC và trang Làm phần hành được làm lại cho dễ nhìn.",
-    "Các trang dùng chung một kiểu: thanh tab, dải số liệu ở đầu trang, thông báo khi chưa chọn thư mục hồ sơ và đầu trang. Tiêu đề trang chỉ viết hoa chữ đầu câu.",
-    "Chọn màu nhấn cho giao diện (xanh dương, xanh ngọc, hồng, cam, tím) trong menu bản quyền ở góc trên bên phải.",
-    "Chốt công nợ: xử lý đúng khi sổ chi tiết thiếu, gộp mã hoặc chỉ có số dư chuyển sổ; sheet TH và CT được định dạng lại.",
-    "Tồn kho: đối chiếu D 553 đúng với tệp tồn kho lũy kế có cột Tên kho.",
-    "Đối chiếu tờ khai hải quan: file Excel có thêm cột Incoterm và nhãn hàng mẫu."
+    "Hộp thoại dùng chuẩn có sẵn của trình duyệt: khi đang mở thì không bấm nhầm ra phần sau, phím Tab không chạy ra ngoài, Esc đóng được mọi hộp thoại (thêm cho chọn cột tài sản cố định, gợi ý chấm điểm soát xét, nhập từ Cổng xác nhận, loại trừ rủi ro thuế). Trích dẫn VSA, ô chọn mã kiểm soát VACPA và chỉ báo 6 bước tự đặt đúng chỗ, bấm ra ngoài hoặc Esc thì đóng.",
+    "Không còn tạo hồ sơ ngay trên Desktop: app không nhận Desktop, Documents, Downloads, thư mục người dùng hay gốc ổ đĩa làm thư mục hồ sơ và nhắc chọn thư mục \"<Tên khách hàng>\\GLV <Năm>\". Thư mục khách nằm trong Desktop vẫn dùng bình thường."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.10/AuditSoft-3.3.10-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.3.10/AuditSoft-3.3.10-Portable.exe",
-  "sha256": "14642c2a411b89dc672bca002a28264cfe9a67f729ee2c0a63b808db47d4bd6f",
-  "signature": "O67yoF6Gx68AynQRazvZXF8SGijcd1O8zJWrMyRiTsQ4yk3VMVhdOqGRJ2n5PPXaQ32bnJ6Nn7CLi-N0OaWrDw"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.0/AuditSoft-3.4.0-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.0/AuditSoft-3.4.0-Portable.exe",
+  "sha256": "48561aa7d122f25c9b746b2d50e59768ee570d6cc8f931afd8759a4e0abc6fa7",
+  "signature": "wa-F857GKM4KxmQ7_C0cU7etjwma1-CF84tlYgJNBBbmYJUGDtXJv2ZHL0K5f6iE9-2SIqaJ2bpWKPeaCSwsBA"
 }
