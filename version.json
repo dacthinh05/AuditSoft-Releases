@@ -1,13 +1,16 @@
 {
-  "version": "3.4.0",
-  "releaseDate": "2026-11-24",
-  "title": "AuditSoft v3.4.0: Hộp Thoại Mới Và Không Tạo Hồ Sơ Trên Desktop",
+  "version": "3.4.3",
+  "releaseDate": "2026-11-26",
+  "title": "AuditSoft v3.4.3: Thêm Chế Độ TT99, Sửa Lương E 410 Và Nhận Đúng Sheet NKC",
   "changelog": [
-    "Hộp thoại dùng chuẩn có sẵn của trình duyệt: khi đang mở thì không bấm nhầm ra phần sau, phím Tab không chạy ra ngoài, Esc đóng được mọi hộp thoại (thêm cho chọn cột tài sản cố định, gợi ý chấm điểm soát xét, nhập từ Cổng xác nhận, loại trừ rủi ro thuế). Trích dẫn VSA, ô chọn mã kiểm soát VACPA và chỉ báo 6 bước tự đặt đúng chỗ, bấm ra ngoài hoặc Esc thì đóng.",
-    "Không còn tạo hồ sơ ngay trên Desktop: app không nhận Desktop, Documents, Downloads, thư mục người dùng hay gốc ổ đĩa làm thư mục hồ sơ và nhắc chọn thư mục \"<Tên khách hàng>\\GLV <Năm>\". Thư mục khách nằm trong Desktop vẫn dùng bình thường."
+    "Nạp file Excel nhiều sheet: app nhận đúng sheet theo tên thật. Trước đây file từng thêm, xóa hoặc đổi chỗ sheet có thể bị gán nhầm số dòng (ví dụ sổ NKC chỉ hiện 29 dòng), các ô CĐPS, KQKD, CĐKT nhận nhầm sheet, và khi đọc dữ liệu có thể gộp dòng của hai sheet.",
+    "Thêm chế độ kế toán Thông tư 99/2025/TT-BTC trong Thông tin hồ sơ. Hồ sơ có năm tài chính kết thúc từ 2026 chưa khai chế độ thì tự chọn sẵn TT99, KTV vẫn đổi được. TT99 đọc tài khoản như TT200; GLV A310 ghi đúng tên thông tư.",
+    "Hộp thoại có ô nhập (Thông tin hồ sơ, bản quyền, cấu hình AI, xuất hồ sơ...) không còn tắt khi lỡ bấm ra ngoài, chỉ đóng bằng nút X, Hủy hoặc phím Esc để không mất phần đang gõ.",
+    "Lương E 410: lấy đủ các tài khoản 334 của khách (ví dụ 3343 lương người nước ngoài) với đúng số hiệu và tên tài khoản, nên tổng phải trả người lao động khớp sổ. Điền thêm 3388. Tài khoản dư Nợ, kể cả bảo hiểm, ghi số âm.",
+    "Excel Link, khung GLV Review: lời cảnh báo hiện đủ câu, không còn bị cắt hay đè chữ khi màn hình phóng to; tiêu đề ghi số cảnh báo theo mức cao, vừa, thấp."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.0/AuditSoft-3.4.0-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.0/AuditSoft-3.4.0-Portable.exe",
-  "sha256": "48561aa7d122f25c9b746b2d50e59768ee570d6cc8f931afd8759a4e0abc6fa7",
-  "signature": "wa-F857GKM4KxmQ7_C0cU7etjwma1-CF84tlYgJNBBbmYJUGDtXJv2ZHL0K5f6iE9-2SIqaJ2bpWKPeaCSwsBA"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.3/AuditSoft-3.4.3-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.3/AuditSoft-3.4.3-Portable.exe",
+  "sha256": "878dcc3b65f28e0ba5cfe065f8361a0839ccf61f8b9166fa70526e0fffeb4c9d",
+  "signature": "fvOL1DTB4XdcgiXwQX1W_OxgcRaSR4BDWNiTc6q0Ahhtb6H-YZkoK0-5zaaEHgW43axtWIOcBTYnSwRKyH6ICA"
 }
