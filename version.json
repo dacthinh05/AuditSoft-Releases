@@ -1,12 +1,13 @@
 {
-  "version": "3.4.4",
-  "releaseDate": "2026-11-26",
-  "title": "AuditSoft v3.4.4: Sửa Đọc Nhầm Sheet Khi Gộp File .xls",
+  "version": "3.4.5",
+  "releaseDate": "2026-11-27",
+  "title": "AuditSoft v3.4.5: Gộp Excel Không Mất Dòng, Báo Khi Tổng Gộp Lệch Dòng Tổng",
   "changelog": [
-    "Gộp và nạp file Excel đời cũ (.xls): app nhận đúng tên từng sheet. Bản 3.4.3 có thể đọc lẫn dòng của sheet đầu tiên vào sheet tên \"Sheet1\" (ví dụ gộp bảng tính giá thành nhiều tháng ra thừa dòng)."
+    "Gộp Excel: không còn bỏ mất dòng chi tiết khi khách gõ công thức nháp (=SUM...) ở cột trống bên phải bảng, và không còn gộp lẫn bảng tổng theo loại hàng nằm dưới dòng chữ ký khi dòng \"Người lập biểu\", \"Kế toán trưởng\" có số lạc.",
+    "Gộp Excel: so tổng đã gộp của từng sheet với dòng tổng của file. Sheet lệch được ghi \"Cần xem\" kèm số chênh ở sheet LOG_KIEM_TOAN, màn hình kết quả báo số sheet cần xem."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.4/AuditSoft-3.4.4-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.4/AuditSoft-3.4.4-Portable.exe",
-  "sha256": "e2ed24d95275437b7f3a5ad37f8183b8c4110fb7fd1f4bd0edb1b255de618457",
-  "signature": "9sY2eEb0tP5uXT8gaorwFcrZ-JHGIETYOonELGL2X19kQHQr5UpC3xv7KhASQjA70PtW3ONc3Hb8JAMEIlvfAg"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.5/AuditSoft-3.4.5-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.5/AuditSoft-3.4.5-Portable.exe",
+  "sha256": "ca190f3ed44384612024d4cca3b22211c9035233e57505f3b0d2c26f7e20063a",
+  "signature": "eisID3hQg2CsKnPc7C5BSYw5ps-oL1GpfsqYxwVnY-EHno_O6W8XPuIBGdiQe3vs8LDYMzxxoNyXT1BRSldDCQ"
 }
