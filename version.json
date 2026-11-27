@@ -1,13 +1,14 @@
 {
-  "version": "3.4.5",
+  "version": "3.4.6",
   "releaseDate": "2026-11-27",
-  "title": "AuditSoft v3.4.5: Gộp Excel Không Mất Dòng, Báo Khi Tổng Gộp Lệch Dòng Tổng",
+  "title": "AuditSoft v3.4.6: Đợt 2 Tự Nhảy Theo Niên Độ, Nút Chọn Nhanh Đợt 1",
   "changelog": [
-    "Gộp Excel: không còn bỏ mất dòng chi tiết khi khách gõ công thức nháp (=SUM...) ở cột trống bên phải bảng, và không còn gộp lẫn bảng tổng theo loại hàng nằm dưới dòng chữ ký khi dòng \"Người lập biểu\", \"Kế toán trưởng\" có số lạc.",
-    "Gộp Excel: so tổng đã gộp của từng sheet với dòng tổng của file. Sheet lệch được ghi \"Cần xem\" kèm số chênh ở sheet LOG_KIEM_TOAN, màn hình kết quả báo số sheet cần xem."
+    "Thông tin hồ sơ: đổi niên độ thì Đợt 2 và ngày soát xét 2 tự tính lại. Niên độ trùng hoặc trước ngày kết thúc Đợt 1 thì ô niên độ báo đỏ và Đợt 2 để trống, không còn ra kỳ ngược như 01/11 - 31/10/2026.",
+    "Thông tin hồ sơ: thêm nút 6T, 9T, 10T, 11T dưới ô Đợt 1. Ví dụ niên độ 31/12/2026, bấm 10T thì Đợt 1 là 01/01 - 31/10/2026 và Đợt 2 tự thành 01/11 - 31/12/2026.",
+    "Tờ khai thuế: thẻ Cut-off lương TK 334 gọn hơn, tiêu đề ngắn, hồ sơ giữa niên độ chỉ hiện số dư Có 334 và một câu kết luận. Không đổi cách tính và số liệu."
   ],
-  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.5/AuditSoft-3.4.5-Setup.exe",
-  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.5/AuditSoft-3.4.5-Portable.exe",
-  "sha256": "ca190f3ed44384612024d4cca3b22211c9035233e57505f3b0d2c26f7e20063a",
-  "signature": "eisID3hQg2CsKnPc7C5BSYw5ps-oL1GpfsqYxwVnY-EHno_O6W8XPuIBGdiQe3vs8LDYMzxxoNyXT1BRSldDCQ"
+  "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.6/AuditSoft-3.4.6-Setup.exe",
+  "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.6/AuditSoft-3.4.6-Portable.exe",
+  "sha256": "59cd7cbcb7b95a339f68b4590415d40d8ba64f8ef1d4df2e6629ba478932edfd",
+  "signature": "9glFasKC7-NZ9c4jYN4uyB7o9fSFcKa1PVA0M404zPMm-VT3z5ksaiOqpXTrwNqdrq8fnjgOrePLXrr9MK8EAQ"
 }
