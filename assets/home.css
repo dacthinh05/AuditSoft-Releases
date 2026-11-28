@@ -306,6 +306,86 @@ strong { font-weight: 600; color: var(--ink); }
 .js [data-reveal] { opacity: 0; transform: translateY(14px); transition: opacity 500ms var(--ease), transform 600ms var(--ease); }
 .js [data-reveal].is-in { opacity: 1; transform: none; }
 
+/* -------------------------------------------------------------- motion -- */
+/* Chuyển động như tay soát sổ: gạch việc làm tay, đánh dấu từng ô, kẻ dòng, đóng dấu.
+   Mỗi khối hiện theo kiểu riêng thay vì cùng một kiểu mờ dần trồi lên.
+   Chỉ chạy khi có JavaScript và không bật giảm chuyển động; còn lại trang đứng yên ở
+   trạng thái cuối (đã gạch, đã tick, đã đóng dấu), giống hệt khi chưa có hiệu ứng.
+   Chỉ đổi transform, opacity và màu nền của ô nhỏ, không làm xô bố cục. */
+:root { --ease-expo: cubic-bezier(.16, 1, .3, 1); }
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Hero: sau khi ảnh vào, gạch ba việc làm tay rồi tick ba điểm của phần mềm.
+     Gạch bằng nền gradient trên phần chữ (span nội dòng, box-decoration-break) để nét gạch
+     chỉ dài bằng chữ và dòng xuống hàng vẫn gạch đủ. */
+  .js .versus__pains li { text-decoration-color: transparent; }
+  .js .versus__pains li > span {
+    background: linear-gradient(rgb(159 18 57 / .55), rgb(159 18 57 / .55)) no-repeat 0 58% / 0% 1.5px;
+    -webkit-box-decoration-break: clone; box-decoration-break: clone;
+    animation: strike 420ms var(--ease-expo) forwards;
+  }
+  .js .versus__pains li:nth-child(1) > span { animation-delay: 700ms; }
+  .js .versus__pains li:nth-child(2) > span { animation-delay: 820ms; }
+  .js .versus__pains li:nth-child(3) > span { animation-delay: 940ms; }
+  @keyframes strike { to { background-size: 100% 1.5px; } }
+
+  .js .versus__col--soft .checks polyline { stroke-dasharray: 24; stroke-dashoffset: 24; animation: tick 320ms var(--ease-expo) forwards; }
+  .js .versus__col--soft .checks li:nth-child(1) polyline { animation-delay: 1150ms; }
+  .js .versus__col--soft .checks li:nth-child(2) polyline { animation-delay: 1250ms; }
+  .js .versus__col--soft .checks li:nth-child(3) polyline { animation-delay: 1350ms; }
+  @keyframes tick { to { stroke-dashoffset: 0; } }
+
+  /* Ảnh sản phẩm: phóng nhẹ từ 96,5% thay vì trồi lên. */
+  .js .product__shot[data-reveal] { transform: scale(.965); transform-origin: 50% 100%; transition: opacity 600ms var(--ease-expo), transform 900ms var(--ease-expo); }
+  .js .product__shot[data-reveal].is-in { transform: none; }
+
+  /* Bảng, các bước, bảng giá, thông tin: khung hiện ngay, từng dòng/thẻ vào lần lượt. */
+  .js .compare-wrap[data-reveal], .js .steps[data-reveal], .js .prices[data-reveal], .js .facts[data-reveal] { transform: none; transition: opacity 300ms var(--ease); }
+  .js .compare-wrap tbody tr,
+  .js .steps > li,
+  .js .prices > .pricing-card { opacity: 0; transform: translateY(10px); transition: opacity 450ms var(--ease-expo), transform 600ms var(--ease-expo); transition-delay: calc(var(--i, 0) * 60ms); }
+  .js .compare-wrap.is-in tbody tr,
+  .js .steps.is-in > li,
+  .js .prices.is-in > .pricing-card { opacity: 1; transform: none; }
+  .js .steps > li { transition-delay: calc(var(--i, 0) * 90ms); }
+  .js :is(.compare-wrap tbody tr, .steps > li, .prices > .pricing-card, .facts > div):nth-child(2) { --i: 1; }
+  .js :is(.compare-wrap tbody tr, .steps > li, .prices > .pricing-card, .facts > div):nth-child(3) { --i: 2; }
+  .js :is(.compare-wrap tbody tr, .facts > div):nth-child(4) { --i: 3; }
+  .js .compare-wrap tbody tr:nth-child(5) { --i: 4; }
+  .js .compare-wrap tbody tr:nth-child(6) { --i: 5; }
+
+  /* Thông tin về TenStartup: kẻ dòng sổ cái từ trái sang rồi mới hiện chữ. */
+  .js .facts > div { position: relative; border-top-color: transparent; }
+  .js .facts > div::before { content: ""; position: absolute; top: -1px; left: 0; right: 0; height: 1px; background: var(--line); transform: scaleX(0); transform-origin: 0 50%; transition: transform 700ms var(--ease-expo); transition-delay: calc(var(--i, 0) * 80ms); }
+  .js .facts > div > * { opacity: 0; transition: opacity 400ms var(--ease); transition-delay: calc(var(--i, 0) * 80ms + 250ms); }
+  .js .facts.is-in > div::before { transform: none; }
+  .js .facts.is-in > div > * { opacity: 1; }
+
+  /* Dấu ấn: Giấy làm việc tự soát. Sáu ô lần lượt tô xanh và tick, cuối cùng đóng dấu "Đã soát".
+     Cả chuỗi dưới 1 giây, chạy khi khối hiện ít nhất 40% (home.js). */
+  .js .wp .wp__box { background-color: #fff; box-shadow: inset 0 0 0 1.5px var(--line-strong); transition: background-color 180ms var(--ease), box-shadow 180ms var(--ease); transition-delay: calc(var(--i, 0) * 110ms); }
+  .js .wp .wp__box polyline { stroke-dasharray: 24; stroke-dashoffset: 24; transition: stroke-dashoffset 260ms var(--ease-expo); transition-delay: calc(var(--i, 0) * 110ms + 60ms); }
+  .js .wp.is-in .wp__box { background-color: var(--ok); box-shadow: inset 0 0 0 1.5px var(--ok); }
+  .js .wp.is-in .wp__box polyline { stroke-dashoffset: 0; }
+  .js .wp__item:nth-child(2) { --i: 1; }
+  .js .wp__item:nth-child(3) { --i: 2; }
+  .js .wp__item:nth-child(4) { --i: 3; }
+  .js .wp__item:nth-child(5) { --i: 4; }
+  .js .wp__item:nth-child(6) { --i: 5; }
+  .js .wp .wp__stamp { opacity: 0; transform: scale(1.6) rotate(-9deg); transition: opacity 120ms linear 760ms, transform 240ms cubic-bezier(.3, 0, .2, 1) 760ms; }
+  .js .wp.is-in .wp__stamp { opacity: 1; transform: rotate(-3deg); }
+
+  /* Hỏi đáp: mở và đóng trượt theo chiều cao nội dung (trình duyệt chưa hỗ trợ thì bật tắt như cũ). */
+  .faq { interpolate-size: allow-keywords; }
+  .faq details::details-content { block-size: 0; overflow: clip; transition: block-size 300ms var(--ease), content-visibility 300ms allow-discrete; }
+  .faq details[open]::details-content { block-size: auto; }
+}
+
+/* In: bỏ mọi chuyển tiếp để bản in lấy ngay trạng thái cuối. */
+@media print {
+  *, *::before, *::after { transition: none !important; }
+}
+
 /* ========================================================= responsive == */
 @media (max-width: 1200px) {
   .nav-menu, .nav-zalo-btn, .nav-brand-sub { display: none; }
