@@ -1,15 +1,16 @@
 {
   "version": "3.4.7",
-  "releaseDate": "2026-11-27",
-  "title": "AuditSoft v3.4.7: Sửa Lỗi Thiếu File Mẫu GLV, Bảng Mức Trọng Yếu Kiểu PACO",
+  "releaseDate": "2026-11-28",
+  "title": "AuditSoft v3.4.7: Giao Diện Gọn Hơn, Bảng Trọng Yếu Kiểu PACO, x20 Ghi Phần Máy Làm Được",
   "changelog": [
-    "Sửa lỗi bản 3.4.6 báo \"Không tìm thấy file mẫu\" khi Chạy cả phần hành (D300, D100, E400...): bản cài trước thiếu bộ mẫu GLV, mẫu B410 và file NKC mẫu, bản này có đủ. Bước đóng gói nay tự kiểm để không phát hành bản thiếu mẫu nữa.",
-    "Bảng mức trọng yếu theo kiểu công cụ Chọn mẫu PACO, dùng chung cho A710 và màn chọn mẫu.",
-    "Màn hình KSNB chu trình (A400) dễ hiểu hơn.",
-    "Bảng thủ tục x20 ghi dòng máy làm một phần khi đã lập phần theo sổ mà còn thiếu dữ liệu đối chiếu (D100, G100, D200, D500, D600, D700); sửa dòng D595 báo sai \"chưa ghi\"."
+    "Giao diện gọn hơn, không đổi cách tính: trang Giấy làm việc gom 13 nút \"Chạy cả phần hành\" vào một nút mở danh sách; trang Tiền D146, Xem xét tổng quan CĐSPS, Chốt công nợ và Chốt nợ vay bớt nút ngang hàng, bớt khung lồng nhau, thanh lọc còn một thanh, ô số liệu chỉ giữ một dòng phụ (rê chuột để xem chi tiết).",
+    "Bỏ chữ tiếng Anh và khối giới thiệu kiểu quảng cáo ở trang Giấy làm việc, Tiền, Kiểm tra chéo GLV và Tổng hợp B410. Nút xuất ghi \"Xuất hồ sơ GLV gộp (.xlsx)\".",
+    "Bảng mức trọng yếu A710 và màn Chọn mẫu dùng chung một bảng kiểu công cụ Chọn mẫu PACO: ô KTV nhập tô vàng, tỷ lệ đúng Bảng 4 thì khóa, bấm Sửa mới đổi.",
+    "KSNB chu trình A400 dễ hiểu hơn: đầu trang ngắn lại, thiếu A710 chỉ báo một lần, chu trình Tiền và Vốn gom xuống cuối bảng theo KSNB cấp doanh nghiệp (A610).",
+    "Bảng thủ tục x20: thủ tục đã lập phần theo sổ mà còn thiếu dữ liệu đối chiếu thì ghi \"máy đề xuất\", tô vàng, nêu phần đã lập và dữ liệu còn thiếu (D100, D200, D500, D600, D700, G100). Sửa lỗi D500 thủ tục 8 luôn ghi \"D595 chưa ghi\"."
   ],
   "downloadUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.7/AuditSoft-3.4.7-Setup.exe",
   "portableUrl": "https://github.com/dacthinh05/AuditSoft-Releases/releases/download/v3.4.7/AuditSoft-3.4.7-Portable.exe",
-  "sha256": "7bd3e7bc71141929927b36dd7d0bc2987c5eff97d572205d3e3b38c6529224a4",
-  "signature": "KUbmdQAYuEOSP7UBBWu4xoLgMd5c_fKAE_nyYq8Qnymthl8N51L7LT2qQCm5kYdmCzSJ15XPLvdDLjfBAq7DCA"
+  "sha256": "cd535fff6ee966a8a9d28ca830ffd5f93fa07b35a0ef043bff1112ad67da68d7",
+  "signature": "Abrd9BG533I_ka_ILD3exVTiSyYyDz3qBDNPEoMMnyTGbmalW1TI9PcL5RHZxLhIxYTDFx02_IP0ZV9S9CZ5DA"
 }
